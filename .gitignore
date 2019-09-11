@@ -1,0 +1,9 @@
+Temp/
+Library/
+obj/
+.vs/
+
+*.*proj
+*.sln
+
+.DS_Store
