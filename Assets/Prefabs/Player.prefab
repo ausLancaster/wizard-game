@@ -241,6 +241,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5016643314609682030}
   - component: {fileID: 64183224252507431}
+  - component: {fileID: 8296172669070570552}
+  - component: {fileID: 8296172669070570555}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -282,6 +284,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amount: 0.05
   periodLength: 2
+--- !u!114 &8296172669070570552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342332660910326909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14b489d022054461ae548c4e8840c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionPrefab: {fileID: 695298026158692676, guid: 0a536618e59b14897a582437112526d7,
+    type: 3}
+  throwDirection: {x: 0, y: 0.70710677, z: 0.70710677}
+  throwSpeed: 10
+  spinSpeedMin: 4
+  spinSpeedMax: 10
+--- !u!114 &8296172669070570555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342332660910326909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44534a1192c886498bee25994b40a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rotationSpeed: 0.3
 --- !u!1 &8423399019079336241
 GameObject:
   m_ObjectHideFlags: 0

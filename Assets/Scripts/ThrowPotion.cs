@@ -9,13 +9,15 @@ public class ThrowPotion : MonoBehaviour
     [SerializeField]
     Vector3 throwDirection = new Vector3(0, 1, 1).normalized;
     [SerializeField]
-    float throwSpeed = 6;
+    float throwSpeed = 10;
     [SerializeField]
+    float spinSpeedMin = 2;
+    [SerializeField]
+    float spinSpeedMax = 6;
     Vector3 startingPos = new Vector3(0, 1f, 0);
-
+    
     void Start()
     {
-
     }
 
     void Update()
@@ -30,6 +32,10 @@ public class ThrowPotion : MonoBehaviour
     {
         Transform potion = Instantiate(potionPrefab);
         potion.transform.position = transform.position + startingPos;
-        potion.GetComponent<Rigidbody>().velocity = transform.rotation * (throwSpeed * throwDirection);
+        Rigidbody potionRB = potion.GetComponent<Rigidbody>();
+        potionRB.velocity = transform.rotation * (throwSpeed * throwDirection);
+        float a = Random.value * 2 * Mathf.PI;
+        potionRB.angularVelocity = Random.Range(spinSpeedMin, spinSpeedMax) * new Vector3(Mathf.Cos(a), 0, Mathf.Sin(a));
+        potion.rotation = Random.rotation;
     }
 }
