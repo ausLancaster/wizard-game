@@ -11,20 +11,40 @@ public class ThrowPotion : MonoBehaviour
     [SerializeField]
     float throwSpeed = 10;
     [SerializeField]
+    float cooldownAmount = 1;
+    [SerializeField]
     float spinSpeedMin = 2;
     [SerializeField]
     float spinSpeedMax = 6;
     Vector3 startingPos = new Vector3(0, 1f, 0);
+    float cooldownTimer;
+    bool canThrow = true;
     
     void Start()
     {
+        cooldownTimer = cooldownAmount;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (!canThrow)
+        {
+            if (cooldownTimer <= 0)
+            {
+                canThrow = true;
+            }
+            else
+            {
+                cooldownTimer -= Time.deltaTime;
+            }
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.E) && canThrow)
         {
             Throw ();
+            canThrow = false;
+            cooldownTimer = cooldownAmount;
         }
     }
 
