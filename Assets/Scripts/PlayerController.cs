@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
@@ -15,11 +15,12 @@ public class PlayerController : MonoBehaviour {
         float v = Input.GetAxisRaw("Vertical");
         Vector3 newPos = new Vector3(h, 0.0f, v);
 
-        // Slerp interpolates the rotation between current rotation and movement rotation for smoother turns
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(newPos), rotationSpeed);
-        transform.Translate(newPos * moveSpeed * Time.deltaTime, Space.World);
-
-
+        if (newPos != Vector3.zero)
+        {
+            // Slerp interpolates the rotation between current rotation and movement rotation for smoother turns
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(newPos), rotationSpeed);
+            transform.Translate(newPos * moveSpeed * Time.deltaTime, Space.World);
+        }
 
     }
 }
