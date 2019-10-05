@@ -120,6 +120,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &344994342 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4625973696557098280, guid: 0b923feff198d437b91221e6122416ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 2317761875604035267}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &427294165
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +594,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5351982236327345629, guid: 0b923feff198d437b91221e6122416ba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787744143156791680, guid: 0b923feff198d437b91221e6122416ba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187610929645322426, guid: 0b923feff198d437b91221e6122416ba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187610929645322426, guid: 0b923feff198d437b91221e6122416ba,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187610929645322426, guid: 0b923feff198d437b91221e6122416ba,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7923863309027402740, guid: 0b923feff198d437b91221e6122416ba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625973696557098280, guid: 0b923feff198d437b91221e6122416ba,
+        type: 3}
+      propertyPath: m_WholeNumbers
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625973696557098280, guid: 0b923feff198d437b91221e6122416ba,
+        type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b923feff198d437b91221e6122416ba, type: 3}
 --- !u!1 &8296172668346744349 stripped
@@ -617,6 +669,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialHealth: 50
   currentHealth: 0
+  healthBar: {fileID: 0}
+  slider: {fileID: 344994342}
 --- !u!1 &8296172669070570551 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8342332660910326909, guid: a3e44f97ae2254d458899a60b15ffac9,
