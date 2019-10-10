@@ -1,4 +1,6 @@
-﻿Shader "Roystan/Toon"
+﻿// Adapted from https://roystan.net/articles/toon-shader.html tutorial by Erik Roystan Ross
+
+Shader "Roystan/Toon"
 {
 	Properties
 	{

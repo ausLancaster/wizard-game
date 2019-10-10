@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RobeMaterial2
-  m_Shader: {fileID: 4800000, guid: e353b7b994eda4f6e81dd64517b7027b, type: 3}
+  m_Name: TargetMaterial
+  m_Shader: {fileID: 4800000, guid: 6977172bd848f4cec9652cf06b6ccddd, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -56,37 +56,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AmbientRatio: 0.5
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DiffuseRatio: 0.5
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LitOutlineThickness: 0.6
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimAmount: 0.27
-    - _RimThreshold: 0.11
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpecularIntensity: 1
-    - _SpecularRatio: 0.5
     - _SrcBlend: 1
     - _UVSec: 0
-    - _UnlitOutlineThickness: 0.6
     - _ZWrite: 1
     m_Colors:
-    - _AmbientColor: {r: 0.5377358, g: 0.53519934, b: 0.53519934, a: 1}
-    - _AmbientColour: {r: 0.3018868, g: 0.09825561, b: 0.09825561, a: 1}
-    - _Color: {r: 0.254717, g: 0.08290317, b: 0.14251202, a: 1}
-    - _DiffuseColour: {r: 0.9811321, g: 0.18974723, b: 0.4622952, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColour: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 1, g: 0.995283, b: 0.995283, a: 1}
-    - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecularColour: {r: 0.9811321, g: 0.18974723, b: 0.4622952, a: 1}
+    - _TargetColour: {r: 0.764151, g: 0.28475437, b: 0.28475437, a: 0.53333336}
