@@ -67,7 +67,6 @@ public class ThrowPotion : MonoBehaviour
             target.gameObject.SetActive(false);
             aimAmount = -1;
         }
-
         target.localPosition = new Vector3(0, targetY, Mathf.Lerp(throwDistanceMin, throwDistanceMax, aimAmount));
     }
 

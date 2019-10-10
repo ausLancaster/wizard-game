@@ -4,6 +4,8 @@
     {
         _MainTex ("Texture", 2D) = "white" {}
         _TargetColour ("Target Colour", Color) = (0, 0, 0, 1)
+        _AnimationSpeed ("Animation Speed", Range(0, 1)) = 0.5
+
     }
     SubShader
     {
@@ -36,6 +38,7 @@
             sampler2D _MainTex;
             float4 _MainTex_ST;
             float4 _TargetColour;
+            float _AnimationSpeed;
 
             v2f vert (appdata v)
             {
@@ -48,15 +51,15 @@
 
             fixed4 frag (v2f i) : SV_Target
             {
-                // sample the texture
                 float2 d = i.uv - float2(0.5, 0.5);
                 float r = length(d);
+                float r_mov = r - _AnimationSpeed * _Time.y;
                 float4 col = float4(0,0,0,0);
-                float stripe = step(frac(r*5), 0.5);
+                float stripe = step(frac(r_mov*5), 0.5);
                 col += step(r, 0.5) * stripe * _TargetColour;
                 
                 return col;
-            }
+                            }
             ENDCG
         }
     }
