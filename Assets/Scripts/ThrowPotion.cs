@@ -37,7 +37,7 @@ public class ThrowPotion : MonoBehaviour
     {
         cooldownTimer = cooldownAmount;
         target.gameObject.SetActive(false);
-        targetY = target.localPosition.y;
+        targetY = target.position.y;
     }
 
     void Update()
@@ -55,19 +55,24 @@ public class ThrowPotion : MonoBehaviour
                 aimAmount = maxAimTime;
             }
         }
-
-        if (Input.GetKeyDown(KeyCode.E) && cooldownTimer <= 0)
+        if (cooldownTimer <= 0)
         {
-            cooldownTimer = cooldownAmount;
-            target.gameObject.SetActive(true);
-            aimAmount = 0;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                cooldownTimer = cooldownAmount;
+                target.gameObject.SetActive(true);
+                aimAmount = 0;
+            }
         }
-        if (Input.GetKeyUp(KeyCode.E)) {
+
+        if (Input.GetKeyUp(KeyCode.E) && cooldownTimer > 0)
+        {
             Throw();
             target.gameObject.SetActive(false);
             aimAmount = -1;
         }
         target.localPosition = new Vector3(0, targetY, Mathf.Lerp(throwDistanceMin, throwDistanceMax, aimAmount));
+        target.position = new Vector3(target.position.x, targetY, target.position.z);
     }
 
     void Throw()
