@@ -440,7 +440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85987d6160f14e85a9ac77ca6ac4ae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  potion: {fileID: 0}
+  potion: {fileID: 4610955968907242327, guid: 0a536618e59b14897a582437112526d7, type: 3}
 --- !u!135 &1075656811231750158
 SphereCollider:
   m_ObjectHideFlags: 0

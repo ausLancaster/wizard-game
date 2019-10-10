@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Surface
   - Potion
+  - Item
   layers:
   - Default
   - TransparentFX

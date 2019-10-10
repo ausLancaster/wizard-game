@@ -243,6 +243,7 @@ GameObject:
   - component: {fileID: 64183224252507431}
   - component: {fileID: 8296172669070570552}
   - component: {fileID: 8296172669070570555}
+  - component: {fileID: -461003745139192012}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -300,6 +301,7 @@ MonoBehaviour:
     type: 3}
   throwDirection: {x: 0, y: 0.70710677, z: 0.70710677}
   throwSpeed: 10
+  cooldownAmount: 1
   spinSpeedMin: 4
   spinSpeedMax: 10
 --- !u!114 &8296172669070570555
@@ -316,6 +318,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rotationSpeed: 0.3
+--- !u!136 &-461003745139192012
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342332660910326909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8423399019079336241
 GameObject:
   m_ObjectHideFlags: 0
