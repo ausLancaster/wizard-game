@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 
 public class HealthManager : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
+    public bool isDead = false;
+    public UnityEvent zeroHealthEvent;
+    public float sceneDelay = 3;
 
     public float invincibilityLength = 3;
     private float invincibilityCounter;
@@ -43,9 +47,20 @@ public class HealthManager : MonoBehaviour
             }
         }
 
-        if (currentHealth <=0)
+        // Kill player once health runs out
+        if (currentHealth <=0 && isDead==false)
         {
             KillPlayer();
+        }
+
+        // Delay the loading of GameOver scene
+        if (isDead)
+        {
+            sceneDelay -= Time.deltaTime;
+            if (sceneDelay <= 0)
+            {
+                this.zeroHealthEvent.Invoke();
+            }
         }
     }
 
@@ -83,7 +98,9 @@ public class HealthManager : MonoBehaviour
 
     public void KillPlayer()
     {
-        this.gameObject.GetComponent<PlayerController>().isDead = true;
+        isDead = true;
+        // Play player death action
+        this.gameObject.GetComponent<PlayerController>().Die();
     }
 
     // Getter function for private health variable
