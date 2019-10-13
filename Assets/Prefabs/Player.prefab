@@ -184,7 +184,7 @@ Transform:
   m_LocalScale: {x: 24.25732, y: 24.257322, z: 24.257322}
   m_Children: []
   m_Father: {fileID: 5016643314609682030}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &823936419047378815
 MeshFilter:
@@ -264,10 +264,10 @@ Transform:
   m_Children:
   - {fileID: 3779460809880935158}
   - {fileID: 5600559390200312013}
-  - {fileID: 7511519662154440925}
   - {fileID: 761846330897358616}
   - {fileID: 1681354903998918355}
   - {fileID: 6091332697324397055}
+  - {fileID: 7511519662154440925}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -318,6 +318,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rotationSpeed: 0.3
+  knockBackForce: 0
+  knockBackTime: 0
+  spinSpeed: 0
+  dying: 0
+  bloodEffect: {fileID: 0}
 --- !u!136 &-461003745139192012
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -362,7 +367,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 5016643314609682030}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &567973752768601646
 MeshFilter:
@@ -439,7 +444,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 5016643314609682030}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6832955625377421659
 MeshFilter:
@@ -516,7 +521,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 5016643314609682030}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3509361500686721743
 MeshFilter:
