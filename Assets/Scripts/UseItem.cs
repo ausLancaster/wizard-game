@@ -29,8 +29,47 @@ public class UseItem : MonoBehaviour
                 Inventory.leafCount--;
             }
             
-
         }
-        
+
+        else if (Input.GetKeyDown(KeyCode.Alpha2) == true)
+        {
+            if (Inventory.flowerCount > 0)
+            {
+                Inventory.flowerCount--;
+            }
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Alpha3) == true)
+        {
+            if (Inventory.eyeCount > 0)
+            {
+                Inventory.eyeCount--;
+            }
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Alpha4) == true)
+        {
+            if (Inventory.caterpillarCount > 0)
+            {
+                Inventory.caterpillarCount--;
+            }
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Alpha5) == true)
+        {
+            if (Inventory.eggCount > 0)
+            {
+                Inventory.eggCount--;
+            }
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Alpha6) == true)
+        {
+            if (Inventory.eyebrowCount > 0)
+            {
+                Inventory.eyebrowCount--;
+            }
+        }
+
     }
 }
