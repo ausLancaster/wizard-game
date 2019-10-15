@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -8,9 +9,13 @@ public class EnemyHealth : MonoBehaviour
 
     public int initialHealth = 50;
     public int currentHealth;
+    public GameObject healthBar;
+    public Slider slider;
 
     private bool isDead;
     private bool isDamaged;
+
+
 
     TempMovementScript movement;
 
@@ -20,12 +25,14 @@ public class EnemyHealth : MonoBehaviour
         movement = GetComponent<TempMovementScript>();
         currentHealth = initialHealth;
 
+        slider.value = HealthPercentage();
+        Debug.Log(slider.value);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //slider.value = HealthPercentage();
     }
 
     public void DamageTaken(int damageAmount)
@@ -33,10 +40,21 @@ public class EnemyHealth : MonoBehaviour
         isDamaged = true;
         currentHealth -= damageAmount;
 
+        slider.value = HealthPercentage();
+        Debug.Log(HealthPercentage() + currentHealth + initialHealth);
+
         if (currentHealth <= 0 && !isDead)
         {
             Destroy(this.gameObject);
         }
 
+    }
+
+    private float HealthPercentage()
+    {
+        // https://stackoverflow.com/questions/34436880/function-returns-0-when-float-number-is-under-1/34436912
+        // https://www.mvcode.com/lessons/using-sliders-in-unity-aaron
+        // https://www.youtube.com/watch?v=ZYeXmze5gxg
+        return (float) currentHealth / initialHealth;
     }
 }
