@@ -1877,6 +1877,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runDistance: 5
   speed: 0.05
+  eggPrefab: {fileID: 123777764315581215, guid: b9f43d4de263a4483b90021a7d1e020c,
+    type: 3}
 --- !u!1001 &1388949190
 PrefabInstance:
   m_ObjectHideFlags: 0

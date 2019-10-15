@@ -8,18 +8,23 @@ public class ChickenBehaviour : MonoBehaviour
     float runDistance = 2f;
     [SerializeField]
     float speed = 0.1f;
+    [SerializeField]
+    Transform eggPrefab;
 
+    Transform myEgg;
     Animator animator;
     float idleTimer;
     float nextMoveTimer;
     Vector3 destination;
     Vector3 originalPos;
+    int eggTimer;
     bool firstMove = true;
 
     void Start()
     {
         SetIdleTimer();
         SetNextMoveTimer();
+        SetEggTimer();
         animator = GetComponent<Animator>();
         originalPos = transform.position;
     }
@@ -60,6 +65,13 @@ public class ChickenBehaviour : MonoBehaviour
                 }
                 Vector3 direction = (destination - transform.position).normalized;
                 transform.rotation = Quaternion.LookRotation(direction);
+                if (myEgg == null && eggTimer <= 0)
+                {
+                    myEgg = Instantiate(eggPrefab);
+                    myEgg.transform.position = transform.position;
+                    SetEggTimer();
+                }
+                eggTimer--;
             }
             else if (idleTimer <= 0)
             {
@@ -84,6 +96,11 @@ public class ChickenBehaviour : MonoBehaviour
     void SetNextMoveTimer()
     {
         nextMoveTimer = Random.Range(1, 4);
+    }
+
+    void SetEggTimer()
+    {
+        eggTimer = Random.Range(0, 4);
     }
 
     public void IdleAnimationEnded()
