@@ -55,28 +55,28 @@ public class Inventory : MonoBehaviour
                 inventoryCountFlower.text = flowerCount.ToString();
             }
 
-            if (other.gameObject.name == "Blob eye")
+            else if (other.gameObject.name == "Blob eye")
             {
                 eyeCount++;
                 Debug.Log("current eyes" + eyeCount);
                 inventoryCountEye.text = eyeCount.ToString();
             }
 
-            if (other.gameObject.name == "Caterpillar")
+            else if (other.gameObject.name == "Caterpillar")
             {
                 caterpillarCount++;
                 Debug.Log("current caterpillar" + caterpillarCount);
                 inventoryCountCaterpillar.text = caterpillarCount.ToString();
             }
 
-            if (other.gameObject.name == "Egg")
+            else if (other.gameObject.name == "Egg")
             {
                 eggCount++;
                 Debug.Log("current eggs" + eggCount);
                 inventoryCountEgg.text = eggCount.ToString();
             }
 
-            if (other.gameObject.name == "Eyebrows")
+            else if (other.gameObject.name == "Eyebrows")
             {
                 eyebrowCount++;
                 Debug.Log("current eyebrows" + eyebrowCount);

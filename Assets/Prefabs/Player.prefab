@@ -244,6 +244,9 @@ GameObject:
   - component: {fileID: 8296172669070570552}
   - component: {fileID: 8296172669070570555}
   - component: {fileID: -461003745139192012}
+  - component: {fileID: 2882286560055575934}
+  - component: {fileID: 3914453823879042508}
+  - component: {fileID: 423200964858897401}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -267,6 +270,7 @@ Transform:
   - {fileID: 761846330897358616}
   - {fileID: 1681354903998918355}
   - {fileID: 6091332697324397055}
+  - {fileID: 7511519662154440925}
   - {fileID: 5750239824129383342}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -299,7 +303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potionPrefab: {fileID: 695298026158692676, guid: 0a536618e59b14897a582437112526d7,
     type: 3}
-  target: {fileID: 0}
+  target: {fileID: 5750239824129383342}
   throwDirection: {x: 0, y: 0.70710677, z: 0.70710677}
   throwSpeedMin: 5
   throwSpeedMax: 12
@@ -340,9 +344,69 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 1
+  m_Height: 2.9244843
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.9622421, z: 0}
+--- !u!114 &2882286560055575934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342332660910326909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa58f9b04dd7840aeaa88c151925970e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leafCount: 0
+  flowerCount: 0
+  eyeCount: 0
+  caterpillarCount: 0
+  eggCount: 0
+  eyebrowCount: 0
+  inventoryCountLeaf: {fileID: 0}
+  inventoryCountFlower: {fileID: 0}
+  inventoryCountEye: {fileID: 0}
+  inventoryCountCaterpillar: {fileID: 0}
+  inventoryCountEgg: {fileID: 0}
+  inventoryCountEyebrow: {fileID: 0}
+--- !u!114 &3914453823879042508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342332660910326909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e4c0bee34084a0eb4ad922d18c0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &423200964858897401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342332660910326909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98227e5e0b72ae42a2864f045edf0c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  isDead: 0
+  zeroHealthEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  sceneDelay: 3
+  invincibilityLength: 3
+  playerBodyRenderer: {fileID: 0}
+  flashLength: 0.1
 --- !u!1 &8423399019079336241
 GameObject:
   m_ObjectHideFlags: 0
