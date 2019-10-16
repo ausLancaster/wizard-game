@@ -68,6 +68,7 @@ public class ChickenBehaviour : MonoBehaviour
                 if (myEgg == null && eggTimer <= 0)
                 {
                     myEgg = Instantiate(eggPrefab);
+                    myEgg.name = "Egg";
                     myEgg.transform.position = transform.position;
                     SetEggTimer();
                 }

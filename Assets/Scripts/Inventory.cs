@@ -35,11 +35,11 @@ public class Inventory : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("collision");
+        //Debug.Log("collision");
 
         if (other.gameObject.CompareTag("Item"))
         {
-            Debug.Log("item found");
+            //Debug.Log("item found");
 
             if (other.gameObject.name == "Leaf")
             {

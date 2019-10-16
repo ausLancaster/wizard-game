@@ -1,12 +1,255 @@
 fileFormatVersion: 2
 guid: 0071f3605a64c47ecbb51d1f53be6a8e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3045791217205070898
+    second: SpriteSheetPotionPurple_0
+  - first:
+      213: -591500853813818622
+    second: SpriteSheetPotionPurple_1
+  - first:
+      213: -2522936474190260652
+    second: SpriteSheetPotionPurple_2
+  - first:
+      213: 3447822167594976202
+    second: SpriteSheetPotionPurple_3
+  - first:
+      213: 7556720000462301820
+    second: SpriteSheetPotionPurple_4
+  - first:
+      213: -6578286452562601336
+    second: SpriteSheetPotionPurple_5
+  - first:
+      213: 1636019458678087687
+    second: SpriteSheetPotionPurple_6
+  - first:
+      213: 8689271702524878773
+    second: SpriteSheetPotionPurple_7
+  - first:
+      213: 361117629571930416
+    second: SpriteSheetPotionPurple_8
+  - first:
+      213: 4144480300642391293
+    second: SpriteSheetPotionPurple_9
+  - first:
+      213: -3242213670255274186
+    second: SpriteSheetPotionPurple_10
+  - first:
+      213: 935866021635982205
+    second: SpriteSheetPotionPurple_11
+  - first:
+      213: 2275307050367728665
+    second: SpriteSheetPotionPurple_12
+  - first:
+      213: 5749860477381508814
+    second: SpriteSheetPotionPurple_13
+  - first:
+      213: -6788057418168666581
+    second: SpriteSheetPotionPurple_14
+  - first:
+      213: -4473915592818262571
+    second: SpriteSheetPotionPurple_15
+  - first:
+      213: 8152014556881375237
+    second: SpriteSheetPotionPurple_16
+  - first:
+      213: 8039092533491488712
+    second: SpriteSheetPotionPurple_17
+  - first:
+      213: 3665391088014585608
+    second: SpriteSheetPotionPurple_18
+  - first:
+      213: 3515651835101100295
+    second: SpriteSheetPotionPurple_19
+  - first:
+      213: 5960078014492261594
+    second: SpriteSheetPotionPurple_20
+  - first:
+      213: 3345297066687370627
+    second: SpriteSheetPotionPurple_21
+  - first:
+      213: -3143802533470541319
+    second: SpriteSheetPotionPurple_22
+  - first:
+      213: 521704705214419292
+    second: SpriteSheetPotionPurple_23
+  - first:
+      213: -5713853691302831849
+    second: SpriteSheetPotionPurple_24
+  - first:
+      213: -6098994479684243065
+    second: SpriteSheetPotionPurple_25
+  - first:
+      213: 7795799088675943800
+    second: SpriteSheetPotionPurple_26
+  - first:
+      213: 1755441891682676845
+    second: SpriteSheetPotionPurple_27
+  - first:
+      213: -1622000079672864728
+    second: SpriteSheetPotionPurple_28
+  - first:
+      213: 6523708602633764851
+    second: SpriteSheetPotionPurple_29
+  - first:
+      213: 3955119466497937646
+    second: SpriteSheetPotionPurple_30
+  - first:
+      213: -4090679996645729273
+    second: SpriteSheetPotionPurple_31
+  - first:
+      213: -8279938853171556022
+    second: SpriteSheetPotionPurple_32
+  - first:
+      213: 4344443738002361340
+    second: SpriteSheetPotionPurple_33
+  - first:
+      213: -7787496524290390677
+    second: SpriteSheetPotionPurple_34
+  - first:
+      213: -3168747416275765825
+    second: SpriteSheetPotionPurple_35
+  - first:
+      213: 218246948008919303
+    second: SpriteSheetPotionPurple_36
+  - first:
+      213: -1202681171091029113
+    second: SpriteSheetPotionPurple_37
+  - first:
+      213: -3531410574546737568
+    second: SpriteSheetPotionPurple_38
+  - first:
+      213: -2519753593901096166
+    second: SpriteSheetPotionPurple_39
+  - first:
+      213: -4866147552350675448
+    second: SpriteSheetPotionPurple_40
+  - first:
+      213: 9129928955862871153
+    second: SpriteSheetPotionPurple_41
+  - first:
+      213: -3094420362347244742
+    second: SpriteSheetPotionPurple_42
+  - first:
+      213: 2992858930612898956
+    second: SpriteSheetPotionPurple_43
+  - first:
+      213: -3946650401699615948
+    second: SpriteSheetPotionPurple_44
+  - first:
+      213: -3089119625481106706
+    second: SpriteSheetPotionPurple_45
+  - first:
+      213: 2269438086027336922
+    second: SpriteSheetPotionPurple_46
+  - first:
+      213: -4488803287881310964
+    second: SpriteSheetPotionPurple_47
+  - first:
+      213: 3372037752640645274
+    second: SpriteSheetPotionPurple_48
+  - first:
+      213: -6974209912037380390
+    second: SpriteSheetPotionPurple_49
+  - first:
+      213: 2096014883251372698
+    second: SpriteSheetPotionPurple_50
+  - first:
+      213: 8438405522081663195
+    second: SpriteSheetPotionPurple_51
+  - first:
+      213: -534368323331407083
+    second: SpriteSheetPotionPurple_52
+  - first:
+      213: 2447675645438669424
+    second: SpriteSheetPotionPurple_53
+  - first:
+      213: -8429969878439557117
+    second: SpriteSheetPotionPurple_54
+  - first:
+      213: -5365513872843397554
+    second: SpriteSheetPotionPurple_55
+  - first:
+      213: 7493068497519953700
+    second: SpriteSheetPotionPurple_56
+  - first:
+      213: 450412168233461305
+    second: SpriteSheetPotionPurple_57
+  - first:
+      213: -7533803559250344485
+    second: SpriteSheetPotionPurple_58
+  - first:
+      213: 5994266526135879449
+    second: SpriteSheetPotionPurple_59
+  - first:
+      213: 5027583561523932701
+    second: SpriteSheetPotionPurple_60
+  - first:
+      213: -2260133196497901600
+    second: SpriteSheetPotionPurple_61
+  - first:
+      213: -5683597850275345894
+    second: SpriteSheetPotionPurple_62
+  - first:
+      213: 1686805375386920446
+    second: SpriteSheetPotionPurple_63
+  - first:
+      213: -4453657537106660746
+    second: SpriteSheetPotionPurple_64
+  - first:
+      213: -4187051213645703303
+    second: SpriteSheetPotionPurple_65
+  - first:
+      213: 6686520832168735401
+    second: SpriteSheetPotionPurple_66
+  - first:
+      213: -1049744712113989814
+    second: SpriteSheetPotionPurple_67
+  - first:
+      213: 8728402259962098678
+    second: SpriteSheetPotionPurple_68
+  - first:
+      213: 2180073952338354481
+    second: SpriteSheetPotionPurple_69
+  - first:
+      213: -3792934986064522025
+    second: SpriteSheetPotionPurple_70
+  - first:
+      213: -2038261878889785952
+    second: SpriteSheetPotionPurple_71
+  - first:
+      213: 4948703784247139919
+    second: SpriteSheetPotionPurple_72
+  - first:
+      213: 5044554068596886055
+    second: SpriteSheetPotionPurple_73
+  - first:
+      213: -7063925468227100304
+    second: SpriteSheetPotionPurple_74
+  - first:
+      213: 1226055638735322623
+    second: SpriteSheetPotionPurple_75
+  - first:
+      213: -5201744315131442206
+    second: SpriteSheetPotionPurple_76
+  - first:
+      213: -4810844593480015723
+    second: SpriteSheetPotionPurple_77
+  - first:
+      213: 5032057799793348585
+    second: SpriteSheetPotionPurple_78
+  - first:
+      213: -2397638333989946816
+    second: SpriteSheetPotionPurple_79
+  - first:
+      213: 4834391368804525681
+    second: SpriteSheetPotionPurple_80
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +277,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +292,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -69,13 +312,1725 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdf59b5eecbe43df8b4e91f5e0a8067
+      internalID: -3045791217205070898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6cb7c7a832d4f4e899e1796b3db357
+      internalID: -591500853813818622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f9d49dfc7fe42ccad7b3a7b9efb20e
+      internalID: -2522936474190260652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256f6bddb83194c058641b061dfae3e5
+      internalID: 3447822167594976202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90862819ed6f4df0b05f0bff7e46656
+      internalID: 7556720000462301820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_5
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781f272785ce7403fac443e764790bd7
+      internalID: -6578286452562601336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_6
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8798fdf57db44ecbbb3950c5165990
+      internalID: 1636019458678087687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_7
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00dae9a0e5264dc09f57077f8799dca
+      internalID: 8689271702524878773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_8
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f042afe7a982349988e4ed296f342a1d
+      internalID: 361117629571930416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8721781f789d941a4a794d7df493ffc7
+      internalID: 4144480300642391293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5f3a3cc4d524eddbe120253fee7576
+      internalID: -3242213670255274186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077a41cc60af141c79f21609c9ce3637
+      internalID: 935866021635982205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_12
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbb6043eb9c24849bfc2767ef5a7e16
+      internalID: 2275307050367728665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_13
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14c4ce67b76949fabe66cdf81da4e18
+      internalID: 5749860477381508814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_14
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1bfdc40de1b4238ad72b234f6e6beb
+      internalID: -6788057418168666581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_15
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78647d0a60f5647ec8a424d2ee46efac
+      internalID: -4473915592818262571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_16
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfd3350ccd2a4cc0b21f0efec5dd7b4
+      internalID: 8152014556881375237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_17
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d108b0a01c740378134bd1aa49390b
+      internalID: 8039092533491488712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd41e8c4cdd9a40e9919985fde90eea2
+      internalID: 3665391088014585608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f496939fd4cf94e4887dac69ec6820fa
+      internalID: 3515651835101100295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4289cdfb0bae041aa84f2c65d52dcea6
+      internalID: 5960078014492261594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_21
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd607b0ed82bb469cbb5079e1a8e841e
+      internalID: 3345297066687370627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_22
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eafb969ae38469897e28c99074c139
+      internalID: -3143802533470541319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_23
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ea1869ed079446fac4920077f10596
+      internalID: 521704705214419292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_24
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d627f19f3ec054d3cb7734d6ce57d083
+      internalID: -5713853691302831849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_25
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffb6066b8f54414b940b652e7735849
+      internalID: -6098994479684243065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_26
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026b18c5408f241a58adbd8e250dfb42
+      internalID: 7795799088675943800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_27
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38adf0360ca34970b0b274215a9df41
+      internalID: 1755441891682676845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_28
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b97b9465bc54e61a3b961e262c0c5b
+      internalID: -1622000079672864728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4644310edf547f48e37324334641b0
+      internalID: 6523708602633764851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_30
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6d709e2e840412ca5eaa3d5af8aeea
+      internalID: 3955119466497937646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da822331f1144f5fbb7e238cd897013
+      internalID: -4090679996645729273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_32
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef3db510957543ff86b156e1131aca3
+      internalID: -8279938853171556022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_33
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d576b6ad68c4b4bb621dfffd82f3a2
+      internalID: 4344443738002361340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_34
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bd833357f914b62890a61258d95a89
+      internalID: -7787496524290390677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_35
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938febc9174ea480ebbce2411990dba3
+      internalID: -3168747416275765825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad4fb8d8d8c54a9097979239fb8d0bd
+      internalID: 218246948008919303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_37
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b138c7ce0770c4850a7f19a341a9eda6
+      internalID: -1202681171091029113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a68894de9a242a69dcd6f687af4c73
+      internalID: -3531410574546737568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_39
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc3521cca7084be48f8305c3feaf753
+      internalID: -2519753593901096166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_40
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b7e964a1a034fce9559e49fb6f9642
+      internalID: -4866147552350675448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_41
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312a0b76b766b4d0fbd9f2f1a72c1cab
+      internalID: 9129928955862871153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_42
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfb19526bb874e93a87ff499fc9abfa
+      internalID: -3094420362347244742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_43
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405c3d93b3fc641e4a501e4612320d36
+      internalID: 2992858930612898956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_44
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4507bb18ecd44c0a8b20a06918c1416
+      internalID: -3946650401699615948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05a11037c3164d5183aaeaf1bc39433
+      internalID: -3089119625481106706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_46
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e687bb6a63784c29b391d07fb3e68b7
+      internalID: 2269438086027336922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_47
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9905472b550ab40aabc89faa307fb0ea
+      internalID: -4488803287881310964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_48
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dee95750c3b4f4c8e3a004b3253f78
+      internalID: 3372037752640645274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_49
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb4f9648567349f9847c79474b85fb7
+      internalID: -6974209912037380390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_50
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5442303b689764f56a5b7020387b1293
+      internalID: 2096014883251372698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_51
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd37e4fc1170e40d58e7b404385625b0
+      internalID: 8438405522081663195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_52
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fd921dd9cf641fbb06abfb6f7ed256
+      internalID: -534368323331407083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_53
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f0dd17e13f44461ab1bf02128c9783
+      internalID: 2447675645438669424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b24d4eaeedf947cc8cc10bf22c48d08
+      internalID: -8429969878439557117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_55
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b33b6bc3ca8408c8d20ae57e1a8a45
+      internalID: -5365513872843397554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_56
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34443006d2e3c48a7b0b3c68f9716bab
+      internalID: 7493068497519953700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_57
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab66514b80314403ae0ccaefc70fdc6
+      internalID: 450412168233461305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_58
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648f860eecccb439fbba7c45ca66c6e0
+      internalID: -7533803559250344485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_59
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b3a220dc4dd406ca76f0394043eb47
+      internalID: 5994266526135879449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_60
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53039e4b73254496aa50b968baec218
+      internalID: 5027583561523932701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_61
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d781d37d0f4c147089227934476b2f33
+      internalID: -2260133196497901600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_62
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aed38333b00840fc9ef8562432c38a7
+      internalID: -5683597850275345894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_63
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e38b327e33b47d3a0a01e644bf6159
+      internalID: 1686805375386920446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_64
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2205fd2ced178417ca117e26e247567e
+      internalID: -4453657537106660746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_65
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b75c3d0832444219919b462654d141
+      internalID: -4187051213645703303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_66
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96ba5db196be4b068507c50a5a525c7
+      internalID: 6686520832168735401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_67
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30925630dccc0435295fab34874dc50e
+      internalID: -1049744712113989814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_68
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b95b9dea1db42cb99ce8ff3bf190e4
+      internalID: 8728402259962098678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_69
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9992c5929205546e684c7f90f2c234fd
+      internalID: 2180073952338354481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_70
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbc8007530454e1a950383fa96b5a56
+      internalID: -3792934986064522025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_71
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5df6734d29f48de9048dc94fd99bd6
+      internalID: -2038261878889785952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40caf708f487f4854bdd4c306d5d8db7
+      internalID: 4948703784247139919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_73
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e740b2757d6b4ad38b155976aa2cc3d
+      internalID: 5044554068596886055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_74
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d8a8bffeec24b5e94114d43f776446
+      internalID: -7063925468227100304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_75
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40884d2203b574b99add3e7dc41719c3
+      internalID: 1226055638735322623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_76
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b360acafec7434381ea2947dc1f8d9
+      internalID: -5201744315131442206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_77
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0299a0a886e6e44298445356995b1033
+      internalID: -4810844593480015723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_78
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7794131847ba48b0ba15d2b17272765
+      internalID: 5032057799793348585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_79
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5ced9245a0a4fe389dad3512e69ea9
+      internalID: -2397638333989946816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionPurple_80
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51454a4b26a3418e8009c708c13b499
+      internalID: 4834391368804525681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9b281adc248834b24b69494848097997
     internalID: 0
     vertices: []
     indices: 

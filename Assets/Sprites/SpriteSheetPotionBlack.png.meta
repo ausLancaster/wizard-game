@@ -1,12 +1,255 @@
 fileFormatVersion: 2
 guid: 1c1108ff0416d487eb8def45cd54b21a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9056623318455907310
+    second: SpriteSheetPotionBlack_0
+  - first:
+      213: 2702199994234899346
+    second: SpriteSheetPotionBlack_1
+  - first:
+      213: 5439583371207240351
+    second: SpriteSheetPotionBlack_2
+  - first:
+      213: 2384776725411343458
+    second: SpriteSheetPotionBlack_3
+  - first:
+      213: -7322820629715072231
+    second: SpriteSheetPotionBlack_4
+  - first:
+      213: 863479252064504312
+    second: SpriteSheetPotionBlack_5
+  - first:
+      213: 1594727790936023182
+    second: SpriteSheetPotionBlack_6
+  - first:
+      213: 7171427661572124910
+    second: SpriteSheetPotionBlack_7
+  - first:
+      213: 4321008153379157714
+    second: SpriteSheetPotionBlack_8
+  - first:
+      213: -5555062603676910464
+    second: SpriteSheetPotionBlack_9
+  - first:
+      213: -7276711820351268228
+    second: SpriteSheetPotionBlack_10
+  - first:
+      213: -7765578924933272690
+    second: SpriteSheetPotionBlack_11
+  - first:
+      213: -5555733493923867039
+    second: SpriteSheetPotionBlack_12
+  - first:
+      213: -3391354782502073444
+    second: SpriteSheetPotionBlack_13
+  - first:
+      213: -8510098425977609548
+    second: SpriteSheetPotionBlack_14
+  - first:
+      213: 8669669619014648260
+    second: SpriteSheetPotionBlack_15
+  - first:
+      213: -2227230982586047524
+    second: SpriteSheetPotionBlack_16
+  - first:
+      213: -6313200158258463218
+    second: SpriteSheetPotionBlack_17
+  - first:
+      213: -2245065690171208085
+    second: SpriteSheetPotionBlack_18
+  - first:
+      213: 4154555917930306432
+    second: SpriteSheetPotionBlack_19
+  - first:
+      213: -5410468334295497197
+    second: SpriteSheetPotionBlack_20
+  - first:
+      213: 8862797677394516050
+    second: SpriteSheetPotionBlack_21
+  - first:
+      213: -5060872991191757549
+    second: SpriteSheetPotionBlack_22
+  - first:
+      213: 1217953139199828194
+    second: SpriteSheetPotionBlack_23
+  - first:
+      213: 7438735615621687421
+    second: SpriteSheetPotionBlack_24
+  - first:
+      213: 1273755164778803353
+    second: SpriteSheetPotionBlack_25
+  - first:
+      213: -7603030805373933626
+    second: SpriteSheetPotionBlack_26
+  - first:
+      213: -7549969368743437146
+    second: SpriteSheetPotionBlack_27
+  - first:
+      213: 9054453917694953511
+    second: SpriteSheetPotionBlack_28
+  - first:
+      213: 7624989340245712678
+    second: SpriteSheetPotionBlack_29
+  - first:
+      213: 2619937160724053213
+    second: SpriteSheetPotionBlack_30
+  - first:
+      213: -3543274422638197210
+    second: SpriteSheetPotionBlack_31
+  - first:
+      213: -3846573272262986623
+    second: SpriteSheetPotionBlack_32
+  - first:
+      213: 616635443235015973
+    second: SpriteSheetPotionBlack_33
+  - first:
+      213: 4628511522065273094
+    second: SpriteSheetPotionBlack_34
+  - first:
+      213: -7788687798589286465
+    second: SpriteSheetPotionBlack_35
+  - first:
+      213: -1240252672324059136
+    second: SpriteSheetPotionBlack_36
+  - first:
+      213: -5008030077825729708
+    second: SpriteSheetPotionBlack_37
+  - first:
+      213: -6515538655176477996
+    second: SpriteSheetPotionBlack_38
+  - first:
+      213: 5205210907014648381
+    second: SpriteSheetPotionBlack_39
+  - first:
+      213: -4103181743534579988
+    second: SpriteSheetPotionBlack_40
+  - first:
+      213: -6541243106749509224
+    second: SpriteSheetPotionBlack_41
+  - first:
+      213: 5779062370108133026
+    second: SpriteSheetPotionBlack_42
+  - first:
+      213: 3829864759148037575
+    second: SpriteSheetPotionBlack_43
+  - first:
+      213: 4658004088442996159
+    second: SpriteSheetPotionBlack_44
+  - first:
+      213: -6130657993238668429
+    second: SpriteSheetPotionBlack_45
+  - first:
+      213: -4143937836655003109
+    second: SpriteSheetPotionBlack_46
+  - first:
+      213: 6264255889490378646
+    second: SpriteSheetPotionBlack_47
+  - first:
+      213: 6067997018028048168
+    second: SpriteSheetPotionBlack_48
+  - first:
+      213: -3944167491872239388
+    second: SpriteSheetPotionBlack_49
+  - first:
+      213: -8738161111263874745
+    second: SpriteSheetPotionBlack_50
+  - first:
+      213: 2225764454736157701
+    second: SpriteSheetPotionBlack_51
+  - first:
+      213: -3586020414656819109
+    second: SpriteSheetPotionBlack_52
+  - first:
+      213: -6010556464214966871
+    second: SpriteSheetPotionBlack_53
+  - first:
+      213: -1660032605420098261
+    second: SpriteSheetPotionBlack_54
+  - first:
+      213: 7493151813297300019
+    second: SpriteSheetPotionBlack_55
+  - first:
+      213: 7033089786445569967
+    second: SpriteSheetPotionBlack_56
+  - first:
+      213: -7046060923710047720
+    second: SpriteSheetPotionBlack_57
+  - first:
+      213: 5573950233314522495
+    second: SpriteSheetPotionBlack_58
+  - first:
+      213: -3898640136548065801
+    second: SpriteSheetPotionBlack_59
+  - first:
+      213: -8213110737493356463
+    second: SpriteSheetPotionBlack_60
+  - first:
+      213: 3349196140816887860
+    second: SpriteSheetPotionBlack_61
+  - first:
+      213: 1678916614755497363
+    second: SpriteSheetPotionBlack_62
+  - first:
+      213: -6899366229034049887
+    second: SpriteSheetPotionBlack_63
+  - first:
+      213: 9069633185021924165
+    second: SpriteSheetPotionBlack_64
+  - first:
+      213: -2546759137859220359
+    second: SpriteSheetPotionBlack_65
+  - first:
+      213: -3305982452498069566
+    second: SpriteSheetPotionBlack_66
+  - first:
+      213: -8244683408820485655
+    second: SpriteSheetPotionBlack_67
+  - first:
+      213: -2732174889946217888
+    second: SpriteSheetPotionBlack_68
+  - first:
+      213: -2887498419876296303
+    second: SpriteSheetPotionBlack_69
+  - first:
+      213: 891356821517744179
+    second: SpriteSheetPotionBlack_70
+  - first:
+      213: 2592103595673191863
+    second: SpriteSheetPotionBlack_71
+  - first:
+      213: 8685937532740738916
+    second: SpriteSheetPotionBlack_72
+  - first:
+      213: -4328389331442268460
+    second: SpriteSheetPotionBlack_73
+  - first:
+      213: 3058410614525161553
+    second: SpriteSheetPotionBlack_74
+  - first:
+      213: 164631231296574757
+    second: SpriteSheetPotionBlack_75
+  - first:
+      213: 927862666096157539
+    second: SpriteSheetPotionBlack_76
+  - first:
+      213: -3224262753033674970
+    second: SpriteSheetPotionBlack_77
+  - first:
+      213: -3386273950537985271
+    second: SpriteSheetPotionBlack_78
+  - first:
+      213: 7360072972426128352
+    second: SpriteSheetPotionBlack_79
+  - first:
+      213: 7632055985986091540
+    second: SpriteSheetPotionBlack_80
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +277,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +292,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -69,13 +312,1725 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e9853b317354fdbb14e5c7c8ed7d27
+      internalID: -9056623318455907310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c06331ffe7604188b20e22633925c68
+      internalID: 2702199994234899346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a034a5f50b7c4a619cddd24d1f2dabc
+      internalID: 5439583371207240351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dad151c16da415aaa6c03742e9bea4
+      internalID: 2384776725411343458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee343b17067944c3abfd46378d213e31
+      internalID: -7322820629715072231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_5
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1268bbdc98e345f984fb4bbce6e32a6
+      internalID: 863479252064504312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_6
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91dc0aad503d483c96dbb6a38a2029f
+      internalID: 1594727790936023182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_7
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4ce4b0c818246aa845d5437e252f4d
+      internalID: 7171427661572124910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_8
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc924e4a2e1b401e9d08fe3a1a275d1
+      internalID: 4321008153379157714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6288211a2e53a4d6d849b60c2081e6ee
+      internalID: -5555062603676910464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bddb8d1de9f49149ffea40138f8d5f
+      internalID: -7276711820351268228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb3441f6ac7f48aa9e72d54c925ee67
+      internalID: -7765578924933272690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_12
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fae943be77e4ab2bc118cedb9c087f
+      internalID: -5555733493923867039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_13
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb25ac3c328684200bd6b6797123917d
+      internalID: -3391354782502073444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_14
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77547b394c34049dea6fd8b56071d000
+      internalID: -8510098425977609548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_15
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47a7eaedf66f45be8d834f6be9ade1b
+      internalID: 8669669619014648260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_16
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d46ca9e56d4244bbb56a5601c8bcb17
+      internalID: -2227230982586047524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_17
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11350de202c44883bc746e458c66275
+      internalID: -6313200158258463218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14da7ea33a1b3469192681c4cc5a7333
+      internalID: -2245065690171208085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1488477f6b4654791a9167c949e14bf3
+      internalID: 4154555917930306432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68958dd0d86204a5a8121d634a4a33c9
+      internalID: -5410468334295497197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_21
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8305ba244386944e3be781ef0ced555a
+      internalID: 8862797677394516050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_22
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263b301e73b1b4bb2915b35f2b812ef7
+      internalID: -5060872991191757549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_23
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b16e838b4c7e4e7c84eb9340ceac093
+      internalID: 1217953139199828194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_24
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f5e4907bc7d4335982f6884c986a56
+      internalID: 7438735615621687421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_25
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a328fa819c78d4182b5e54dbb950ca75
+      internalID: 1273755164778803353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_26
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0477bf5154584df6a733397c391222a
+      internalID: -7603030805373933626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_27
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bcd7991c833484ebe8bef301dba0af
+      internalID: -7549969368743437146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_28
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f587b67ecc4e34e9aa43bbc55e269808
+      internalID: 9054453917694953511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d98b272832e243349abf944350086c4
+      internalID: 7624989340245712678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_30
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa862457d3174067922be07c06676f1
+      internalID: 2619937160724053213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdaf03ba5fe84789a726c6c1888dfdf
+      internalID: -3543274422638197210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_32
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca923a24fc0447cfb525a889d1527af
+      internalID: -3846573272262986623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_33
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f6eef36aafb406f8d06c439cb3d6e3
+      internalID: 616635443235015973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_34
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724fbcc52358e424592902953753f250
+      internalID: 4628511522065273094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_35
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d879d60f47374047a96babc15660d8c
+      internalID: -7788687798589286465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3677736b67096418d8be35097f6e9bea
+      internalID: -1240252672324059136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_37
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14975af98ca944115a6af309fb846429
+      internalID: -5008030077825729708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3608a345b9564ee7ab334d5e82c38f5
+      internalID: -6515538655176477996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_39
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7576eaaaa1ea47c3bea2af15ee0e034
+      internalID: 5205210907014648381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_40
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ebcc660f1d641e286376c9273b8d95
+      internalID: -4103181743534579988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_41
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac60453953e54c56b329cd22d920e47
+      internalID: -6541243106749509224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_42
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3beceb9957a47eca37dba15b66308b
+      internalID: 5779062370108133026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_43
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b4a31e39b184a7eb1130314a8db078
+      internalID: 3829864759148037575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_44
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ac770d2952b406ab9aca63c382c6ca
+      internalID: 4658004088442996159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9130cdc5983184fdf8410bb99d00806e
+      internalID: -6130657993238668429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_46
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838397abb931342619b8c70431ed1e35
+      internalID: -4143937836655003109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_47
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d6eb6141c4c4b8dbef284920201c7a
+      internalID: 6264255889490378646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_48
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28076272cb96b47b49ebb28e6526605f
+      internalID: 6067997018028048168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_49
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3301b7bf5b4dc4ab18ba78dcd48b2684
+      internalID: -3944167491872239388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_50
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d09419879d734e6d8988c2d5aa7e721
+      internalID: -8738161111263874745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_51
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd859618fe10742e3b3d54806c7ef966
+      internalID: 2225764454736157701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_52
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc31060e885e46bba1e75e185dc11a8
+      internalID: -3586020414656819109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_53
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e5d813d6dee40d18e27af79bec1917
+      internalID: -6010556464214966871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6571a6b7f65de479a81f50b7f43b7a6e
+      internalID: -1660032605420098261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_55
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6ef79f05c3446be8213cc82059ed31
+      internalID: 7493151813297300019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_56
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f74820c638104e72b11b7ad1e0146ce
+      internalID: 7033089786445569967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_57
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b9ab0e00bfc43a59241efc5b1867b2
+      internalID: -7046060923710047720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_58
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304ad80a2cae7419c8304e2b0d28eaf4
+      internalID: 5573950233314522495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_59
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2f7952cf78e425d9eb76cce32f3a23
+      internalID: -3898640136548065801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_60
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f6ade047d054f88bd4d85041adde82
+      internalID: -8213110737493356463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_61
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0527d1811a15444bfa7ef60301fe822d
+      internalID: 3349196140816887860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_62
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7fb81cc9922471dab428d56a2ab9ff
+      internalID: 1678916614755497363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_63
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d856a959c15841beabd6a8c77ba8a57
+      internalID: -6899366229034049887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_64
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d4dfbe467e4403f9f843575507cf1e
+      internalID: 9069633185021924165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_65
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcbbe18fcac544869716c311e41d67a
+      internalID: -2546759137859220359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_66
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815924e4765f84ee5b10ca7f59485b96
+      internalID: -3305982452498069566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_67
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3781fb336f5ea4cfa8ba36d7d087402e
+      internalID: -8244683408820485655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_68
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad285070e18b4478e8839ae7ea567b95
+      internalID: -2732174889946217888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_69
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d22ba8edd42b4faa8348ea3b1daef37
+      internalID: -2887498419876296303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_70
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c94dd7de295745619ded7e4081c0f2b
+      internalID: 891356821517744179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_71
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385b2143917dd4fd1aa931eb75465e67
+      internalID: 2592103595673191863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4e04ad23c55437b981071d790bc7e4
+      internalID: 8685937532740738916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_73
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dd5aa148d774ddca8deaadbc087a2f
+      internalID: -4328389331442268460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_74
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd59405d7e7e499aabd6a7513440763
+      internalID: 3058410614525161553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_75
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81af0dece3ad493fb6deb382d866978
+      internalID: 164631231296574757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_76
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82012f4ac6f694eb2879bfb93faf371e
+      internalID: 927862666096157539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_77
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a8d90b15d86408889137e2aa7fb853
+      internalID: -3224262753033674970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_78
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6041026323a4c4c5ab18f44e70215eaa
+      internalID: -3386273950537985271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_79
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258213f91c6ba46e1976b09849a0b730
+      internalID: 7360072972426128352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionBlack_80
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fad03894a0bd4ec6b21877cfff92614
+      internalID: 7632055985986091540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 49b4612669b54466bb0474f590d495f5
     internalID: 0
     vertices: []
     indices: 

@@ -1,12 +1,255 @@
 fileFormatVersion: 2
 guid: 3b0fe0da5219c4ec693a99480a222e43
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8208754431036278924
+    second: SpriteSheetPotionYellow_0
+  - first:
+      213: 5852997134000897364
+    second: SpriteSheetPotionYellow_1
+  - first:
+      213: -451181085087722131
+    second: SpriteSheetPotionYellow_2
+  - first:
+      213: 3197525455547217357
+    second: SpriteSheetPotionYellow_3
+  - first:
+      213: 598179602703702094
+    second: SpriteSheetPotionYellow_4
+  - first:
+      213: 5366097416569346500
+    second: SpriteSheetPotionYellow_5
+  - first:
+      213: -1882245484153470322
+    second: SpriteSheetPotionYellow_6
+  - first:
+      213: 6003777259971327755
+    second: SpriteSheetPotionYellow_7
+  - first:
+      213: 5299078907507686452
+    second: SpriteSheetPotionYellow_8
+  - first:
+      213: 6999887821275476123
+    second: SpriteSheetPotionYellow_9
+  - first:
+      213: 8905431903673611671
+    second: SpriteSheetPotionYellow_10
+  - first:
+      213: 2862467014437279760
+    second: SpriteSheetPotionYellow_11
+  - first:
+      213: -5969305759106281727
+    second: SpriteSheetPotionYellow_12
+  - first:
+      213: -8879489219567733565
+    second: SpriteSheetPotionYellow_13
+  - first:
+      213: -6485514681285932963
+    second: SpriteSheetPotionYellow_14
+  - first:
+      213: -4462686685832113331
+    second: SpriteSheetPotionYellow_15
+  - first:
+      213: -8488230238912208436
+    second: SpriteSheetPotionYellow_16
+  - first:
+      213: -8738234556718030128
+    second: SpriteSheetPotionYellow_17
+  - first:
+      213: 8771428121798402746
+    second: SpriteSheetPotionYellow_18
+  - first:
+      213: 775558695628207053
+    second: SpriteSheetPotionYellow_19
+  - first:
+      213: -3782909111610776082
+    second: SpriteSheetPotionYellow_20
+  - first:
+      213: 1355468301090133615
+    second: SpriteSheetPotionYellow_21
+  - first:
+      213: 902087423628889821
+    second: SpriteSheetPotionYellow_22
+  - first:
+      213: 5254043788779754809
+    second: SpriteSheetPotionYellow_23
+  - first:
+      213: 6366578451540529749
+    second: SpriteSheetPotionYellow_24
+  - first:
+      213: 4116637415633597743
+    second: SpriteSheetPotionYellow_25
+  - first:
+      213: -6225663549459625836
+    second: SpriteSheetPotionYellow_26
+  - first:
+      213: 5897634894433938284
+    second: SpriteSheetPotionYellow_27
+  - first:
+      213: 4726988117272911699
+    second: SpriteSheetPotionYellow_28
+  - first:
+      213: 2329129356665779035
+    second: SpriteSheetPotionYellow_29
+  - first:
+      213: -6264936192034454105
+    second: SpriteSheetPotionYellow_30
+  - first:
+      213: 1387251393387862596
+    second: SpriteSheetPotionYellow_31
+  - first:
+      213: -6368016301628480164
+    second: SpriteSheetPotionYellow_32
+  - first:
+      213: -8975832143701024754
+    second: SpriteSheetPotionYellow_33
+  - first:
+      213: 6219751014776424786
+    second: SpriteSheetPotionYellow_34
+  - first:
+      213: 1735920509063450938
+    second: SpriteSheetPotionYellow_35
+  - first:
+      213: -5216313631357835816
+    second: SpriteSheetPotionYellow_36
+  - first:
+      213: -1913831918712648426
+    second: SpriteSheetPotionYellow_37
+  - first:
+      213: -6584168466952939178
+    second: SpriteSheetPotionYellow_38
+  - first:
+      213: -5684628385086369548
+    second: SpriteSheetPotionYellow_39
+  - first:
+      213: 7181147635682827886
+    second: SpriteSheetPotionYellow_40
+  - first:
+      213: -1949600068698498245
+    second: SpriteSheetPotionYellow_41
+  - first:
+      213: -6386569392077036311
+    second: SpriteSheetPotionYellow_42
+  - first:
+      213: 7537201112292337912
+    second: SpriteSheetPotionYellow_43
+  - first:
+      213: -2284757252784290997
+    second: SpriteSheetPotionYellow_44
+  - first:
+      213: -5363385213763335244
+    second: SpriteSheetPotionYellow_45
+  - first:
+      213: 96018116002328578
+    second: SpriteSheetPotionYellow_46
+  - first:
+      213: 3923727800473463103
+    second: SpriteSheetPotionYellow_47
+  - first:
+      213: -8143128844547252033
+    second: SpriteSheetPotionYellow_48
+  - first:
+      213: 8829038273545856001
+    second: SpriteSheetPotionYellow_49
+  - first:
+      213: 3617087189519600969
+    second: SpriteSheetPotionYellow_50
+  - first:
+      213: 5948147526315979660
+    second: SpriteSheetPotionYellow_51
+  - first:
+      213: 480715449404903423
+    second: SpriteSheetPotionYellow_52
+  - first:
+      213: -8095200263342865400
+    second: SpriteSheetPotionYellow_53
+  - first:
+      213: 6723485829874876816
+    second: SpriteSheetPotionYellow_54
+  - first:
+      213: 4140641848750309925
+    second: SpriteSheetPotionYellow_55
+  - first:
+      213: 3424623512576087014
+    second: SpriteSheetPotionYellow_56
+  - first:
+      213: -2875248631627812952
+    second: SpriteSheetPotionYellow_57
+  - first:
+      213: -734852048075160006
+    second: SpriteSheetPotionYellow_58
+  - first:
+      213: -1147035804706169081
+    second: SpriteSheetPotionYellow_59
+  - first:
+      213: 1365311701035744630
+    second: SpriteSheetPotionYellow_60
+  - first:
+      213: 3506635574014115190
+    second: SpriteSheetPotionYellow_61
+  - first:
+      213: 2092645968214025303
+    second: SpriteSheetPotionYellow_62
+  - first:
+      213: -539762198334432460
+    second: SpriteSheetPotionYellow_63
+  - first:
+      213: 7506254408934437162
+    second: SpriteSheetPotionYellow_64
+  - first:
+      213: -8181999622901769802
+    second: SpriteSheetPotionYellow_65
+  - first:
+      213: 5062964039198792815
+    second: SpriteSheetPotionYellow_66
+  - first:
+      213: -3853833747623697898
+    second: SpriteSheetPotionYellow_67
+  - first:
+      213: 3033645263129769871
+    second: SpriteSheetPotionYellow_68
+  - first:
+      213: -6586356094435197873
+    second: SpriteSheetPotionYellow_69
+  - first:
+      213: 8648122375626159023
+    second: SpriteSheetPotionYellow_70
+  - first:
+      213: 3217624884748084485
+    second: SpriteSheetPotionYellow_71
+  - first:
+      213: 1467023687937975372
+    second: SpriteSheetPotionYellow_72
+  - first:
+      213: -8700653162005037218
+    second: SpriteSheetPotionYellow_73
+  - first:
+      213: 8832853115707583329
+    second: SpriteSheetPotionYellow_74
+  - first:
+      213: -766726360289765113
+    second: SpriteSheetPotionYellow_75
+  - first:
+      213: -5633323222297837136
+    second: SpriteSheetPotionYellow_76
+  - first:
+      213: -6134753566402224847
+    second: SpriteSheetPotionYellow_77
+  - first:
+      213: 5942414412782333353
+    second: SpriteSheetPotionYellow_78
+  - first:
+      213: 4650458229315756107
+    second: SpriteSheetPotionYellow_79
+  - first:
+      213: 5689379074934955175
+    second: SpriteSheetPotionYellow_80
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +277,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +292,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -69,13 +312,1725 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d40a6579ea54fe5803aa1d15c6373a
+      internalID: 8208754431036278924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b77cabf5c7ca4f91822c76b0e1e111f
+      internalID: 5852997134000897364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e6485d7ce9e4a35a8b87bf7be02e02
+      internalID: -451181085087722131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8184fec8a2664c27ac1196fc0565622
+      internalID: 3197525455547217357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817b4a04a749a454c9bebe9d54e3a21c
+      internalID: 598179602703702094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_5
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2988c165ed2e94669a794a282cbf5f65
+      internalID: 5366097416569346500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_6
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe4220a18d4b4a429d56baf8a0a86b2
+      internalID: -1882245484153470322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_7
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7458810433349e7ba813b3d62e3ac9
+      internalID: 6003777259971327755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_8
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e805209649e414148aea4f928abf9516
+      internalID: 5299078907507686452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdc9df9d13c84898af354b766bf681b
+      internalID: 6999887821275476123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4e349c00e444bf9af014fc23c928ba
+      internalID: 8905431903673611671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14028f76202724f6cb10b443099ecb85
+      internalID: 2862467014437279760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_12
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5004d080c7f94e41a58cf52ece86f12
+      internalID: -5969305759106281727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_13
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248028beb537b4d62a77bf65532a8db1
+      internalID: -8879489219567733565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_14
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d2f6e8e26ab4a7b9f196b856362e3f
+      internalID: -6485514681285932963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_15
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939cad16cc5f24a3b87c7f5a5288f6d5
+      internalID: -4462686685832113331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_16
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5161a1806f04644c68961e6851d3a893
+      internalID: -8488230238912208436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_17
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896588cb0c0f0432898f6819c6c3adfb
+      internalID: -8738234556718030128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cac760d0399c4a66b41040d06536399
+      internalID: 8771428121798402746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2908fa2987843a7953329edb3a86e5
+      internalID: 775558695628207053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b7766ab0921446fa884fbd09b8a84f
+      internalID: -3782909111610776082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_21
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079499879cde047688b96798a8faabaf
+      internalID: 1355468301090133615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_22
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e2e40e9e2354a9a97cd3ebf148da38
+      internalID: 902087423628889821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_23
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1bf539a34c74ff18f6b5e0048316a1
+      internalID: 5254043788779754809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_24
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5780bba2e34b6408394fa84ab27d233f
+      internalID: 6366578451540529749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_25
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6097e90020c694001847f6e568108313
+      internalID: 4116637415633597743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_26
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151ba3cd934e349889f6cd953486884c
+      internalID: -6225663549459625836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_27
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433a01d22f8534cfc883738a19d4a6bb
+      internalID: 5897634894433938284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_28
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c2e48acc3724d2a901aaf5c312cf24
+      internalID: 4726988117272911699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e7b6279621942ef8fe6059e2c897ba
+      internalID: 2329129356665779035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_30
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04990e7ec1ea1461cac1aeaa8f107d7a
+      internalID: -6264936192034454105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52de75b4de1c4c89b799f7352af7cc1
+      internalID: 1387251393387862596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_32
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9ab32ad8c47486d909c46b6cb3dec7
+      internalID: -6368016301628480164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_33
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c97af0780dd42b4ab0dae495e81bc9
+      internalID: -8975832143701024754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_34
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfadcb92140f2491a802510ea5fcf2a7
+      internalID: 6219751014776424786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_35
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693b8bb9a6bd2409e8ca0f3cfca2b253
+      internalID: 1735920509063450938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0c32ec1eb484f7c9a8d61fbaf02a82
+      internalID: -5216313631357835816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_37
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0ec3e09866e458c9ba924b710a7b02
+      internalID: -1913831918712648426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e97db475a034fef9b3b5b93b97cf06
+      internalID: -6584168466952939178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_39
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1858bccebbf4979a3c457e629a2e2c
+      internalID: -5684628385086369548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_40
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc61f97f7f3a484697e2163dcf0993c
+      internalID: 7181147635682827886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_41
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae019f8c6ee146798772a34357ecf3a
+      internalID: -1949600068698498245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_42
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78fce266622b4a2eac49df25d6e0612
+      internalID: -6386569392077036311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_43
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be241905d66df4f09b87ea7fdea5e89c
+      internalID: 7537201112292337912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_44
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69be5c30d95024ee1b90d3fcd9ad4a17
+      internalID: -2284757252784290997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cc4076438e24e2cb3a1188206a660f
+      internalID: -5363385213763335244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_46
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547b1a74a0b7344f7a8178f31d01a36f
+      internalID: 96018116002328578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_47
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b09c09aa2c8465baaefb5a0cebb85f
+      internalID: 3923727800473463103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_48
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52386b106741b4ad6948eb6b3463b617
+      internalID: -8143128844547252033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_49
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e800403c67ed54d5ba746b345c247f3d
+      internalID: 8829038273545856001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_50
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bd86dac0e86407cb7f8f56b696c151
+      internalID: 3617087189519600969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_51
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e2552b3cf5149c3a30035c7aba6dca
+      internalID: 5948147526315979660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_52
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4618a07e0ad47b5bebd5b18280098b
+      internalID: 480715449404903423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_53
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3d15b0d088c48fab80148f6a61b0f8
+      internalID: -8095200263342865400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd911f20c17d4f408f27238b35c67dd
+      internalID: 6723485829874876816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_55
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86534e80c1f744979f82c4d5dba9773
+      internalID: 4140641848750309925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_56
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f435a0da73e7e4b9196d62d734110721
+      internalID: 3424623512576087014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_57
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83444aa5459bb4af795257ffe272a89f
+      internalID: -2875248631627812952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_58
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b791b64a50a4e3f9138d5d851c0419
+      internalID: -734852048075160006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_59
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf520f4693724e918fb4d521c731102
+      internalID: -1147035804706169081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_60
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a6a7d240bd04b1eaf2f386d2232c9c
+      internalID: 1365311701035744630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_61
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f40a74c8e8e4ccc8a06d51da905f79
+      internalID: 3506635574014115190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_62
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a572a0adf5f49ad9d32f5760d62c11
+      internalID: 2092645968214025303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_63
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d314068b50c4c02a2acbee8410dd7d
+      internalID: -539762198334432460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_64
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592b42ce1a18c4b58a413d5a6ee72dda
+      internalID: 7506254408934437162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_65
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3703ee6c9d3491e860aecc407f5383
+      internalID: -8181999622901769802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_66
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f18def8d36f74ca881f8b8616ecbcf7
+      internalID: 5062964039198792815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_67
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdeefa363daca4854862f6b2eda10af1
+      internalID: -3853833747623697898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_68
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c691f33e58b1d4bbcb7fd0a86db19681
+      internalID: 3033645263129769871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_69
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490a1e139cb7f4728b84f23c9d0c2122
+      internalID: -6586356094435197873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_70
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5945a0ce885f4e71a2ac26e0c533b69
+      internalID: 8648122375626159023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_71
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a63a71bc3f3426b9ba21d4cdc5eaaf
+      internalID: 3217624884748084485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28886e37a6ec42fb96703afef10b178
+      internalID: 1467023687937975372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_73
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5f9bf782694a8182f61f74341148c
+      internalID: -8700653162005037218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_74
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f15da27ece84f75b52eea4f455d6c1
+      internalID: 8832853115707583329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_75
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c031c0f2329ef4d6782278fc47fcac4f
+      internalID: -766726360289765113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_76
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e254e965b8d1d49558a4a980c312a19e
+      internalID: -5633323222297837136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_77
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6200caca8734c7cbd6e5c45b13c42c
+      internalID: -6134753566402224847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_78
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54498dbff206941059919eb862a1eee4
+      internalID: 5942414412782333353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_79
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819969a44e6594d4aa41fbbee039f01b
+      internalID: 4650458229315756107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionYellow_80
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa658a1c3c4a42cc91a114c1df44a66
+      internalID: 5689379074934955175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2f602e8db20334ebebe988773ef8348e
     internalID: 0
     vertices: []
     indices: 

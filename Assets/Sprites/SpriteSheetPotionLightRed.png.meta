@@ -1,12 +1,255 @@
 fileFormatVersion: 2
 guid: 021372b458dec4c9b9e1c4cc369aec7b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2192735479654716622
+    second: SpriteSheetPotionLightRed_0
+  - first:
+      213: -5391573460266568093
+    second: SpriteSheetPotionLightRed_1
+  - first:
+      213: -4481906029339566496
+    second: SpriteSheetPotionLightRed_2
+  - first:
+      213: -7315389682183888534
+    second: SpriteSheetPotionLightRed_3
+  - first:
+      213: 2110577762112065940
+    second: SpriteSheetPotionLightRed_4
+  - first:
+      213: 5166882600825827203
+    second: SpriteSheetPotionLightRed_5
+  - first:
+      213: -2698957213866942516
+    second: SpriteSheetPotionLightRed_6
+  - first:
+      213: 307120926090898139
+    second: SpriteSheetPotionLightRed_7
+  - first:
+      213: -300326107909967291
+    second: SpriteSheetPotionLightRed_8
+  - first:
+      213: 3325417164650856503
+    second: SpriteSheetPotionLightRed_9
+  - first:
+      213: -3940076040456218747
+    second: SpriteSheetPotionLightRed_10
+  - first:
+      213: 5637507885366937078
+    second: SpriteSheetPotionLightRed_11
+  - first:
+      213: 7119666935565910197
+    second: SpriteSheetPotionLightRed_12
+  - first:
+      213: -1114341056640122656
+    second: SpriteSheetPotionLightRed_13
+  - first:
+      213: -16454184996794718
+    second: SpriteSheetPotionLightRed_14
+  - first:
+      213: -2339905118003297087
+    second: SpriteSheetPotionLightRed_15
+  - first:
+      213: 6427300395529793795
+    second: SpriteSheetPotionLightRed_16
+  - first:
+      213: -977414393650369907
+    second: SpriteSheetPotionLightRed_17
+  - first:
+      213: -671213893397350752
+    second: SpriteSheetPotionLightRed_18
+  - first:
+      213: -8579899010433040912
+    second: SpriteSheetPotionLightRed_19
+  - first:
+      213: -1418510871910211399
+    second: SpriteSheetPotionLightRed_20
+  - first:
+      213: 173529668849316882
+    second: SpriteSheetPotionLightRed_21
+  - first:
+      213: 1818896912077964104
+    second: SpriteSheetPotionLightRed_22
+  - first:
+      213: -6581294080291599784
+    second: SpriteSheetPotionLightRed_23
+  - first:
+      213: -4490239173910053308
+    second: SpriteSheetPotionLightRed_24
+  - first:
+      213: 7951848483410750814
+    second: SpriteSheetPotionLightRed_25
+  - first:
+      213: -2462439349163810961
+    second: SpriteSheetPotionLightRed_26
+  - first:
+      213: 496369689255398881
+    second: SpriteSheetPotionLightRed_27
+  - first:
+      213: -4200648168463825899
+    second: SpriteSheetPotionLightRed_28
+  - first:
+      213: -6649451047562850953
+    second: SpriteSheetPotionLightRed_29
+  - first:
+      213: 6945240386099791546
+    second: SpriteSheetPotionLightRed_30
+  - first:
+      213: 8393970316777259012
+    second: SpriteSheetPotionLightRed_31
+  - first:
+      213: 8046359960310243772
+    second: SpriteSheetPotionLightRed_32
+  - first:
+      213: 2993730602357281198
+    second: SpriteSheetPotionLightRed_33
+  - first:
+      213: -3040850730704101590
+    second: SpriteSheetPotionLightRed_34
+  - first:
+      213: -5321440223210985463
+    second: SpriteSheetPotionLightRed_35
+  - first:
+      213: -641968625277085192
+    second: SpriteSheetPotionLightRed_36
+  - first:
+      213: -1924008116420045003
+    second: SpriteSheetPotionLightRed_37
+  - first:
+      213: 3550494235824154463
+    second: SpriteSheetPotionLightRed_38
+  - first:
+      213: -3006179807200472121
+    second: SpriteSheetPotionLightRed_39
+  - first:
+      213: 6225201866805879525
+    second: SpriteSheetPotionLightRed_40
+  - first:
+      213: -4804266496501758346
+    second: SpriteSheetPotionLightRed_41
+  - first:
+      213: 2692151366202331453
+    second: SpriteSheetPotionLightRed_42
+  - first:
+      213: -4670467931943402354
+    second: SpriteSheetPotionLightRed_43
+  - first:
+      213: -2521876347024137014
+    second: SpriteSheetPotionLightRed_44
+  - first:
+      213: 8318575986778988224
+    second: SpriteSheetPotionLightRed_45
+  - first:
+      213: -4384224053020119952
+    second: SpriteSheetPotionLightRed_46
+  - first:
+      213: -4431804292895701467
+    second: SpriteSheetPotionLightRed_47
+  - first:
+      213: 7595728489680358016
+    second: SpriteSheetPotionLightRed_48
+  - first:
+      213: -6524147092266716126
+    second: SpriteSheetPotionLightRed_49
+  - first:
+      213: -4816425831172716094
+    second: SpriteSheetPotionLightRed_50
+  - first:
+      213: -7268031357211102360
+    second: SpriteSheetPotionLightRed_51
+  - first:
+      213: 6289971004313228099
+    second: SpriteSheetPotionLightRed_52
+  - first:
+      213: -6035449197171766020
+    second: SpriteSheetPotionLightRed_53
+  - first:
+      213: 6253200647917483120
+    second: SpriteSheetPotionLightRed_54
+  - first:
+      213: -9176725381215378807
+    second: SpriteSheetPotionLightRed_55
+  - first:
+      213: 405677993563961126
+    second: SpriteSheetPotionLightRed_56
+  - first:
+      213: -5039228020411061405
+    second: SpriteSheetPotionLightRed_57
+  - first:
+      213: -7014672890487161521
+    second: SpriteSheetPotionLightRed_58
+  - first:
+      213: -2422988859202705402
+    second: SpriteSheetPotionLightRed_59
+  - first:
+      213: 1797071386544800938
+    second: SpriteSheetPotionLightRed_60
+  - first:
+      213: -4248790857757042966
+    second: SpriteSheetPotionLightRed_61
+  - first:
+      213: -5489544015708604675
+    second: SpriteSheetPotionLightRed_62
+  - first:
+      213: 7728555683134712694
+    second: SpriteSheetPotionLightRed_63
+  - first:
+      213: -6740765964260031685
+    second: SpriteSheetPotionLightRed_64
+  - first:
+      213: -6583156533440802165
+    second: SpriteSheetPotionLightRed_65
+  - first:
+      213: 693150091421502549
+    second: SpriteSheetPotionLightRed_66
+  - first:
+      213: -3145934740142327212
+    second: SpriteSheetPotionLightRed_67
+  - first:
+      213: -8716815566648975867
+    second: SpriteSheetPotionLightRed_68
+  - first:
+      213: -5307099446821577107
+    second: SpriteSheetPotionLightRed_69
+  - first:
+      213: -8325195190388666760
+    second: SpriteSheetPotionLightRed_70
+  - first:
+      213: 7870361992738277829
+    second: SpriteSheetPotionLightRed_71
+  - first:
+      213: 557990805366207072
+    second: SpriteSheetPotionLightRed_72
+  - first:
+      213: 9173650099061480290
+    second: SpriteSheetPotionLightRed_73
+  - first:
+      213: -8327627835177486741
+    second: SpriteSheetPotionLightRed_74
+  - first:
+      213: -7813724023567093338
+    second: SpriteSheetPotionLightRed_75
+  - first:
+      213: -7177794533211405685
+    second: SpriteSheetPotionLightRed_76
+  - first:
+      213: 2448559467858450684
+    second: SpriteSheetPotionLightRed_77
+  - first:
+      213: -4027079352725460961
+    second: SpriteSheetPotionLightRed_78
+  - first:
+      213: -284588625231545403
+    second: SpriteSheetPotionLightRed_79
+  - first:
+      213: 8361082677085791216
+    second: SpriteSheetPotionLightRed_80
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -32,15 +275,15 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +292,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -69,13 +312,1725 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6732ee5c1fd4b1190e50974d053011
+      internalID: -2192735479654716622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537c2f341b4274880af0f64b5b07a79a
+      internalID: -5391573460266568093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda02cfd117fb444f9fba083263f5137
+      internalID: -4481906029339566496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16b254a215644b7384e763e6eb594b5
+      internalID: -7315389682183888534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275d5f132a2c04e908516b8d74315080
+      internalID: 2110577762112065940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_5
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543c70ccb61ea4dd4a703ac746b36fd8
+      internalID: 5166882600825827203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_6
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5725e0d5f354449b4a18c7cb6c3e3792
+      internalID: -2698957213866942516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_7
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf91ce0f30424a09b62cd82e18a83c4
+      internalID: 307120926090898139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_8
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1040
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b369cfaa14e1f40d5b2299a29a535a51
+      internalID: -300326107909967291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df22ab9d87844ea884366ecce23fead
+      internalID: 3325417164650856503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edceccccd0605409d8bc616d96ffd07a
+      internalID: -3940076040456218747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c19b7f7db8dc4f0bbb2091f8c9913bc
+      internalID: 5637507885366937078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_12
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73babdaaaee34e38ae91e76b0904303
+      internalID: 7119666935565910197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_13
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3247a8402ed4f41928c32fa0cdc995
+      internalID: -1114341056640122656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_14
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c250fa97d1b40fca8ddc407d3491d7
+      internalID: -16454184996794718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_15
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1bc33f0aadb48dfbdbd97dcec0846d
+      internalID: -2339905118003297087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_16
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045b37e1369034151a95384e09323d3f
+      internalID: 6427300395529793795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_17
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 910
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce86a49e7df841c3be0672d82c18e15
+      internalID: -977414393650369907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b24e17fdef9242ee8600cf12cbe7784
+      internalID: -671213893397350752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4b2eeefe4834b00996150d399b9cde
+      internalID: -8579899010433040912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c74c4e11ce74e23bca3487f7e91da0
+      internalID: -1418510871910211399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_21
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95ca734358ff428999a20cb0fc0111b
+      internalID: 173529668849316882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_22
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3e0b2b3bcea4f699679746a3e9400a
+      internalID: 1818896912077964104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_23
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17647c5bb850a43ff8bbeffbc5560d66
+      internalID: -6581294080291599784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_24
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7575e6b79414c78b33852be3c3a9d7
+      internalID: -4490239173910053308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_25
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7886e1c3ec6f048929a3b9aceec47d77
+      internalID: 7951848483410750814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_26
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 780
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080e3e80113a746608d9c7b7ab85f31d
+      internalID: -2462439349163810961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_27
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1424982e8ef4bd3b589af77efc8505
+      internalID: 496369689255398881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_28
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092747d3ff9774593a3d683627fd588d
+      internalID: -4200648168463825899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9aacf8c41d447b587b6597517463d1
+      internalID: -6649451047562850953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_30
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b3633b07f584942b27ee5f1b62af29
+      internalID: 6945240386099791546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c317a5c2cbbab48b3be00fb4e290bd8f
+      internalID: 8393970316777259012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_32
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66cc03e336de4e079fe612b4f754593
+      internalID: 8046359960310243772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_33
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b5c41c4aad349c592d979fbc27ab75
+      internalID: 2993730602357281198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_34
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f95b068bfae4f2a86424dd9271b9b4
+      internalID: -3040850730704101590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_35
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 650
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4592cab93d804d66a829cf4b5401a3a
+      internalID: -5321440223210985463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1057025647949cab490a3a1f728894
+      internalID: -641968625277085192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_37
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126597ea53ba949a1925badb04cadb9e
+      internalID: -1924008116420045003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6f9dcccfff84d9e9ccb2125f0b02a1
+      internalID: 3550494235824154463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_39
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd73a7b651d574e06a351857cdd0b9af
+      internalID: -3006179807200472121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_40
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43382ae69682d4c9aa543f92f71ec362
+      internalID: 6225201866805879525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_41
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c85269b78764ecfb98d317341b8553
+      internalID: -4804266496501758346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_42
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6f2d0647f9c409fb78e465747ddebb
+      internalID: 2692151366202331453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_43
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba973a44c02946dab2ca110f5b66f0c
+      internalID: -4670467931943402354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_44
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 520
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919dd0d675de64d859baf91bffbcd1e9
+      internalID: -2521876347024137014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f269dd2fd277c415dbc780c2fa4cf51e
+      internalID: 8318575986778988224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_46
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7ccdd87d94e4c97a90b7c128fcbb60
+      internalID: -4384224053020119952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_47
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d781807994444e69a995f497e381d9c
+      internalID: -4431804292895701467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_48
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217368b90d52c4cf3ae5189ff417e340
+      internalID: 7595728489680358016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_49
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9096fdba2e0684d788897c64070db70e
+      internalID: -6524147092266716126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_50
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956595792fdcb436c8a4fd5ea244351d
+      internalID: -4816425831172716094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_51
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8883c9e5147bf4f7daf8ae832a058534
+      internalID: -7268031357211102360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_52
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012ed11a03bd54cdca80956a39f8e810
+      internalID: 6289971004313228099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_53
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 390
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9509367a225114f2bab6922f968c9453
+      internalID: -6035449197171766020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec456a34c6bc41b48616c69e8c4463c
+      internalID: 6253200647917483120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_55
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad4c39a06b2341588d3b196dc22663c
+      internalID: -9176725381215378807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_56
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5791427edfb7a41cb8449cad626a5d34
+      internalID: 405677993563961126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_57
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ad903c475a1482fa76f0605ff02962
+      internalID: -5039228020411061405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_58
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049d2cb6e4c4e4f4c9c907710d964405
+      internalID: -7014672890487161521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_59
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3ef5c5d9b2046e18d7ede619ec97c4
+      internalID: -2422988859202705402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_60
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacaf117fea824dd18174678a015f9d1
+      internalID: 1797071386544800938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_61
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62afeee017f094aa1be56167413e85f0
+      internalID: -4248790857757042966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_62
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 260
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d4f4fd02b754f63bc93c41c6fe3386
+      internalID: -5489544015708604675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_63
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c00f170ca7d4454960158b93981850
+      internalID: 7728555683134712694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_64
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107a572c87b96467382309797f25dbcb
+      internalID: -6740765964260031685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_65
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02bc79b496fb4401ad921bf4ba82f4f
+      internalID: -6583156533440802165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_66
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a46949139762473abf49c82bdda5325
+      internalID: 693150091421502549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_67
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ac371bcf69243b5846f149bcbcc80e
+      internalID: -3145934740142327212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_68
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0654713378445029b3310451ebcc9c
+      internalID: -8716815566648975867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_69
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee9c26cc7f4845558c01209baa6ac08
+      internalID: -5307099446821577107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_70
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a826a4a61b7d4beb87097a0e48658ef
+      internalID: -8325195190388666760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_71
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 130
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e644a79b9bc24e82bad04c8b24148f1
+      internalID: 7870361992738277829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7f3702107634dfa8abb5561fefc7c7
+      internalID: 557990805366207072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_73
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475fd48c8703a45d3a593ac41914ffad
+      internalID: 9173650099061480290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_74
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414a9fca71f184bb786a37b45f98ab1c
+      internalID: -8327627835177486741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_75
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4148e2486a5043248ae68c794407ed2
+      internalID: -7813724023567093338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_76
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bbfcec2ebb84f6dbe625fdbf58b073
+      internalID: -7177794533211405685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_77
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce192b12ccc34e31afa96bc091dc650
+      internalID: 2448559467858450684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_78
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccdff58806b544c4acbce875737e567
+      internalID: -4027079352725460961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_79
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f57023687684bdc90ae7a809d80154
+      internalID: -284588625231545403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPotionLightRed_80
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 0
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009a435a668764bb28e6dd6fbd7a2bc2
+      internalID: 8361082677085791216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5a333aa35f3254f2f8aefbe483974c86
     internalID: 0
     vertices: []
     indices: 
