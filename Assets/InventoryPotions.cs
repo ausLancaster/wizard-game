@@ -35,6 +35,6 @@ public class InventoryPotions : MonoBehaviour
 
     public void AddToPotionInventory(Image potion)
     {
-            Instantiate(potion, transform);
+            Instantiate(potion, transform).name = "potion";
     }
 }
