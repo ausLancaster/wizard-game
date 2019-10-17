@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class PotionAppearanceCreation : MonoBehaviour
 {
+    public InGameController GC;
 	private int sum = 0;
     private int keyPress = 0;
     private float resetTime = 2.0f;
@@ -20,7 +21,6 @@ public class PotionAppearanceCreation : MonoBehaviour
     private bool waitForSpecial = false;
     private bool normalItems = true;
     private bool baseMade = false;
-    private int numPotions = 0;
 
     // Different potion types 
     public Image fire;
@@ -139,7 +139,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             Debug.Log("why");
             special = true;
             // https://stackoverflow.com/questions/26622675/get-bottom-most-child
-            childOutline = potions.transform.GetChild(potions.transform.childCount - numPotions).gameObject.GetComponent<Outline>();
+            childOutline = potions.transform.GetChild(potions.transform.childCount - GC.numPotions).gameObject.GetComponent<Outline>();
             childOutline.effectColor = new Color(0.13f, 1.0f, 0.0f, 1.0f);
             childOutline.effectDistance = new Vector2(5, 2);
 
@@ -153,7 +153,7 @@ public class PotionAppearanceCreation : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Alpha5) && potions.transform.childCount > 0/*&& Inventory.eggCount > 0*/)
         {
             // egg added
-            childOutline = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Outline>();
+            childOutline = potions.transform.GetChild(potions.transform.childCount - GC.numPotions).gameObject.GetComponent<Outline>();
             childOutline.effectColor = new Color(1.0f, 0.0f, 0.0f, 1.0f);
             childOutline.effectDistance = new Vector2(5, 2);
 
@@ -178,7 +178,7 @@ public class PotionAppearanceCreation : MonoBehaviour
         //waitForSpecial = true;
         //baseMade = true;
         //normalItems = false;
-        numPotions += 1;
+        GC.numPotions++;
 
 
     }
