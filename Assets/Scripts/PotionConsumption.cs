@@ -1,9 +1,10 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PotionConsumption : MonoBehaviour
 {
+    public InGameController GC;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class PotionConsumption : MonoBehaviour
                 //Destroy(GameObject.Find("Content").transform.GetChild(0).gameObject);
                 // https://answers.unity.com/questions/467900/first-of-a-gameobject.html
                 Destroy(gameObject.transform.GetChild(0).gameObject);
+                GC.numPotions -= 1;
             }
         }
         
