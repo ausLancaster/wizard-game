@@ -36,7 +36,7 @@ public class InventoryPotions : MonoBehaviour
     public void AddToPotionInventory(Image potion)
     {
             Instantiate(potion, transform).name = "potion";
-        Debug.Log("why");
+            /*Debug.Log("why");*/
 
     }
 }
