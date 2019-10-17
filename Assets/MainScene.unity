@@ -1122,7 +1122,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2141788123}
   m_HandleRect: {fileID: 2141788122}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3601,6 +3601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332de4017081c43d38c242be62336017, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GC: {fileID: 1985363776}
   fire: {fileID: 7750438927228650600, guid: 7f08b5375d0fb45c796e6ff83fc435f7, type: 3}
   poison: {fileID: 2979517025008517961, guid: b179abea347f640f6a6f237a04660ece, type: 3}
   acid: {fileID: 8470912451107358149, guid: 87534acce0f7c4f408aa9a207c46c652, type: 3}
@@ -4662,6 +4663,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI_Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 6295732264810142282, guid: 936a27936c7bf58419182d57783435c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295732264810142280, guid: 936a27936c7bf58419182d57783435c0,
+        type: 3}
+      propertyPath: inGameController
+      value: 
+      objectReference: {fileID: 1985363776}
+    - target: {fileID: 6295732264810142280, guid: 936a27936c7bf58419182d57783435c0,
+        type: 3}
+      propertyPath: inventoryCanvas
+      value: 
+      objectReference: {fileID: 459175803}
     - target: {fileID: 6295732264810142281, guid: 936a27936c7bf58419182d57783435c0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4717,16 +4733,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6295732264810142280, guid: 936a27936c7bf58419182d57783435c0,
-        type: 3}
-      propertyPath: inGameController
-      value: 
-      objectReference: {fileID: 1985363776}
-    - target: {fileID: 6295732264810142280, guid: 936a27936c7bf58419182d57783435c0,
-        type: 3}
-      propertyPath: inventoryCanvas
-      value: 
-      objectReference: {fileID: 459175803}
     - target: {fileID: 6295732263727158758, guid: 936a27936c7bf58419182d57783435c0,
         type: 3}
       propertyPath: m_Enabled
@@ -6026,6 +6032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 116a6b88728aa428f8b6efbe17aff988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GC: {fileID: 1985363776}
 --- !u!1 &1924042927
 GameObject:
   m_ObjectHideFlags: 0
@@ -6270,6 +6277,7 @@ MonoBehaviour:
   UI: {fileID: 9765249}
   pausedCanvas: {fileID: 0}
   inventoryCanvas: {fileID: 0}
+  numPotions: 0
 --- !u!4 &1985363777
 Transform:
   m_ObjectHideFlags: 0
@@ -6365,7 +6373,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1137845685}
   m_HandleRect: {fileID: 1137845684}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
