@@ -20,6 +20,7 @@ public class PotionAppearanceCreation : MonoBehaviour
     private bool waitForSpecial = false;
     private bool normalItems = true;
     private bool baseMade = false;
+    private int numPotions = 0;
 
     // Different potion types 
     public Image fire;
@@ -88,7 +89,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             //items.AddItemToList(items.eyebrows, caterpillarAdded);
         }
 
-        if (keyPress==0)
+        if (keyPress==0 && sum==0)
         {
             resetTime -= Time.deltaTime;
             if (resetTime<0)
@@ -138,7 +139,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             Debug.Log("why");
             special = true;
             // https://stackoverflow.com/questions/26622675/get-bottom-most-child
-            childOutline = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Outline>();
+            childOutline = potions.transform.GetChild(potions.transform.childCount - numPotions).gameObject.GetComponent<Outline>();
             childOutline.effectColor = new Color(0.13f, 1.0f, 0.0f, 1.0f);
             childOutline.effectDistance = new Vector2(5, 2);
 
@@ -177,6 +178,7 @@ public class PotionAppearanceCreation : MonoBehaviour
         //waitForSpecial = true;
         //baseMade = true;
         //normalItems = false;
+        numPotions += 1;
 
 
     }
