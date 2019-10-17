@@ -7,6 +7,7 @@ public class InventoryPotions : MonoBehaviour
 {
 
     // https://www.studica.com/blog/unity-ui-tutorial-scroll-grid
+    // https://stackoverflow.com/questions/39099265/horizontal-scrollview-with-images-constant-height-in-unity3d-ui-how
     public int number;
     public GameObject image;
     //public PotionAppearanceCreation potionAppearanceCreation;

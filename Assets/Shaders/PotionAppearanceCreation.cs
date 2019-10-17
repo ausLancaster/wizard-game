@@ -7,23 +7,26 @@ public class PotionAppearanceCreation : MonoBehaviour
 {
 	private int sum = 0;
     private int keyPress = 0;
-    public Image potionImage;
     private float resetTime = 1.0f;
-    public GameObject inventory;
     private InventoryPotions InventoryPotions;
     private Image firePotion;
+    private Inventory Inventory;
 
-    public Sprite fire;
-    public Sprite poison;
-    public Sprite acid;
-    public Sprite health;
-    public Sprite failed;
-    public Sprite plain;
+    public Image fire;
+    public Image poison;
+    public Image acid;
+    public Image health;
+    public Image failed;
+    public Image plain;
+    public GameObject potions;
+    public Image potionImage;
+    public GameObject player;
 
     private void Awake()
     {
         potionImage = GetComponent<Image>();
-        InventoryPotions = inventory.GetComponent<InventoryPotions>();
+        InventoryPotions = potions.GetComponent<InventoryPotions>();
+        Inventory = player.GetComponent<Inventory>();
         
     }
 
@@ -36,31 +39,31 @@ public class PotionAppearanceCreation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1) == true)
+        if (Input.GetKeyDown(KeyCode.Alpha1) /*&& Inventory.leafCount > 0*/)
 		{
             // leaf added
             sum += 2;
             keyPress++;
 		}
-        else if (Input.GetKeyDown(KeyCode.Alpha2) == true)
+        else if (Input.GetKeyDown(KeyCode.Alpha2) /*&& Inventory.flowerCount > 0*/)
         {
             // flower added 
             sum += 3;
             keyPress++;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) == true)
+        else if (Input.GetKeyDown(KeyCode.Alpha3) /*&& Inventory.eyeCount > 0*/)
         {
             // eyeball added
             sum += 5;
             keyPress++;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4) == true)
+        else if (Input.GetKeyDown(KeyCode.Alpha4) /*&& Inventory.caterpillarCount > 0*/)
         {
             // caterpillar added
             sum += 7;
             keyPress++;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha5) == true)
+        else if (Input.GetKeyDown(KeyCode.Alpha5) /*&& Inventory.eggCount > 0*/)
         {
             // egg added
             sum += 11;
@@ -72,7 +75,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             sum += 13;
             keyPress++;
         }
-        //Debug.Log("sum is " + sum);
+
 
         if (keyPress == 2)
         {
@@ -80,23 +83,27 @@ public class PotionAppearanceCreation : MonoBehaviour
             {
                 //potionImage.sprite = fire;
                 CreatePotionAndAdd(fire);
+                //InventoryPotions.AddToPotionInventory(fire);
             }
             else if (sum == 7)
             {
-                Debug.Log("test");
-                potionImage.sprite = poison;
+                //Debug.Log("test");
+                //InventoryPotions.AddToPotionInventory(poison);
+                CreatePotionAndAdd(poison);
             }
             else if (sum == 8)
             {
-                potionImage.sprite = acid;
+                //InventoryPotions.AddToPotionInventory(acid);
+                CreatePotionAndAdd(acid);
             }
             else if (sum == 18)
             {
-                potionImage.sprite = health;
+                //InventoryPotions.AddToPotionInventory(health);
+                CreatePotionAndAdd(health);
             }
             else
             {
-                potionImage.sprite = failed;
+                potionImage.sprite = failed.sprite;
             }
 
             // Reset sum and flag for next potion creation 
@@ -105,9 +112,9 @@ public class PotionAppearanceCreation : MonoBehaviour
         }
     }
 
-    private void CreatePotionAndAdd(Sprite potionType)
+    private void CreatePotionAndAdd(Image potionType)
     {
-        potionImage.sprite = potionType;
-        InventoryPotions.AddToPotionInventory(potionImage);
+        potionImage.sprite = potionType.sprite;
+        InventoryPotions.AddToPotionInventory(potionType);
     }
 }
