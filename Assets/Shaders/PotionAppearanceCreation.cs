@@ -113,6 +113,10 @@ public class PotionAppearanceCreation : MonoBehaviour
                 //InventoryPotions.AddToPotionInventory(health);
                 CreatePotionAndAdd(health);
             }
+            else
+            {
+                potionImage.sprite = failed.sprite;
+            }
             sum = 0;
             keyPress = 0;
         }
@@ -127,7 +131,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             childOutline.effectDistance = new Vector2(5, 2);
 
             //potionImage = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Image>();
-            items.AddItemToList(items.caterpillar, caterpillarAdded);
+            //items.AddItemToList(items.caterpillar, caterpillarAdded);
 
             sum = 0;
             keyPress = 0;
@@ -141,7 +145,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             childOutline.effectDistance = new Vector2(5, 2);
 
             //potionImage = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Image>();
-            items.AddItemToList(items.egg, caterpillarAdded);
+            //items.AddItemToList(items.egg, caterpillarAdded);
 
             sum = 0;
             keyPress = 0;
