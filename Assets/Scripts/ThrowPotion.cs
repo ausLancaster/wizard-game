@@ -57,7 +57,7 @@ public class ThrowPotion : MonoBehaviour
         }
         if (cooldownTimer <= 0)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) && GameObject.Find("Content").transform.childCount > 0)
             {
                 target.gameObject.SetActive(true);
                 aimAmount = 0;
