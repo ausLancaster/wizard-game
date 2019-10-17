@@ -11,6 +11,7 @@ public class PotionAppearanceCreation : MonoBehaviour
     private InventoryPotions InventoryPotions;
     private Image firePotion;
     private Inventory Inventory;
+    private Image previousPotion;
 
     public Image fire;
     public Image poison;
@@ -96,8 +97,9 @@ public class PotionAppearanceCreation : MonoBehaviour
                 //InventoryPotions.AddToPotionInventory(acid);
                 CreatePotionAndAdd(acid);
             }
-            else if (sum == 18)
+            else if (sum == 16)
             {
+                // eyebrows (13) and flower (3)
                 //InventoryPotions.AddToPotionInventory(health);
                 CreatePotionAndAdd(health);
             }
@@ -110,11 +112,13 @@ public class PotionAppearanceCreation : MonoBehaviour
             sum = 0;
             keyPress = 0;
         }
+
+
     }
 
     private void CreatePotionAndAdd(Image potionType)
     {
-        potionImage.sprite = potionType.sprite;
-        InventoryPotions.AddToPotionInventory(potionType);
+            potionImage.sprite = potionType.sprite;
+            InventoryPotions.AddToPotionInventory(potionType);
     }
 }

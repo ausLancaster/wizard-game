@@ -15,9 +15,12 @@ public class PotionConsumption : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) ==  true)
         {
-            //Destroy(GameObject.Find("Content").transform.GetChild(0).gameObject);
-            // https://answers.unity.com/questions/467900/first-of-a-gameobject.html
-            Destroy(gameObject.transform.GetChild(0).gameObject);
+            if (gameObject.transform.childCount > 0)
+            {
+                //Destroy(GameObject.Find("Content").transform.GetChild(0).gameObject);
+                // https://answers.unity.com/questions/467900/first-of-a-gameobject.html
+                Destroy(gameObject.transform.GetChild(0).gameObject);
+            }
         }
         
     }
