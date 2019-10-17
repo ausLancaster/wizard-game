@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +7,7 @@ public class PotionAppearanceCreation : MonoBehaviour
 {
 	private int sum = 0;
     private int keyPress = 0;
-    private float resetTime = 1.0f;
+    private float resetTime = 2.0f;
     private InventoryPotions InventoryPotions;
     private Image firePotion;
     private Inventory Inventory;
@@ -86,6 +86,18 @@ public class PotionAppearanceCreation : MonoBehaviour
             //keyPress++;
             AddItem(13, items.eyebrows);
             //items.AddItemToList(items.eyebrows, caterpillarAdded);
+        }
+
+        if (keyPress==0)
+        {
+            resetTime -= Time.deltaTime;
+            if (resetTime<0)
+            {
+                potionImage.sprite = plain.sprite;
+                sum = 0;
+                keyPress = 0;
+                resetTime = 2.0f;
+            }
         }
 
         if (keyPress == 2)
