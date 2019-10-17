@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 
 public class HealthManager : MonoBehaviour
@@ -11,6 +12,7 @@ public class HealthManager : MonoBehaviour
     public bool isDead = false;
     public UnityEvent zeroHealthEvent;
     public float sceneDelay = 3;
+    public Slider healthbar;
 
     public float invincibilityLength = 3;
     private float invincibilityCounter;
@@ -23,11 +25,14 @@ public class HealthManager : MonoBehaviour
     void Start()
     {
         this.ResetHealthToStarting();
+        healthbar.value = (float) currentHealth / maxHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
+        healthbar.value = (float) currentHealth / maxHealth;
+
         // Player only flashes when invincible
         if (invincibilityCounter > 0)
         {

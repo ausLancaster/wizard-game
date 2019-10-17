@@ -27,7 +27,7 @@ public class ItemAnimation : MonoBehaviour
     {
         if (Input.GetKeyDown(key) == true)
         {
-            itemAnimation.Play("test");
+            itemAnimation.Play("Movement");
             itemAnimation.StopPlayback();
         } 
     }

@@ -76,25 +76,27 @@ public class PotionAppearanceCreation : MonoBehaviour
 
         if (keyPress == 2)
         {
-            switch (sum)
+            if (sum == 5)
             {
-                case 5:
-                    //potionImage.sprite = fire;
-                    CreatePotionAndAdd(fire);
-                    break;
-                case 7:
-                    Debug.Log("test");
-                    potionImage.sprite = poison;
-                    break;
-                case 8:
-                    potionImage.sprite = acid;
-                    break;
-                case 18:
-                    potionImage.sprite = health;
-                    break;
-                default:
-                    potionImage.sprite = failed;
-                    break;
+                //potionImage.sprite = fire;
+                CreatePotionAndAdd(fire);
+            }
+            else if (sum == 7)
+            {
+                Debug.Log("test");
+                potionImage.sprite = poison;
+            }
+            else if (sum == 8)
+            {
+                potionImage.sprite = acid;
+            }
+            else if (sum == 18)
+            {
+                potionImage.sprite = health;
+            }
+            else
+            {
+                potionImage.sprite = failed;
             }
 
             // Reset sum and flag for next potion creation 
