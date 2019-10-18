@@ -33,6 +33,8 @@ public class ThrowPotion : MonoBehaviour
     float aimAmount=-1;
     float targetY;
     
+    public InGameController GC;
+    
     void Start()
     {
         cooldownTimer = cooldownAmount;
