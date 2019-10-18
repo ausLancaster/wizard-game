@@ -11,6 +11,7 @@ public class InGameController : MonoBehaviour
     public Canvas pausedCanvas;
     public Canvas inventoryCanvas;
     public int numPotions;
+    public List<string> potionQueue = new List<string>();
 
     void Start()
     {
