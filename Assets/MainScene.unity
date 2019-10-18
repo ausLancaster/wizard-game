@@ -292,6 +292,7 @@ MonoBehaviour:
   key: 51
   item: {fileID: 1950096094}
   itemAnimation: {fileID: 0}
+  GC: {fileID: 0}
 --- !u!1001 &152609014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -411,6 +412,11 @@ PrefabInstance:
       propertyPath: eyebrowReadyUI
       value: 
       objectReference: {fileID: 800246509195122319}
+    - target: {fileID: 8296172669070570552, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: GC
+      value: 
+      objectReference: {fileID: 1985363776}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3e44f97ae2254d458899a60b15ffac9, type: 3}
 --- !u!1 &180556432
@@ -542,12 +548,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b9364925a474eedb573f7208a85c9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leaf: {fileID: 0}
-  flower: {fileID: 0}
-  eye: {fileID: 0}
-  caterpillar: {fileID: 0}
-  egg: {fileID: 0}
-  eyebrows: {fileID: 0}
+  leaf: {fileID: 3668617680276895059, guid: 90c9d5ada609140b697314609692667e, type: 3}
+  flower: {fileID: 5597286766751474341, guid: bf4f4155d15c4451abbc65f110b67af3, type: 3}
+  eye: {fileID: 4141631115643282799, guid: 0f50f846c281942deb8a3c4a914dbb6c, type: 3}
+  caterpillar: {fileID: 5599996975762551901, guid: 01c9d809d38dd497faf132890bd30288,
+    type: 3}
+  egg: {fileID: 672057261323773050, guid: 09afe18a035f44fb0a0110293418a9b0, type: 3}
+  eyebrows: {fileID: 5104598275370049299, guid: 5d8ee3144273242b9b708f35f64b932c,
+    type: 3}
 --- !u!114 &198041417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1076,7 +1084,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2141788123}
   m_HandleRect: {fileID: 2141788122}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2057,6 +2065,7 @@ MonoBehaviour:
   key: 50
   item: {fileID: 934495299}
   itemAnimation: {fileID: 0}
+  GC: {fileID: 0}
 --- !u!1 &770509485
 GameObject:
   m_ObjectHideFlags: 0
@@ -2181,6 +2190,7 @@ MonoBehaviour:
   key: 49
   item: {fileID: 1512064107}
   itemAnimation: {fileID: 0}
+  GC: {fileID: 0}
 --- !u!1 &830158678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2620,6 +2630,7 @@ MonoBehaviour:
   key: 52
   item: {fileID: 1774383473}
   itemAnimation: {fileID: 0}
+  GC: {fileID: 0}
 --- !u!1 &934495296
 GameObject:
   m_ObjectHideFlags: 0
@@ -3047,6 +3058,7 @@ MonoBehaviour:
   key: 52
   item: {fileID: 1774383473}
   itemAnimation: {fileID: 0}
+  GC: {fileID: 0}
 --- !u!1 &1045024713
 GameObject:
   m_ObjectHideFlags: 0
@@ -3551,7 +3563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332de4017081c43d38c242be62336017, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GC: {fileID: 0}
+  GC: {fileID: 1985363776}
   fire: {fileID: 7750438927228650600, guid: 7f08b5375d0fb45c796e6ff83fc435f7, type: 3}
   poison: {fileID: 2979517025008517961, guid: b179abea347f640f6a6f237a04660ece, type: 3}
   acid: {fileID: 8470912451107358149, guid: 87534acce0f7c4f408aa9a207c46c652, type: 3}
@@ -3561,7 +3573,7 @@ MonoBehaviour:
   potions: {fileID: 1919891000}
   potionImage: {fileID: 1216080719}
   player: {fileID: 1472240893}
-  addedItems: {fileID: 1919891000}
+  addedItems: {fileID: 198041414}
 --- !u!1 &1255038024
 GameObject:
   m_ObjectHideFlags: 0
@@ -4612,7 +4624,7 @@ PrefabInstance:
     - target: {fileID: 6295732264810142282, guid: 936a27936c7bf58419182d57783435c0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6295732264810142280, guid: 936a27936c7bf58419182d57783435c0,
         type: 3}
@@ -4708,7 +4720,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 3ca01c7508341c14381badca40ebd4a0, type: 3}
+      objectReference: {fileID: 2800000, guid: e3b663433b09148fe985a7385a5ce783, type: 3}
     - target: {fileID: 6295732264254988545, guid: 936a27936c7bf58419182d57783435c0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -5567,6 +5579,7 @@ MonoBehaviour:
   key: 53
   item: {fileID: 836544103}
   itemAnimation: {fileID: 0}
+  GC: {fileID: 0}
 --- !u!1 &1862238288
 GameObject:
   m_ObjectHideFlags: 0
@@ -5880,6 +5893,7 @@ MonoBehaviour:
   key: 54
   item: {fileID: 1382485929}
   itemAnimation: {fileID: 0}
+  GC: {fileID: 0}
 --- !u!1 &1919891000
 GameObject:
   m_ObjectHideFlags: 0
@@ -5984,7 +5998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 116a6b88728aa428f8b6efbe17aff988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GC: {fileID: 0}
+  GC: {fileID: 1985363776}
 --- !u!1 &1924042927
 GameObject:
   m_ObjectHideFlags: 0
@@ -6230,6 +6244,8 @@ MonoBehaviour:
   pausedCanvas: {fileID: 1597461960}
   inventoryCanvas: {fileID: 604691139}
   numPotions: 0
+  potionQueue: []
+  ingredientsEnabled: 0
 --- !u!4 &1985363777
 Transform:
   m_ObjectHideFlags: 0
@@ -6325,7 +6341,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1137845685}
   m_HandleRect: {fileID: 1137845684}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
