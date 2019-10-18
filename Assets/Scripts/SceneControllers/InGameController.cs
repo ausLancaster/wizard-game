@@ -10,16 +10,18 @@ public class InGameController : MonoBehaviour
     public UI_Manager UI;
     public Canvas pausedCanvas;
     public Canvas inventoryCanvas;
+    public int numPotions;
 
     void Start()
     {
-        GameObject pausedMenu = GameObject.Find("PausedCanvas");
-        pausedCanvas = pausedMenu.GetComponent<Canvas>();
+        /*GameObject pausedMenu = GameObject.Find("PausedCanvas");
+        pausedCanvas = pausedMenu.GetComponent<Canvas>();*/
         pausedCanvas.enabled = false;
 
         GameObject inventory = GameObject.Find("UI");
         inventoryCanvas = inventory.GetComponent<Canvas>();
         inventoryCanvas.enabled = true;
+        numPotions = 0;
     }
 
     void Update()
