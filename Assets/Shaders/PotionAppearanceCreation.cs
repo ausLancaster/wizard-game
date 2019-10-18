@@ -56,29 +56,31 @@ public class PotionAppearanceCreation : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { 
-        if (Input.GetKeyDown(KeyCode.Alpha1) /*&& Inventory.leafCount > 0*/)
+    {   if (GC.ingredientsEnabled)
         {
-            // leaf added
-            //sum += 2;
-            //keyPress++;
-            AddItem(2, items.leaf);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2) /*&& Inventory.flowerCount > 0*/)
-        {
-            // flower added 
-            //sum += 3;
-            //keyPress++;
-            AddItem(3, items.flower);
-            //items.AddItemToList(items.flower, caterpillarAdded);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) /*&& Inventory.eyeCount > 0*/)
-        {
-            // eyeball added
-            //sum += 5;
-            //keyPress++;
-            AddItem(5, items.eye);
-            //items.AddItemToList(items.eye, caterpillarAdded);
+            if (Input.GetKeyDown(KeyCode.Alpha1) /*&& Inventory.leafCount > 0*/)
+            {
+                // leaf added
+                //sum += 2;
+                //keyPress++;
+                AddItem(2, items.leaf);
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha2) /*&& Inventory.flowerCount > 0*/)
+            {
+                // flower added 
+                //sum += 3;
+                //keyPress++;
+                AddItem(3, items.flower);
+                //items.AddItemToList(items.flower, caterpillarAdded);
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha3) /*&& Inventory.eyeCount > 0*/)
+            {
+                // eyeball added
+                //sum += 5;
+                //keyPress++;
+                AddItem(5, items.eye);
+                //items.AddItemToList(items.eye, caterpillarAdded);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.Alpha6) == true)
         {
@@ -98,11 +100,13 @@ public class PotionAppearanceCreation : MonoBehaviour
                 sum = 0;
                 keyPress = 0;
                 resetTime = 2.0f;
+                GC.ingredientsEnabled = true;
             }
         }
 
         if (keyPress == 2)
         {
+            GC.ingredientsEnabled = false;
             if (sum == 5)
             {
                 //potionImage.sprite = fire;
@@ -163,11 +167,6 @@ public class PotionAppearanceCreation : MonoBehaviour
             keyPress = 0;
 
         }
-       
-
-
-
-
     }
 
     private void CreatePotionAndAdd(Image potionType, string potionName)
