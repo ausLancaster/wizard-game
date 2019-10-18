@@ -1,61 +1,79 @@
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ItemsInPotion : MonoBehaviour
+public class InGameController : MonoBehaviour
 {
-    public Image leaf;
-    public Image flower;
-    public Image eye;
-    public Image caterpillar;
-    public Image egg;
-    public Image eyebrows;
+    public HealthManager healthManager;
+    public PlayerController player;
+    public UI_Manager UI;
+    public Canvas pausedCanvas;
+    public Canvas inventoryCanvas;
+    public int numPotions;
+    public List<string> potionQueue = new List<string>();
 
-    // Start is called before the first frame update
+    public bool ingredientsEnabled=true;
+
     void Start()
+    {
+        /*GameObject pausedMenu = GameObject.Find("PausedCanvas");
+        pausedCanvas = pausedMenu.GetComponent<Canvas>();*/
+        pausedCanvas.enabled = false;
+
+        GameObject inventory = GameObject.Find("UI");
+        inventoryCanvas = inventory.GetComponent<Canvas>();
+        inventoryCanvas.enabled = true;
+        numPotions = 0;
+        ingredientsEnabled = true;
+    }
+
+    void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ToggleInventory()
     {
-        //if (caterpillar == true)
-        //{
-        //    if (gameObject.transform.childCount > 3)
-        //    {
-        //        foreach (Transform child in transform)
-        //        {
-        //            Destroy(child.gameObject);
-        //        }
-        //    }
-        //}
-
-        //else if (caterpillar == false)      
-        //{
-        //    if (gameObject.transform.childCount > 2)
-        //    {
-        //        foreach (Transform child in transform)
-        //        {
-        //            Destroy(child.gameObject);
-        //        }
-        //    }
-        //} 
-    }
-
-    public void AddItemToList(Image item, bool caterpillar)
-    {
-        Instantiate(item, transform);
-        //Debug.Log("why");
-    }
-
-    public void ClearItemList()
-    {
-        // https://answers.unity.com/questions/611850/destroy-all-children-of-object.html
-        foreach (Transform child in transform)
+        if (inventoryCanvas.enabled)
         {
-            Destroy(child.gameObject);
+            inventoryCanvas.enabled = false;
+        }
+        else
+        {
+            inventoryCanvas.enabled = true;
         }
     }
+
+    public void TogglePauseMenu()
+    {
+        ToggleInventory();
+        // not the optimal way but for the sake of readability
+        if (pausedCanvas.enabled)
+        {
+            pausedCanvas.enabled = false;
+            UI.controlsCanvas.enabled = false;
+            UI.exitCanvas.enabled = false;
+            Time.timeScale = 1.0f;
+        }
+        else
+        {
+            pausedCanvas.enabled = true;
+            Time.timeScale = 0f;
+        }
+    }
+
+    public void GameOver()
+    {
+
+    }
+
+
+    public void ExitGame()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 }
+
