@@ -106,25 +106,24 @@ public class PotionAppearanceCreation : MonoBehaviour
             if (sum == 5)
             {
                 //potionImage.sprite = fire;
-                CreatePotionAndAdd(fire);
-                //InventoryPotions.AddToPotionInventory(fire);
+                CreatePotionAndAdd(fire, "fire");                //InventoryPotions.AddToPotionInventory(fire);
             }
             else if (sum == 7)
             {
                 //Debug.Log("test");
                 //InventoryPotions.AddToPotionInventory(poison);
-                CreatePotionAndAdd(poison);
+                CreatePotionAndAdd(poison,"poison");
             }
             else if (sum == 8)
             {
                 //InventoryPotions.AddToPotionInventory(acid);
-                CreatePotionAndAdd(acid);
+                CreatePotionAndAdd(acid,"acid");
             }
             else if (sum == 16)
             {
                 // eyebrows (13) and flower (3)
                 //InventoryPotions.AddToPotionInventory(health);
-                CreatePotionAndAdd(health);
+                CreatePotionAndAdd(health,"health");
             }
             else
             {
@@ -171,16 +170,15 @@ public class PotionAppearanceCreation : MonoBehaviour
 
     }
 
-    private void CreatePotionAndAdd(Image potionType)
+    private void CreatePotionAndAdd(Image potionType, string potionName)
     {
         potionImage.sprite = potionType.sprite;
         InventoryPotions.AddToPotionInventory(potionType);
         //waitForSpecial = true;
         //baseMade = true;
         //normalItems = false;
+        GC.potionQueue.Add(potionName);
         GC.numPotions++;
-
-
     }
 
     private void AddItem(int value, Image item)
