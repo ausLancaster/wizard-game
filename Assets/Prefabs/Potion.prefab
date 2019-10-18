@@ -231,7 +231,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b34f41f86b08247c693946b4d179ed01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakEffect: {fileID: 4245525370528299497, guid: 0cc9e5204001a4eb68084741b35abae6,
+  GC: {fileID: 0}
+  fireBreakEffect: {fileID: 4245525370528299497, guid: 0cc9e5204001a4eb68084741b35abae6,
+    type: 3}
+  poisonBreakEffect: {fileID: 3896310223033657236, guid: 02f81e9f6e7aa1d4bb223db67a09875c,
+    type: 3}
+  acidBreakEffect: {fileID: 110626784965283906, guid: 69cf71c0b5f1a684b9f534d93bbf55e2,
     type: 3}
 --- !u!1 &4668647363371645238
 GameObject:
