@@ -45,6 +45,8 @@ public class EnemyHealth : MonoBehaviour
 
         if (currentHealth <= 0 && !isDead)
         {
+            spawnLevel levelComp = GetComponentInParent<spawnLevel>();
+            levelComp.BlobKilled();
             Destroy(this.gameObject);
         }
 
