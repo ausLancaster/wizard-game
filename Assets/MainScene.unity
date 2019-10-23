@@ -390,6 +390,31 @@ PrefabInstance:
       propertyPath: inventoryCountEyebrow
       value: 
       objectReference: {fileID: 1779175325}
+    - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: leafCount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: flowerCount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: eyeCount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: caterpillarCount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: eggCount
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 423200964858897401, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: zeroHealthEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1084,7 +1109,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2141788123}
   m_HandleRect: {fileID: 2141788122}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3474,6 +3499,7 @@ GameObject:
   - component: {fileID: 1216080720}
   - component: {fileID: 1216080719}
   - component: {fileID: 1216080721}
+  - component: {fileID: 1216080722}
   m_Layer: 5
   m_Name: Potion
   m_TagString: Untagged
@@ -3561,6 +3587,21 @@ MonoBehaviour:
   potionImage: {fileID: 1216080719}
   player: {fileID: 1472240893}
   addedItems: {fileID: 198041414}
+--- !u!114 &1216080722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216080717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1255038024
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,7 +6287,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984422685}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.014303846, y: -1.250567, z: 0.923854}
+  m_LocalPosition: {x: -0.014303846, y: 0, z: 0.923854}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6384,7 +6425,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1137845685}
   m_HandleRect: {fileID: 1137845684}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
