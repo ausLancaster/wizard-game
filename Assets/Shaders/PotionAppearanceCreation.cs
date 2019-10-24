@@ -137,7 +137,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             keyPress = 0;
         }
 
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && potions.transform.childCount > 0 && Inventory.caterpillarCount > 0)
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && potions.transform.childCount > 0 && Inventory.caterpillarCount > 0 && !GC.poweredUp && GC.ingredientsEnabled)
         {
             Debug.Log("why");
             special = true;
@@ -148,12 +148,12 @@ public class PotionAppearanceCreation : MonoBehaviour
 
             //potionImage = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Image>();
             //items.AddItemToList(items.caterpillar, caterpillarAdded);
-
+            GC.poweredUp = true;
             sum = 0;
             keyPress = 0;
             //waitForSpecial = false;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha5) && potions.transform.childCount > 0 && Inventory.eggCount > 0)
+        else if (Input.GetKeyDown(KeyCode.Alpha5) && potions.transform.childCount > 0 && Inventory.eggCount > 0 && !GC.poweredUp && GC.ingredientsEnabled)
         {
             // egg added
             childOutline = potions.transform.GetChild(potions.transform.childCount - GC.numPotions).gameObject.GetComponent<Outline>();
@@ -162,7 +162,7 @@ public class PotionAppearanceCreation : MonoBehaviour
 
             //potionImage = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Image>();
             //items.AddItemToList(items.egg, caterpillarAdded);
-
+            GC.poweredUp = true;
             sum = 0;
             keyPress = 0;
 
