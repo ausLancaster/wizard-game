@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,7 +17,7 @@ public class EyebrowFeature : MonoBehaviour
     [SerializeField]
     Camera eyebrowCamera;
     [SerializeField]
-    Text collectedText;
+    GameObject collectedText;
     [SerializeField]
     float shaveDuration = 0.5f;
     [SerializeField]
@@ -47,7 +47,7 @@ public class EyebrowFeature : MonoBehaviour
         mainCamera.enabled = true;
         eyebrowCamera.enabled = false;
          shaver.gameObject.SetActive(false);
-        collectedText.enabled = false;
+        collectedText.SetActive(false);
         eyebrowReadyUI.SetActive(true);
     }
 
@@ -108,7 +108,7 @@ public class EyebrowFeature : MonoBehaviour
             yield return null;
         }
 
-        collectedText.enabled = true;
+        collectedText.SetActive(true);
         timePassed = 0;
         shaver.gameObject.SetActive(false);
         shaving = false;
@@ -120,7 +120,7 @@ public class EyebrowFeature : MonoBehaviour
         }
         mainCamera.enabled = true;
         eyebrowCamera.enabled = false;
-        collectedText.enabled = false;
+        collectedText.SetActive(false);
         var obj = Instantiate(eyebrowItem);
         obj.transform.position = transform.position;
         obj.transform.rotation = transform.rotation;
