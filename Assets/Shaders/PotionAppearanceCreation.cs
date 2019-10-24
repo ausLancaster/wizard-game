@@ -15,13 +15,12 @@ public class PotionAppearanceCreation : MonoBehaviour
     private Image previousPotion;
     private bool caterpillarAdded;
     private bool eggAdded;
-    private Outline potionOutline;
+    private Outline childOutline;
     private ItemsInPotion items;
     private bool special;
     private bool waitForSpecial = false;
     private bool normalItems = true;
     private bool baseMade = false;
-    private Image specialPotion;
 
     // Different potion types 
     public Image fire;
@@ -82,25 +81,13 @@ public class PotionAppearanceCreation : MonoBehaviour
                 AddItem(5, items.eye);
                 //items.AddItemToList(items.eye, caterpillarAdded);
             }
-
-            else if (Input.GetKeyDown(KeyCode.Alpha4))
-            {
-                // caterpillar added
-                AddItem(7, items.caterpillar);
-            }
-
-            else if (Input.GetKeyDown(KeyCode.Alpha5))
-            {
-                // egg added 
-                AddItem(11, items.egg);
-            }
         }
         else if (Input.GetKeyDown(KeyCode.Alpha6) == true)
         {
             // eyebrows added
             //sum += 13;
             //keyPress++;
-            AddItem(17, items.eyebrows);
+            AddItem(13, items.eyebrows);
             //items.AddItemToList(items.eyebrows, caterpillarAdded);
         }
 
@@ -110,8 +97,6 @@ public class PotionAppearanceCreation : MonoBehaviour
             if (resetTime<0)
             {
                 potionImage.sprite = plain.sprite;
-                potionImage.GetComponent<Outline>().effectColor = plain.GetComponent<Outline>().effectColor;
-                potionImage.GetComponent<Outline>().effectDistance = plain.GetComponent<Outline>().effectDistance;
                 sum = 0;
                 keyPress = 0;
                 resetTime = 2.0f;
@@ -138,29 +123,7 @@ public class PotionAppearanceCreation : MonoBehaviour
                 //InventoryPotions.AddToPotionInventory(acid);
                 CreatePotionAndAdd(acid,"acid");
             }
-            else if (sum == 10)
-            {
-                //potionOutline = fire.GetComponent<Outline>();
-                //potionOutline.effectColor = new Color(0.13f, 1.0f, 0.0f, 1.0f);
-                //potionOutline.effectDistance = new Vector2(5, 2);
-                CreatePotionAndAdd(SpecialPotion(fire, "caterpillar"), "Cfire");
-            }
-            else if (sum == 12)
-            {
-                //potionOutline = poison.GetComponent<Outline>();
-                //potionOutline.effectColor = new Color(0.13f, 1.0f, 0.0f, 1.0f);
-                //potionOutline.effectDistance = new Vector2(5, 2);
-                CreatePotionAndAdd(SpecialPotion(poison, "caterpillar"), "Cpoision");
-            }
-            else if (sum == 14)
-            {
-                CreatePotionAndAdd(SpecialPotion(fire, "egg"), "Efire");
-            }
             else if (sum == 16)
-            {
-                CreatePotionAndAdd(SpecialPotion(poison, "egg"), "Epoison");
-            }
-            else if (sum == 20)
             {
                 // eyebrows (13) and flower (3)
                 //InventoryPotions.AddToPotionInventory(health);
@@ -173,13 +136,42 @@ public class PotionAppearanceCreation : MonoBehaviour
             sum = 0;
             keyPress = 0;
         }
+
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && potions.transform.childCount > 0/*&& Inventory.caterpillarCount > 0*/)
+        {
+            Debug.Log("why");
+            special = true;
+            // https://stackoverflow.com/questions/26622675/get-bottom-most-child
+            childOutline = potions.transform.GetChild(potions.transform.childCount - GC.numPotions).gameObject.GetComponent<Outline>();
+            childOutline.effectColor = new Color(0.13f, 1.0f, 0.0f, 1.0f);
+            childOutline.effectDistance = new Vector2(5, 2);
+
+            //potionImage = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Image>();
+            //items.AddItemToList(items.caterpillar, caterpillarAdded);
+
+            sum = 0;
+            keyPress = 0;
+            //waitForSpecial = false;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha5) && potions.transform.childCount > 0/*&& Inventory.eggCount > 0*/)
+        {
+            // egg added
+            childOutline = potions.transform.GetChild(potions.transform.childCount - GC.numPotions).gameObject.GetComponent<Outline>();
+            childOutline.effectColor = new Color(1.0f, 0.0f, 0.0f, 1.0f);
+            childOutline.effectDistance = new Vector2(5, 2);
+
+            //potionImage = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Image>();
+            //items.AddItemToList(items.egg, caterpillarAdded);
+
+            sum = 0;
+            keyPress = 0;
+
+        }
     }
 
     private void CreatePotionAndAdd(Image potionType, string potionName)
     {
         potionImage.sprite = potionType.sprite;
-        potionImage.GetComponent<Outline>().effectColor = potionType.GetComponent<Outline>().effectColor;
-        potionImage.GetComponent<Outline>().effectDistance = potionType.GetComponent<Outline>().effectDistance;
         InventoryPotions.AddToPotionInventory(potionType);
         //waitForSpecial = true;
         //baseMade = true;
@@ -195,30 +187,5 @@ public class PotionAppearanceCreation : MonoBehaviour
         items.AddItemToList(item, caterpillarAdded);
         //normalItems = true;
 
-    }
-
-    private Image SpecialPotion (Image potion, string type)
-    {
-        if (type == "caterpillar")
-        {
-            specialPotion = Instantiate(potion);
-            specialPotion.GetComponent<Outline>().effectColor = new Color(0.13f, 1.0f, 0.0f, 1.0f);
-            specialPotion.GetComponent<Outline>().effectDistance = new Vector2(5, 2);
-            return specialPotion;
-        }
-
-        else if (type == "egg")
-        {
-            specialPotion = Instantiate(potion);
-            specialPotion.GetComponent<Outline>().effectColor = new Color(1.0f, 0.0f, 0.0f, 1.0f);
-            specialPotion.GetComponent<Outline>().effectDistance = new Vector2(5, 2);
-            return specialPotion;
-        }
-
-        // Incase something went wrong- return the normal version of whatever potion was passed in 
-        else
-        {
-            return potion;
-        }
     }
 }
