@@ -10,7 +10,8 @@ public class ItemAnimation : MonoBehaviour
     public Image item;
     public Animator itemAnimation;
     public InGameController GC;
-
+    public Text count;
+    public bool animate = true;
 
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class ItemAnimation : MonoBehaviour
     {
         GameObject controller = GameObject.Find("InGameController");
         GC = controller.GetComponent<InGameController>();
+        animate = true;
     }
 
     // Update is called once per frame
@@ -29,11 +31,19 @@ public class ItemAnimation : MonoBehaviour
     {
         if (GC.ingredientsEnabled)
         {
-            if (Input.GetKeyDown(key) == true)
+            if (Input.GetKeyDown(key) == true && animate==true)
             {
                 itemAnimation.Play("Movement");
                 itemAnimation.StopPlayback();
             }
         }
+        if (string.Compare(count.text, "0") == 0)
+        {
+            animate = false;
+        } else
+        {
+            animate = true;
+        }
+
     }
 }
