@@ -58,14 +58,14 @@ public class PotionAppearanceCreation : MonoBehaviour
     void Update()
     {   if (GC.ingredientsEnabled)
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1) /*&& Inventory.leafCount > 0*/)
+            if (Input.GetKeyDown(KeyCode.Alpha1) && Inventory.leafCount > 0)
             {
                 // leaf added
                 //sum += 2;
                 //keyPress++;
                 AddItem(2, items.leaf);
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha2) /*&& Inventory.flowerCount > 0*/)
+            else if (Input.GetKeyDown(KeyCode.Alpha2) && Inventory.flowerCount > 0)
             {
                 // flower added 
                 //sum += 3;
@@ -73,7 +73,7 @@ public class PotionAppearanceCreation : MonoBehaviour
                 AddItem(3, items.flower);
                 //items.AddItemToList(items.flower, caterpillarAdded);
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha3) /*&& Inventory.eyeCount > 0*/)
+            else if (Input.GetKeyDown(KeyCode.Alpha3) && Inventory.eyeCount > 0)
             {
                 // eyeball added
                 //sum += 5;
@@ -137,7 +137,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             keyPress = 0;
         }
 
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && potions.transform.childCount > 0/*&& Inventory.caterpillarCount > 0*/)
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && potions.transform.childCount > 0 && Inventory.caterpillarCount > 0)
         {
             Debug.Log("why");
             special = true;
@@ -153,7 +153,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             keyPress = 0;
             //waitForSpecial = false;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha5) && potions.transform.childCount > 0/*&& Inventory.eggCount > 0*/)
+        else if (Input.GetKeyDown(KeyCode.Alpha5) && potions.transform.childCount > 0 && Inventory.eggCount > 0)
         {
             // egg added
             childOutline = potions.transform.GetChild(potions.transform.childCount - GC.numPotions).gameObject.GetComponent<Outline>();
