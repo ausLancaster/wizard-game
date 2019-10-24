@@ -293,6 +293,8 @@ MonoBehaviour:
   item: {fileID: 1950096094}
   itemAnimation: {fileID: 0}
   GC: {fileID: 0}
+  count: {fileID: 883357483}
+  animate: 1
 --- !u!1001 &152609014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2063,6 +2065,8 @@ MonoBehaviour:
   item: {fileID: 934495299}
   itemAnimation: {fileID: 0}
   GC: {fileID: 0}
+  count: {fileID: 1796015451}
+  animate: 1
 --- !u!1 &770509485
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,6 +2192,8 @@ MonoBehaviour:
   item: {fileID: 1512064107}
   itemAnimation: {fileID: 0}
   GC: {fileID: 0}
+  count: {fileID: 1195204644}
+  animate: 1
 --- !u!1 &830158678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2703,6 +2709,8 @@ MonoBehaviour:
   item: {fileID: 1774383473}
   itemAnimation: {fileID: 0}
   GC: {fileID: 0}
+  count: {fileID: 1042520922}
+  animate: 1
 --- !u!1 &934495296
 GameObject:
   m_ObjectHideFlags: 0
@@ -3212,6 +3220,8 @@ MonoBehaviour:
   item: {fileID: 1774383473}
   itemAnimation: {fileID: 0}
   GC: {fileID: 0}
+  count: {fileID: 0}
+  animate: 1
 --- !u!1 &1045024713
 GameObject:
   m_ObjectHideFlags: 0
@@ -6200,6 +6210,8 @@ MonoBehaviour:
   item: {fileID: 836544103}
   itemAnimation: {fileID: 0}
   GC: {fileID: 0}
+  count: {fileID: 1943810947}
+  animate: 1
 --- !u!1 &1862238288
 GameObject:
   m_ObjectHideFlags: 0
@@ -6514,6 +6526,8 @@ MonoBehaviour:
   item: {fileID: 1382485929}
   itemAnimation: {fileID: 0}
   GC: {fileID: 0}
+  count: {fileID: 1779175325}
+  animate: 1
 --- !u!1 &1919891000
 GameObject:
   m_ObjectHideFlags: 0
