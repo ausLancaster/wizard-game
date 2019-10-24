@@ -8,6 +8,15 @@ public class UseItem : MonoBehaviour
     Inventory Inventory;
     public InGameController GC;
     public float time = 1.0f;
+
+    public int leafUsed;
+    public int flowerUsed;
+    public int eyeUsed;
+    public int catUsed;
+    public int eggUsed;
+    public int eyebrowUsed;
+
+
     private void Awake()
     {
         Inventory = GetComponent<Inventory>();
@@ -16,70 +25,100 @@ public class UseItem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        leafUsed = 0;
+        flowerUsed = 0;
+        eyeUsed = 0;
+        catUsed = 0;
+        eggUsed = 0;
+        eyebrowUsed = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (time >= 0)
+
+        if (GC.ingredientsEnabled)
         {
-            time -= Time.deltaTime;
-        }
-        else
-        {
-            if (GC.ingredientsEnabled)
+            if (Input.GetKeyDown(KeyCode.Alpha1) == true)
             {
-                if (Input.GetKeyDown(KeyCode.Alpha1) == true)
+                if (Inventory.leafCount > 0)
                 {
-                    if (Inventory.leafCount > 0)
-                    {
-                        Debug.Log("test");
-                        Inventory.leafCount--;
-                    }
-
+                    Debug.Log("test");
+                    leafUsed = 1;
                 }
 
-                if (Input.GetKeyDown(KeyCode.Alpha2) == true)
-                {
-                    if (Inventory.flowerCount > 0)
-                    {
-                        Inventory.flowerCount--;
-                    }
-                }
+            }
 
-                if (Input.GetKeyDown(KeyCode.Alpha3) == true)
+            if (Input.GetKeyDown(KeyCode.Alpha2) == true)
+            {
+                if (Inventory.flowerCount > 0)
                 {
-                    if (Inventory.eyeCount > 0)
-                    {
-                        Inventory.eyeCount--;
-                    }
+                    flowerUsed = 1;
                 }
+            }
 
-                if (Input.GetKeyDown(KeyCode.Alpha4) == true && GC.catEnabled)
+            if (Input.GetKeyDown(KeyCode.Alpha3) == true)
+            {
+                if (Inventory.eyeCount > 0)
                 {
-                    if (Inventory.caterpillarCount > 0)
-                    {
-                        Inventory.caterpillarCount--;
-                    }
+                    eyeUsed = 1;
                 }
+            }
 
-                if (Input.GetKeyDown(KeyCode.Alpha5) == true && GC.eggEnabled)
+            if (Input.GetKeyDown(KeyCode.Alpha4) == true && GC.catEnabled)
+            {
+                if (Inventory.caterpillarCount > 0)
                 {
-                    if (Inventory.eggCount > 0)
-                    {
-                        Inventory.eggCount--;
-                    }
+                    catUsed = 1;
                 }
+            }
 
-                if (Input.GetKeyDown(KeyCode.Alpha6) == true)
+            if (Input.GetKeyDown(KeyCode.Alpha5) == true && GC.eggEnabled)
+            {
+                if (Inventory.eggCount > 0)
                 {
-                    if (Inventory.eyebrowCount > 0)
-                    {
-                        Inventory.eyebrowCount--;
-                    }
+                    eggUsed = 1;
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha6) == true)
+            {
+                if (Inventory.eyebrowCount > 0)
+                {
+                    eyebrowUsed = 1;
                 }
             }
         }
+        time -= Time.deltaTime;
+        if (time <=0)
+        {
+            UpdateCount(leafUsed, flowerUsed, eyeUsed, catUsed, eggUsed, eyebrowUsed);
+            ResetCount();
+            time = 1.0f;
+        }
+
     }
+
+    public void UpdateCount(int leaf, int flower, int eye, int cat, int egg, int eyebrow)
+    {
+        Inventory.leafCount -= leaf;
+        Inventory.flowerCount -= flower;
+        Inventory.eyeCount -= eye;
+        Inventory.caterpillarCount -= cat;
+        Inventory.eggCount -= egg;
+        Inventory.eyebrowCount -= eyebrow;
+    }
+
+    public void ResetCount()
+    {
+        leafUsed = 0;
+        flowerUsed = 0;
+        eyeUsed = 0;
+        catUsed = 0;
+        eggUsed = 0;
+        eyebrowUsed = 0;
+    }
+
 }
+
+
