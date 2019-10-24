@@ -14,7 +14,12 @@ public class InGameController : MonoBehaviour
     public int numPotions;
     public List<string> potionQueue = new List<string>();
 
+    float displayTime = 2;
+    bool displayMessage = false;
+
     public bool ingredientsEnabled=true;
+    public GameObject noPotionsPanel;
+
 
     void Start()
     {
@@ -27,11 +32,18 @@ public class InGameController : MonoBehaviour
         inventoryCanvas.enabled = true;
         numPotions = 0;
         ingredientsEnabled = true;
+
+        noPotionsPanel.SetActive(false);
     }
 
     void Update()
     {
-        
+        displayTime -= Time.deltaTime;
+        if (displayTime <=0)
+        {
+            displayMessage = false;
+            noPotionsPanel.SetActive(false);
+        }
     }
 
     public void ToggleInventory()
@@ -44,6 +56,15 @@ public class InGameController : MonoBehaviour
         {
             inventoryCanvas.enabled = true;
         }
+    }
+
+ 
+
+    public void NoPotionMessage()
+    {
+        displayMessage = true;
+        noPotionsPanel.SetActive(true);
+        displayTime = 2;
     }
 
     public void TogglePauseMenu()
