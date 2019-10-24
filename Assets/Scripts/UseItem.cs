@@ -7,7 +7,7 @@ public class UseItem : MonoBehaviour
     //public GameObject leaf;
     Inventory Inventory;
     public InGameController GC;
-
+    public float time = 1.0f;
     private void Awake()
     {
         Inventory = GetComponent<Inventory>();
@@ -22,55 +22,62 @@ public class UseItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GC.ingredientsEnabled)
+        if (time >= 0)
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1) == true)
+            time -= Time.deltaTime;
+        }
+        else
+        {
+            if (GC.ingredientsEnabled)
             {
-                if (Inventory.leafCount > 0)
+                if (Input.GetKeyDown(KeyCode.Alpha1) == true)
                 {
-                    Debug.Log("test");
-                    Inventory.leafCount--;
+                    if (Inventory.leafCount > 0)
+                    {
+                        Debug.Log("test");
+                        Inventory.leafCount--;
+                    }
+
                 }
 
-            }
-
-            else if (Input.GetKeyDown(KeyCode.Alpha2) == true)
-            {
-                if (Inventory.flowerCount > 0)
+                if (Input.GetKeyDown(KeyCode.Alpha2) == true)
                 {
-                    Inventory.flowerCount--;
+                    if (Inventory.flowerCount > 0)
+                    {
+                        Inventory.flowerCount--;
+                    }
                 }
-            }
 
-            else if (Input.GetKeyDown(KeyCode.Alpha3) == true)
-            {
-                if (Inventory.eyeCount > 0)
+                if (Input.GetKeyDown(KeyCode.Alpha3) == true)
                 {
-                    Inventory.eyeCount--;
+                    if (Inventory.eyeCount > 0)
+                    {
+                        Inventory.eyeCount--;
+                    }
                 }
-            }
 
-            else if (Input.GetKeyDown(KeyCode.Alpha4) == true && GC.catEnabled)
-            {
-                if (Inventory.caterpillarCount > 0)
+                if (Input.GetKeyDown(KeyCode.Alpha4) == true && GC.catEnabled)
                 {
-                    Inventory.caterpillarCount--;
+                    if (Inventory.caterpillarCount > 0)
+                    {
+                        Inventory.caterpillarCount--;
+                    }
                 }
-            }
 
-            else if (Input.GetKeyDown(KeyCode.Alpha5) == true && GC.eggEnabled)
-            {
-                if (Inventory.eggCount > 0)
+                if (Input.GetKeyDown(KeyCode.Alpha5) == true && GC.eggEnabled)
                 {
-                    Inventory.eggCount--;
+                    if (Inventory.eggCount > 0)
+                    {
+                        Inventory.eggCount--;
+                    }
                 }
-            }
 
-            else if (Input.GetKeyDown(KeyCode.Alpha6) == true)
-            {
-                if (Inventory.eyebrowCount > 0)
+                if (Input.GetKeyDown(KeyCode.Alpha6) == true)
                 {
-                    Inventory.eyebrowCount--;
+                    if (Inventory.eyebrowCount > 0)
+                    {
+                        Inventory.eyebrowCount--;
+                    }
                 }
             }
         }
