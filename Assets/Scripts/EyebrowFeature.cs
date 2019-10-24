@@ -124,5 +124,7 @@ public class EyebrowFeature : MonoBehaviour
         var obj = Instantiate(eyebrowItem);
         obj.transform.position = transform.position;
         obj.transform.rotation = transform.rotation;
+        obj.tag = "Item";
+        obj.name = "Eyebrows";
     }
 }
