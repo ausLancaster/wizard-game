@@ -20,6 +20,14 @@ public class InGameController : MonoBehaviour
     public bool ingredientsEnabled=true;
     public GameObject noPotionsPanel;
 
+    public bool poweredUp;
+    public int queueTracker;
+    public GameObject catAnimation;
+    public GameObject eggAnimation;
+    public bool catEnabled;
+    public bool eggEnabled;
+    public float disableDelay;
+
 
     void Start()
     {
@@ -34,6 +42,16 @@ public class InGameController : MonoBehaviour
         ingredientsEnabled = true;
 
         noPotionsPanel.SetActive(false);
+
+        poweredUp = false;
+        queueTracker = 0;
+        catEnabled = false;
+        eggEnabled = false;
+        catAnimation = GameObject.Find("CaterpillarAnimation");
+        eggAnimation = GameObject.Find("EggAnimation");
+        eggAnimation.SetActive(false);
+        catAnimation.SetActive(false);
+        disableDelay = 1.0f;
     }
 
     void Update()
@@ -44,6 +62,41 @@ public class InGameController : MonoBehaviour
             displayMessage = false;
             noPotionsPanel.SetActive(false);
         }
+        // Potion with caterpillar/egg has been thrown
+        if (poweredUp && potionQueue.Count == queueTracker - 1)
+        {
+            poweredUp = false;
+            queueTracker = 0;
+            catEnabled = true;
+            eggEnabled = true;
+            catAnimation.SetActive(true);
+            eggAnimation.SetActive(true);
+        }
+
+
+        // Only allow either caterpillar/egg to be added once
+        if (poweredUp || potionQueue.Count==0)
+        {
+            disableDelay -= Time.deltaTime;
+            if (disableDelay <= 0)
+            {
+                catAnimation.SetActive(false);
+                eggAnimation.SetActive(false);
+            }
+            catEnabled = false;
+            eggEnabled = false;
+            queueTracker = potionQueue.Count;
+        }
+        if (!poweredUp && potionQueue.Count>0) //If there are potions for either caterpillar/egg to be added
+        {
+            catEnabled = true;
+            catAnimation.SetActive(true);
+            eggEnabled = true;
+            eggAnimation.SetActive(true);
+            disableDelay = 1.0f;
+        }
+        
+
     }
 
     public void ToggleInventory()
