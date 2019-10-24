@@ -149,6 +149,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             //potionImage = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Image>();
             //items.AddItemToList(items.caterpillar, caterpillarAdded);
             GC.poweredUp = true;
+            GC.DamageIncMessage();
             sum = 0;
             keyPress = 0;
             //waitForSpecial = false;
@@ -163,6 +164,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             //potionImage = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Image>();
             //items.AddItemToList(items.egg, caterpillarAdded);
             GC.poweredUp = true;
+            GC.ExplosionIncMessage();
             sum = 0;
             keyPress = 0;
 
