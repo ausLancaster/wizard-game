@@ -15,10 +15,13 @@ public class InGameController : MonoBehaviour
     public List<string> potionQueue = new List<string>();
 
     float displayTime = 2;
-    bool displayMessage = false;
+    bool noPotionsMessage = false;
 
     public bool ingredientsEnabled=true;
     public GameObject noPotionsPanel;
+    public GameObject poweredUpPanel;
+    public GameObject explosionIncPanel;
+    public GameObject damageIncPanel;
 
     public bool poweredUp;
     public int queueTracker;
@@ -42,6 +45,9 @@ public class InGameController : MonoBehaviour
         ingredientsEnabled = true;
 
         noPotionsPanel.SetActive(false);
+        poweredUpPanel.SetActive(false);
+        explosionIncPanel.SetActive(false);
+        damageIncPanel.SetActive(false);
 
         poweredUp = false;
         queueTracker = 0;
@@ -59,8 +65,10 @@ public class InGameController : MonoBehaviour
         displayTime -= Time.deltaTime;
         if (displayTime <=0)
         {
-            displayMessage = false;
+            noPotionsMessage= false;
             noPotionsPanel.SetActive(false);
+            explosionIncPanel.SetActive(false);
+            damageIncPanel.SetActive(false);
         }
         // Potion with caterpillar/egg has been thrown
         if (poweredUp && potionQueue.Count == queueTracker - 1)
@@ -71,6 +79,7 @@ public class InGameController : MonoBehaviour
             eggEnabled = true;
             catAnimation.SetActive(true);
             eggAnimation.SetActive(true);
+            poweredUpPanel.SetActive(false);
         }
 
 
@@ -86,6 +95,10 @@ public class InGameController : MonoBehaviour
             catEnabled = false;
             eggEnabled = false;
             queueTracker = potionQueue.Count;
+            if (potionQueue.Count != 0)
+            {
+                poweredUpPanel.SetActive(true);
+            }
         }
         if (!poweredUp && potionQueue.Count>0) //If there are potions for either caterpillar/egg to be added
         {
@@ -111,11 +124,20 @@ public class InGameController : MonoBehaviour
         }
     }
 
- 
+    public void ExplosionIncMessage() 
+    {
+        explosionIncPanel.SetActive(true);
+        displayTime = 2;
+    }
+    public void DamageIncMessage()
+    {
+        damageIncPanel.SetActive(true);
+        displayTime = 2;
+    }
 
     public void NoPotionMessage()
     {
-        displayMessage = true;
+        noPotionsMessage = true;
         noPotionsPanel.SetActive(true);
         displayTime = 2;
     }
