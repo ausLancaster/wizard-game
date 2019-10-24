@@ -82,7 +82,7 @@ public class PotionAppearanceCreation : MonoBehaviour
                 //items.AddItemToList(items.eye, caterpillarAdded);
             }
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha6) == true)
+        else if (Input.GetKeyDown(KeyCode.Alpha6) == true && Inventory.eyebrowCount > 0)
         {
             // eyebrows added
             //sum += 13;
