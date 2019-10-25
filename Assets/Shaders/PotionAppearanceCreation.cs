@@ -8,7 +8,7 @@ public class PotionAppearanceCreation : MonoBehaviour
     public InGameController GC;
 	private int sum = 0;
     private int keyPress = 0;
-    private float resetTime = 2.0f;
+    private float resetTime = 1.5f;
     private InventoryPotions InventoryPotions;
     private Image firePotion;
     private Inventory Inventory;
@@ -95,13 +95,14 @@ public class PotionAppearanceCreation : MonoBehaviour
 
         if (reset)
         {
+            GC.ingredientsEnabled = false;
             resetTime -= Time.deltaTime;
             if (resetTime<0)
             {
                 potionImage.sprite = plain.sprite;
                 sum = 0;
                 keyPress = 0;
-                resetTime = 2.0f;
+                resetTime = 1.5f;
                 GC.ingredientsEnabled = true;
                 reset = false;
             }
@@ -109,7 +110,7 @@ public class PotionAppearanceCreation : MonoBehaviour
 
         if (keyPress == 2)
         {
-            GC.ingredientsEnabled = false;
+            
             if (sum == 5)
             {
                 //potionImage.sprite = fire;
@@ -188,9 +189,9 @@ public class PotionAppearanceCreation : MonoBehaviour
 
     private void AddItem(int value, Image item)
     {
+        items.AddItemToList(item, caterpillarAdded);
         sum += value;
         keyPress++;
-        items.AddItemToList(item, caterpillarAdded);
         //normalItems = true;
 
     }
