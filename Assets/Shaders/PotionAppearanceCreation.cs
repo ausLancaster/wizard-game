@@ -8,10 +8,10 @@ public class PotionAppearanceCreation : MonoBehaviour
     public InGameController GC;
 	private int sum = 0;
     private int keyPress = 0;
-    private float resetTime = 1.5f;
+    private float resetTime = 1.0f;
     private InventoryPotions InventoryPotions;
     private Image firePotion;
-    private Inventory inventory;
+    private Inventory Inventory;
     private Image previousPotion;
     private bool caterpillarAdded;
     private bool eggAdded;
@@ -45,7 +45,7 @@ public class PotionAppearanceCreation : MonoBehaviour
     {
         potionImage = GetComponent<Image>();
         InventoryPotions = potions.GetComponent<InventoryPotions>();
-        inventory = player.GetComponent<Inventory>();
+        Inventory = player.GetComponent<Inventory>();
         items = addedItems.GetComponent<ItemsInPotion>();
     }
 
@@ -59,15 +59,14 @@ public class PotionAppearanceCreation : MonoBehaviour
     void Update()
     {   if (GC.ingredientsEnabled)
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1) && inventory.leafCount > 0)
+            if (Input.GetKeyDown(KeyCode.Alpha1) && Inventory.leafCount > 0)
             {
                 // leaf added
                 //sum += 2;
                 //keyPress++;
                 AddItem(2, items.leaf);
             }
-
-            if (Input.GetKeyDown(KeyCode.Alpha2) && inventory.flowerCount > 0)
+            if (Input.GetKeyDown(KeyCode.Alpha2) && Inventory.flowerCount > 0)
             {
                 // flower added 
                 //sum += 3;
@@ -75,7 +74,7 @@ public class PotionAppearanceCreation : MonoBehaviour
                 AddItem(3, items.flower);
                 //items.AddItemToList(items.flower, caterpillarAdded);
             }
-            if (Input.GetKeyDown(KeyCode.Alpha3) && inventory.eyeCount > 0)
+            if (Input.GetKeyDown(KeyCode.Alpha3) && Inventory.eyeCount > 0)
             {
                 // eyeball added
                 //sum += 5;
@@ -83,7 +82,7 @@ public class PotionAppearanceCreation : MonoBehaviour
                 AddItem(5, items.eye);
                 //items.AddItemToList(items.eye, caterpillarAdded);
             }
-            if (Input.GetKeyDown(KeyCode.Alpha6) && inventory.eyebrowCount > 0)
+            if (Input.GetKeyDown(KeyCode.Alpha6) && Inventory.eyebrowCount > 0)
             {
                 // eyebrows added
                 //sum += 13;
@@ -100,10 +99,11 @@ public class PotionAppearanceCreation : MonoBehaviour
             resetTime -= Time.deltaTime;
             if (resetTime<0)
             {
+                items.ClearItemList();
                 potionImage.sprite = plain.sprite;
                 sum = 0;
                 keyPress = 0;
-                resetTime = 1.5f;
+                resetTime = 1.0f;
                 GC.ingredientsEnabled = true;
                 reset = false;
             }
@@ -143,7 +143,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             reset = true;
         }
 
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && potions.transform.childCount > 0 && inventory.caterpillarCount > 0 && !GC.poweredUp && GC.ingredientsEnabled)
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && potions.transform.childCount > 0 && Inventory.caterpillarCount > 0 && !GC.poweredUp && GC.ingredientsEnabled)
         {
             Debug.Log("why");
             special = true;
@@ -156,11 +156,11 @@ public class PotionAppearanceCreation : MonoBehaviour
             //items.AddItemToList(items.caterpillar, caterpillarAdded);
             GC.poweredUp = true;
             GC.DamageIncMessage();
-            sum = 0;
-            keyPress = 0;
+            //sum = 0;
+            //keyPress = 0;
             //waitForSpecial = false;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha5) && potions.transform.childCount > 0 && inventory.eggCount > 0 && !GC.poweredUp && GC.ingredientsEnabled)
+        else if (Input.GetKeyDown(KeyCode.Alpha5) && potions.transform.childCount > 0 && Inventory.eggCount > 0 && !GC.poweredUp && GC.ingredientsEnabled)
         {
             // egg added
             childOutline = potions.transform.GetChild(potions.transform.childCount - GC.numPotions).gameObject.GetComponent<Outline>();
@@ -171,8 +171,8 @@ public class PotionAppearanceCreation : MonoBehaviour
             //items.AddItemToList(items.egg, caterpillarAdded);
             GC.poweredUp = true;
             GC.ExplosionIncMessage();
-            sum = 0;
-            keyPress = 0;
+            //sum = 0;
+            //keyPress = 0;
 
         }
     }
