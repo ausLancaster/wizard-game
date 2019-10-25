@@ -10,13 +10,8 @@ public class ItemAnimation : MonoBehaviour
     public Image item;
     public Animator itemAnimation;
     public InGameController GC;
-    public Image disableShade;
     public Text count;
-
-    ButtonDisabled disabled;
-    private bool animate = true;
-
-
+    public bool animate = true;
 
     private void Awake()
     {
@@ -28,13 +23,13 @@ public class ItemAnimation : MonoBehaviour
     {
         GameObject controller = GameObject.Find("InGameController");
         GC = controller.GetComponent<InGameController>();
-        disabled = disableShade.GetComponent<ButtonDisabled>();
+        animate = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (GC.ingredientsEnabled && disabled.disabled == false)
+        if (GC.ingredientsEnabled)
         {
             if (Input.GetKeyDown(key) == true && animate==true)
             {
@@ -42,6 +37,7 @@ public class ItemAnimation : MonoBehaviour
                 itemAnimation.StopPlayback();
             }
         }
+        //do not animate if count is 0
         if (string.Compare(count.text, "0") == 0)
         {
             animate = false;
