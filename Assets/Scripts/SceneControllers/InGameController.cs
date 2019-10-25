@@ -17,7 +17,7 @@ public class InGameController : MonoBehaviour
     float displayTime = 2;
     bool noPotionsMessage = false;
 
-    public bool ingredientsEnabled=true;
+    public bool ingredientsEnabled = true;
     public GameObject noPotionsPanel;
     public GameObject poweredUpPanel;
     public GameObject explosionIncPanel;
@@ -58,56 +58,63 @@ public class InGameController : MonoBehaviour
 
     void Update()
     {
+        // Pop-up messages 
         displayTime -= Time.deltaTime;
-        if (displayTime <=0)
+        if (displayTime <= 0)
         {
-            noPotionsMessage= false;
+            noPotionsMessage = false;
             noPotionsPanel.SetActive(false);
             explosionIncPanel.SetActive(false);
             damageIncPanel.SetActive(false);
         }
 
-
-        // Potion with caterpillar/egg has been thrown
-        if (poweredUp && potionQueue.Count == queueTracker - 1)
+        if (numPotions == 0)
         {
             poweredUp = false;
-            queueTracker = 0;
-            catAnimation.enabled = true;
-            eggAnimation.enabled = true;
             poweredUpPanel.SetActive(false);
-        }
-
-
-        if (numPotions==0)
-        {
             catAnimation.enabled = false;
             eggAnimation.enabled = false;
+            queueTracker = 0;
         }
 
-        // Only allow either caterpillar/egg to be added once
-        if (poweredUp)
+        // Potion with caterpillar/egg added has been thrown
+        if (poweredUp && numPotions != 0)
         {
-            disableDelay -= Time.deltaTime;
-            if (disableDelay <= 0)
+            if (numPotions == queueTracker - 1)
             {
-                catAnimation.enabled = false;
-                eggAnimation.enabled = false;
+                catAnimation.enabled = true;
+                eggAnimation.enabled = true;
+                poweredUpPanel.SetActive(false);
+                queueTracker = 0;
+                poweredUp = false;
             }
-
-            queueTracker = potionQueue.Count;
-            if (potionQueue.Count != 0)
+            else
             {
+                // Do not allow caterpillar/egg to be added a second time
                 poweredUpPanel.SetActive(true);
+                // allow time for animation before disabling
+                disableDelay -= Time.deltaTime;
+                if (disableDelay <= 0)
+                {
+                    catAnimation.enabled = false;
+                    eggAnimation.enabled = false;
+                }
+                // keep track of powered up potion in queue
+                queueTracker = numPotions;
             }
         }
-        if (!poweredUp && numPotions>0) //If there are potions for either caterpillar/egg to be added
+
+
+        // There are potions available to be powered up by caterpillar/egg
+        if (!poweredUp && numPotions > 0)
         {
             catAnimation.enabled = true;
             eggAnimation.enabled = true;
+            queueTracker = 0;
+            poweredUpPanel.SetActive(false);
             disableDelay = 0.5f;
         }
-        
+
 
     }
 
@@ -123,7 +130,7 @@ public class InGameController : MonoBehaviour
         }
     }
 
-    public void ExplosionIncMessage() 
+    public void ExplosionIncMessage()
     {
         explosionIncPanel.SetActive(true);
         displayTime = 2;
