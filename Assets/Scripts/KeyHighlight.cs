@@ -6,12 +6,15 @@ using UnityEngine.UI;
 public class KeyHighlight : MonoBehaviour
 {
     public KeyCode key;
+    public Image disableShade;
 
     Outline Outline;
+    ButtonDisabled disabled;
 
     private void Awake()
     {
         Outline = GetComponent<Outline>();
+        disabled = disableShade.GetComponent<ButtonDisabled>();
     }
     // Start is called before the first frame update
     void Start()
@@ -21,16 +24,21 @@ public class KeyHighlight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(key) == true)
+        if (disabled.disabled == false)
         {
-            Outline.enabled = true;
-            //Debug.Log("key pressed");
+            if (Input.GetKeyDown(key) == true)
+            {
+                Outline.enabled = true;
+                //Debug.Log("key pressed");
+            }
+
+            else if (Input.GetKeyUp(key) == true)
+            {
+                Outline.enabled = false;
+            }
         }
 
-        else if (Input.GetKeyUp(key) == true)
-        {
-            Outline.enabled = false;
-        }
+
 
     }
 }

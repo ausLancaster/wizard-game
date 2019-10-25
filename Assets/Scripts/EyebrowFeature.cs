@@ -122,6 +122,7 @@ public class EyebrowFeature : MonoBehaviour
         eyebrowCamera.enabled = false;
         collectedText.enabled = false;
         var obj = Instantiate(eyebrowItem);
+        obj.name = "Eyebrows";
         obj.transform.position = transform.position;
         obj.transform.rotation = transform.rotation;
     }

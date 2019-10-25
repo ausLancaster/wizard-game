@@ -10,6 +10,9 @@ public class ItemAnimation : MonoBehaviour
     public Image item;
     public Animator itemAnimation;
     public InGameController GC;
+    public Image disableShade;
+
+    ButtonDisabled disabled;
 
 
     private void Awake()
@@ -22,12 +25,13 @@ public class ItemAnimation : MonoBehaviour
     {
         GameObject controller = GameObject.Find("InGameController");
         GC = controller.GetComponent<InGameController>();
+        disabled = disableShade.GetComponent<ButtonDisabled>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (GC.ingredientsEnabled)
+        if (GC.ingredientsEnabled && disabled.disabled == false)
         {
             if (Input.GetKeyDown(key) == true)
             {
