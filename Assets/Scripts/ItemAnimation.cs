@@ -11,8 +11,11 @@ public class ItemAnimation : MonoBehaviour
     public Animator itemAnimation;
     public InGameController GC;
     public Image disableShade;
+    public Text count;
 
     ButtonDisabled disabled;
+    private bool animate = true;
+
 
 
     private void Awake()

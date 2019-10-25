@@ -634,10 +634,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 981cf5b9-0434-44e5-882a-dbd8941260a0
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: GraphicsProject2 (1)
+  organizationId: skite
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
