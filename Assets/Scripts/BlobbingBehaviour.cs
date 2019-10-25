@@ -10,11 +10,15 @@ public class BlobbingBehaviour : MonoBehaviour
     [SerializeField]
     float periodLength;
 
-    Vector3 baseScale;
+    Vector3 baseScale1;
+    Vector3 baseScale2;
+    Vector3 baseScale3;
 
     void Start()
     {
-        baseScale = transform.localScale;
+        baseScale1 = transform.GetChild(0).gameObject.transform.localScale;
+        baseScale2 = transform.GetChild(1).gameObject.transform.localScale;
+        baseScale3 = transform.GetChild(2).gameObject.transform.localScale;
     }
 
     void Update()
@@ -25,6 +29,8 @@ public class BlobbingBehaviour : MonoBehaviour
             amount + 1 + amount * Mathf.Sin((2 * Mathf.PI * Time.time + Mathf.PI) / periodLength)
             );
 
-        transform.localScale = Vector3.Scale(baseScale, scaleAmount);
+        transform.GetChild(0).gameObject.transform.localScale = Vector3.Scale(baseScale1, scaleAmount);
+        transform.GetChild(1).gameObject.transform.localScale = Vector3.Scale(baseScale2, scaleAmount);
+        transform.GetChild(2).gameObject.transform.localScale = Vector3.Scale(baseScale3, scaleAmount);
     }
 }
