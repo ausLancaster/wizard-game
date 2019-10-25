@@ -118,6 +118,17 @@ public class EyebrowFeature : MonoBehaviour
             timePassed = 0;
             yield return null;
         }
+<<<<<<< HEAD
+        mainCamera.enabled = true;
+        eyebrowCamera.enabled = false;
+        collectedText.enabled = false;
+        var obj = Instantiate(eyebrowItem);
+        obj.name = "Eyebrows";
+        obj.transform.position = transform.position;
+        obj.transform.rotation = transform.rotation;
+    }
+}
+=======
         mainCamera.enabled = true;
         eyebrowCamera.enabled = false;
         collectedText.SetActive(false);
@@ -128,3 +139,4 @@ public class EyebrowFeature : MonoBehaviour
         obj.name = "Eyebrows";
     }
 }
+>>>>>>> 5843c9cadffb505c3adbd58e9b95b8e718ad763a

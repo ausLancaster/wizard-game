@@ -33,11 +33,19 @@ public class ItemAnimation : MonoBehaviour
     {
         if (GC.ingredientsEnabled && disabled.disabled == false)
         {
-            if (Input.GetKeyDown(key) == true)
+            if (Input.GetKeyDown(key) == true && animate==true)
             {
                 itemAnimation.Play("Movement");
                 itemAnimation.StopPlayback();
             }
         }
+        if (string.Compare(count.text, "0") == 0)
+        {
+            animate = false;
+        } else
+        {
+            animate = true;
+        }
+
     }
 }

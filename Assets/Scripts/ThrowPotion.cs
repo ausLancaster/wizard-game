@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -61,9 +61,14 @@ public class ThrowPotion : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                print("aim " + target.gameObject);
-                target.gameObject.SetActive(true);
-                aimAmount = 0;
+                if (GC.potionQueue.Count > 0)
+                {
+                    print("aim " + target.gameObject);
+                    target.gameObject.SetActive(true);
+                    aimAmount = 0;
+                } else if (GC.potionQueue.Count == 0) {
+                    GC.NoPotionMessage();
+                }
             }
         }
 
@@ -74,6 +79,8 @@ public class ThrowPotion : MonoBehaviour
             target.gameObject.SetActive(false);
             aimAmount = -1;
             cooldownTimer = cooldownAmount;
+
+
         }
         target.localPosition = new Vector3(0, targetY, Mathf.Lerp(throwDistanceMin, throwDistanceMax, aimAmount));
         target.position = new Vector3(target.position.x, targetY, target.position.z);
