@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!64 &9181014251117607772
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5698895508982057794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &7542616796519527239
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,7 +327,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0bab2a63178356e48851fe0784e6155b, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -561,6 +575,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3734186174244007560}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5698895508982057794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8990581025546233290, guid: 98d887b7796bf43feabea73fcafb33be,
+    type: 3}
+  m_PrefabInstance: {fileID: 3734186174244007560}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4434684675428781799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -573,6 +593,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bossRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 1160068762470866131, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: bossRoom
+      objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -581,7 +606,7 @@ PrefabInstance:
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
@@ -591,22 +616,22 @@ PrefabInstance:
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.008708942
       objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.69275826
+      value: -0.6927318
       objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.0005730329
       objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.72116995
+      value: 0.7211424
       objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
@@ -616,17 +641,17 @@ PrefabInstance:
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -0.674
       objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -87.698006
+      value: -87.702
       objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 0.739
       objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
@@ -643,7 +668,8 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.24
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1160068763830758767, guid: 98f92a33cb1cc4c31b236e295f24e6d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 98f92a33cb1cc4c31b236e295f24e6d9, type: 3}
 --- !u!4 &3283773200048542263 stripped
 Transform:

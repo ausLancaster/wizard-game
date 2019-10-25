@@ -5,7 +5,7 @@ using UnityEngine;
 public class BossBehaviour : MonoBehaviour
 {
     private EnemyHealth healthComp;
-    private const float SIZEOVERHEALTH = 0.05f;// determines how big the boss will look like compared to its health
+    private const float SIZEOVERHEALTH = 0.01f;// determines how big the boss will look like compared to its health
 
     private float maxHealth;
     public int remainingWaves = 3;

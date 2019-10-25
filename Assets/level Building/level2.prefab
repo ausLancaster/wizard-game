@@ -277,7 +277,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0bab2a63178356e48851fe0784e6155b, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -350,7 +350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566547743693968973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 451, y: 0, z: 5}
+  m_LocalPosition: {x: 451, y: -0.1, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 566547743276386788}
@@ -980,6 +980,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bossRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 1160068762470866131, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: bossRoom
+      objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -988,7 +993,7 @@ PrefabInstance:
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
@@ -1050,7 +1055,8 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.0360491
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1160068763830758767, guid: 98f92a33cb1cc4c31b236e295f24e6d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 98f92a33cb1cc4c31b236e295f24e6d9, type: 3}
 --- !u!4 &5969126266120924138 stripped
 Transform:

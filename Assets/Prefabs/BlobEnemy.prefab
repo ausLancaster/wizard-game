@@ -591,6 +591,8 @@ GameObject:
   - component: {fileID: 2779118041450855099}
   - component: {fileID: 8556333516774600771}
   - component: {fileID: 808425067}
+  - component: {fileID: -7534204378418088730}
+  - component: {fileID: 6213507892110210297}
   m_Layer: 0
   m_Name: BlobEnemy
   m_TagString: Untagged
@@ -738,6 +740,35 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-7534204378418088730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984075762306574558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d50f5847e8a4099bc13edd4c553a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  remainingWaves: 3
+  minionCountOnEachWave: 2
+  minion: {fileID: 0}
+--- !u!114 &6213507892110210297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984075762306574558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d543af510fc487caaaf1e273fb7081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToFollow: {fileID: 0}
+  speed: 1
 --- !u!1 &7363720576389631364
 GameObject:
   m_ObjectHideFlags: 0

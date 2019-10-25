@@ -543,7 +543,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0bab2a63178356e48851fe0784e6155b, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -604,6 +604,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bossRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 1160068762470866131, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: bossRoom
+      objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -612,7 +617,7 @@ PrefabInstance:
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1160068762470866128, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
         type: 3}
@@ -674,7 +679,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.3916
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1160068763830758767, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1160068763830758767, guid: 98f92a33cb1cc4c31b236e295f24e6d9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1160068763830758767, guid: 98f92a33cb1cc4c31b236e295f24e6d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 98f92a33cb1cc4c31b236e295f24e6d9, type: 3}
 --- !u!4 &38725026838985340 stripped
 Transform:

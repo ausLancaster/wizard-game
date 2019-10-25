@@ -14,9 +14,12 @@ public class spawnLevel : MonoBehaviour
 
     public int level;
     public GameObject blobObject;
+    public GameObject player;
+    GameObject boss;
     public int incrementBlobOnEachLevel = 2;
 
     private spawnBlobsOnPlane[] planes;
+    private GameObject bossRoom;
     private int currentBlobCount;//For keeping track of blobs so when they all die we can open the boos room
     public float mountainDecended = 50;// this is to not let the secret mountain descend forever
     private GameObject secretMountain;
@@ -24,6 +27,8 @@ public class spawnLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        blobObject.GetComponent<EnemyFollowPlayer>().objectToFollow = player.transform;
+
         GameObject Map;
         float j = Random.Range(0, 4);
         if (j < 1)
@@ -48,24 +53,37 @@ public class spawnLevel : MonoBehaviour
         }//------------------------------
 
         //This loop is just the identify the plane with the "floor" tag
-        GameObject surface = new GameObject();
+        GameObject[] surface = new GameObject[2];
+        int k = 0;
         Transform[] objects = Map.GetComponentsInChildren<Transform>();
         for(int i=0; i< objects.Length; i++) {
             if (objects[i].gameObject.tag == "Surface") {
-                surface = objects[i].gameObject;
-                surface.GetComponent<MeshRenderer>().material = floorMaterial1;
+                surface[k] = objects[i].gameObject;
+                surface[k].GetComponent<MeshRenderer>().material = floorMaterial1;
+                k++;
             }
             if (objects[i].gameObject.tag == "secretMountain")
                 secretMountain = objects[i].gameObject;
+            if (objects[i].gameObject.tag == "bossRoom")
+                bossRoom = objects[i].gameObject;
         }
         //---------------------------------
 
         //Spawn the foliage on the map
         normalTerrainBuilder foliage = Instantiate(foliage1);
-        foliage.plane = surface;
+        foliage.plane = surface[0];
         foliage.BuildTerrain();
         foliage.transform.position = transform.position;
         foliage.transform.parent = transform;
+
+        //Spawning the boss
+        boss = Instantiate(blobObject);
+        boss.transform.position = bossRoom.transform.position;
+        boss.transform.parent = bossRoom.transform;
+        boss.GetComponent<BossBehaviour>().enabled = true;
+        boss.GetComponent<BossBehaviour>().minion = blobObject;
+        boss.GetComponent<EnemyHealth>().initialHealth = 200 + level * 100;
+        boss.GetComponent<EnemyHealth>().currentHealth = 200 + level * 100;
 
         currentBlobCount = incrementBlobOnEachLevel * level * planes.Length;//initializing the current blob count to the max
         }
@@ -77,6 +95,14 @@ public class spawnLevel : MonoBehaviour
             secretMountain.transform.Translate(new Vector3(0, -Time.deltaTime, 0));
             mountainDecended -= Time.deltaTime;
             level = 1000;
+        }
+
+        float bossRange = 36 * bossRoom.transform.localScale.x;
+        if(Mathf.Abs(player.transform.position.x - bossRoom.transform.position.x) < bossRange &&
+            Mathf.Abs(player.transform.position.z - bossRoom.transform.position.z) < bossRange) {
+            boss.GetComponent<EnemyFollowPlayer>().objectToFollow = player.transform;
+        } else {
+            boss.GetComponent<EnemyFollowPlayer>().objectToFollow = bossRoom.transform;
         }
     }
 
