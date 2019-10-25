@@ -39,6 +39,7 @@ public class PotionAppearanceCreation : MonoBehaviour
     //public Sprite leaf;
     // Scroll view list of items added to the potions
     public GameObject addedItems;
+    public bool reset;
 
     private void Awake()
     {
@@ -51,7 +52,7 @@ public class PotionAppearanceCreation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        reset = false;
     }
 
     // Update is called once per frame
@@ -65,7 +66,7 @@ public class PotionAppearanceCreation : MonoBehaviour
                 //keyPress++;
                 AddItem(2, items.leaf);
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha2) && Inventory.flowerCount > 0)
+            if (Input.GetKeyDown(KeyCode.Alpha2) && Inventory.flowerCount > 0)
             {
                 // flower added 
                 //sum += 3;
@@ -73,7 +74,7 @@ public class PotionAppearanceCreation : MonoBehaviour
                 AddItem(3, items.flower);
                 //items.AddItemToList(items.flower, caterpillarAdded);
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha3) && Inventory.eyeCount > 0)
+            if (Input.GetKeyDown(KeyCode.Alpha3) && Inventory.eyeCount > 0)
             {
                 // eyeball added
                 //sum += 5;
@@ -81,17 +82,18 @@ public class PotionAppearanceCreation : MonoBehaviour
                 AddItem(5, items.eye);
                 //items.AddItemToList(items.eye, caterpillarAdded);
             }
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha6) == true && Inventory.eyebrowCount > 0)
-        {
-            // eyebrows added
-            //sum += 13;
-            //keyPress++;
-            AddItem(13, items.eyebrows);
-            //items.AddItemToList(items.eyebrows, caterpillarAdded);
+            if (Input.GetKeyDown(KeyCode.Alpha6) && Inventory.eyebrowCount > 0)
+            {
+                // eyebrows added
+                //sum += 13;
+                //keyPress++;
+                AddItem(13, items.eyebrows);
+                //items.AddItemToList(items.eyebrows, caterpillarAdded);
+            }
         }
 
-        if (keyPress==0 && sum==0)
+
+        if (reset)
         {
             resetTime -= Time.deltaTime;
             if (resetTime<0)
@@ -101,6 +103,7 @@ public class PotionAppearanceCreation : MonoBehaviour
                 keyPress = 0;
                 resetTime = 2.0f;
                 GC.ingredientsEnabled = true;
+                reset = false;
             }
         }
 
@@ -135,6 +138,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             }
             sum = 0;
             keyPress = 0;
+            reset = true;
         }
 
         else if (Input.GetKeyDown(KeyCode.Alpha4) && potions.transform.childCount > 0 && Inventory.caterpillarCount > 0 && !GC.poweredUp && GC.ingredientsEnabled)
