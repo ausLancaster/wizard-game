@@ -65,7 +65,7 @@ public class UseItem : MonoBehaviour
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha4) == true && GC.catEnabled)
+            if (Input.GetKeyDown(KeyCode.Alpha4) == true && !GC.poweredUp && GC.numPotions!=0)
             {
                 if (Inventory.caterpillarCount > 0)
                 {
@@ -73,7 +73,7 @@ public class UseItem : MonoBehaviour
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha5) == true && GC.eggEnabled)
+            if (Input.GetKeyDown(KeyCode.Alpha5) == true && !GC.poweredUp && GC.numPotions!=0)
             {
                 if (Inventory.eggCount > 0)
                 {
