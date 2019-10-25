@@ -25,10 +25,8 @@ public class InGameController : MonoBehaviour
 
     public bool poweredUp;
     public int queueTracker;
-    public GameObject catAnimation;
-    public GameObject eggAnimation;
-    public bool catEnabled;
-    public bool eggEnabled;
+    public ItemAnimation catAnimation;
+    public ItemAnimation eggAnimation;
     public float disableDelay;
 
 
@@ -51,13 +49,11 @@ public class InGameController : MonoBehaviour
 
         poweredUp = false;
         queueTracker = 0;
-        catEnabled = false;
-        eggEnabled = false;
-        catAnimation = GameObject.Find("CaterpillarAnimation");
-        eggAnimation = GameObject.Find("EggAnimation");
-        eggAnimation.SetActive(false);
-        catAnimation.SetActive(false);
-        disableDelay = 1.0f;
+        catAnimation = GameObject.Find("Button 4").GetComponent<ItemAnimation>();
+        eggAnimation = GameObject.Find("Button 5").GetComponent<ItemAnimation>();
+        eggAnimation.enabled = false;
+        catAnimation.enabled = false;
+        disableDelay = 0.5f;
     }
 
     void Update()
@@ -70,43 +66,46 @@ public class InGameController : MonoBehaviour
             explosionIncPanel.SetActive(false);
             damageIncPanel.SetActive(false);
         }
+
+
         // Potion with caterpillar/egg has been thrown
         if (poweredUp && potionQueue.Count == queueTracker - 1)
         {
             poweredUp = false;
             queueTracker = 0;
-            catEnabled = true;
-            eggEnabled = true;
-            catAnimation.SetActive(true);
-            eggAnimation.SetActive(true);
+            catAnimation.enabled = true;
+            eggAnimation.enabled = true;
             poweredUpPanel.SetActive(false);
         }
 
 
+        if (numPotions==0)
+        {
+            catAnimation.enabled = false;
+            eggAnimation.enabled = false;
+        }
+
         // Only allow either caterpillar/egg to be added once
-        if (poweredUp || potionQueue.Count==0)
+        if (poweredUp)
         {
             disableDelay -= Time.deltaTime;
             if (disableDelay <= 0)
             {
-                catAnimation.SetActive(false);
-                eggAnimation.SetActive(false);
+                catAnimation.enabled = false;
+                eggAnimation.enabled = false;
             }
-            catEnabled = false;
-            eggEnabled = false;
+
             queueTracker = potionQueue.Count;
             if (potionQueue.Count != 0)
             {
                 poweredUpPanel.SetActive(true);
             }
         }
-        if (!poweredUp && potionQueue.Count>0) //If there are potions for either caterpillar/egg to be added
+        if (!poweredUp && numPotions>0) //If there are potions for either caterpillar/egg to be added
         {
-            catEnabled = true;
-            catAnimation.SetActive(true);
-            eggEnabled = true;
-            eggAnimation.SetActive(true);
-            disableDelay = 1.0f;
+            catAnimation.enabled = true;
+            eggAnimation.enabled = true;
+            disableDelay = 0.5f;
         }
         
 
