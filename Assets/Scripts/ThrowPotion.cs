@@ -61,12 +61,12 @@ public class ThrowPotion : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (GC.potionQueue.Count > 0)
+                if (GC.numPotions > 0)
                 {
                     print("aim " + target.gameObject);
                     target.gameObject.SetActive(true);
                     aimAmount = 0;
-                } else if (GC.potionQueue.Count == 0) {
+                } else if (GC.numPotions == 0) {
                     GC.NoPotionMessage();
                 }
             }
