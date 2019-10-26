@@ -1,0 +1,2045 @@
+fileFormatVersion: 2
+guid: c0e83b2639a526b4e81d73091a523dad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8939417560696493950
+    second: cork_0
+  - first:
+      213: -7889769787173252772
+    second: cork_1
+  - first:
+      213: -2631940312281212194
+    second: cork_2
+  - first:
+      213: 6008600988882359515
+    second: cork_3
+  - first:
+      213: -3242758194131763559
+    second: cork_4
+  - first:
+      213: -7700376056111844996
+    second: cork_5
+  - first:
+      213: 445496136815771297
+    second: cork_6
+  - first:
+      213: 2210548968809196878
+    second: cork_7
+  - first:
+      213: 3860032895363978770
+    second: cork_8
+  - first:
+      213: 5505703528092945684
+    second: cork_9
+  - first:
+      213: -2597076170902975661
+    second: cork_10
+  - first:
+      213: -3645890469150278150
+    second: cork_11
+  - first:
+      213: -5226537826418621687
+    second: cork_12
+  - first:
+      213: -6620565501328199218
+    second: cork_13
+  - first:
+      213: -788912018152101636
+    second: cork_14
+  - first:
+      213: 5664339745326076183
+    second: cork_15
+  - first:
+      213: 7471496482690870405
+    second: cork_16
+  - first:
+      213: 3933851577240083655
+    second: cork_17
+  - first:
+      213: -7938483112905084024
+    second: cork_18
+  - first:
+      213: -6278756562904452062
+    second: cork_19
+  - first:
+      213: -7881972008982708168
+    second: cork_20
+  - first:
+      213: 6898760540145728529
+    second: cork_21
+  - first:
+      213: -4441051450009068516
+    second: cork_22
+  - first:
+      213: -2785870023885167649
+    second: cork_23
+  - first:
+      213: -8459572947509289356
+    second: cork_24
+  - first:
+      213: -7329304091647102385
+    second: cork_25
+  - first:
+      213: -6632137487371251127
+    second: cork_26
+  - first:
+      213: -8455418042018798755
+    second: cork_27
+  - first:
+      213: -1732204774421441333
+    second: cork_28
+  - first:
+      213: 9053585805934852570
+    second: cork_29
+  - first:
+      213: -5263737503406129202
+    second: cork_30
+  - first:
+      213: 4811314055193266596
+    second: cork_31
+  - first:
+      213: 3999107977816064171
+    second: cork_32
+  - first:
+      213: 6943781187260779239
+    second: cork_33
+  - first:
+      213: -7108286278748313277
+    second: cork_34
+  - first:
+      213: 8561355571050785053
+    second: cork_35
+  - first:
+      213: -4086943645389372050
+    second: cork_36
+  - first:
+      213: 992543313202183884
+    second: cork_37
+  - first:
+      213: 7663372268826962103
+    second: cork_38
+  - first:
+      213: -3272021346163484577
+    second: cork_39
+  - first:
+      213: 719170917923274016
+    second: cork_40
+  - first:
+      213: 422120837808569545
+    second: cork_41
+  - first:
+      213: -2836174869805542043
+    second: cork_42
+  - first:
+      213: 3905792144030223097
+    second: cork_43
+  - first:
+      213: 6690923532192557297
+    second: cork_44
+  - first:
+      213: -2388515642137269945
+    second: cork_45
+  - first:
+      213: 951807128829577200
+    second: cork_46
+  - first:
+      213: -8627660602805965931
+    second: cork_47
+  - first:
+      213: -1139987262251995446
+    second: cork_48
+  - first:
+      213: -5879898732521147399
+    second: cork_49
+  - first:
+      213: -2650423847318221737
+    second: cork_50
+  - first:
+      213: 3538380654405044373
+    second: cork_51
+  - first:
+      213: 5753284337885455768
+    second: cork_52
+  - first:
+      213: -3803274027645930331
+    second: cork_53
+  - first:
+      213: -7365524211573255472
+    second: cork_54
+  - first:
+      213: 5917387962217580918
+    second: cork_55
+  - first:
+      213: -9150790650766312206
+    second: cork_56
+  - first:
+      213: 695876407112710811
+    second: cork_57
+  - first:
+      213: 4452629117482678009
+    second: cork_58
+  - first:
+      213: -3231048543115239265
+    second: cork_59
+  - first:
+      213: -8464143012905045
+    second: cork_60
+  - first:
+      213: 4839074375308273459
+    second: cork_61
+  - first:
+      213: 7700033581040265266
+    second: cork_62
+  - first:
+      213: -2248194713703604400
+    second: cork_63
+  - first:
+      213: 7737544159957108211
+    second: cork_64
+  - first:
+      213: -5030789838867929033
+    second: cork_65
+  - first:
+      213: 4505232460835687819
+    second: cork_66
+  - first:
+      213: -7009100338579953476
+    second: cork_67
+  - first:
+      213: -5177620768618190409
+    second: cork_68
+  - first:
+      213: -3989966039429232872
+    second: cork_69
+  - first:
+      213: -9024623810191092570
+    second: cork_70
+  - first:
+      213: 4075123905394088617
+    second: cork_71
+  - first:
+      213: -7016479024144842782
+    second: cork_72
+  - first:
+      213: 3421515467289651538
+    second: cork_73
+  - first:
+      213: -9074951004347068708
+    second: cork_74
+  - first:
+      213: 483827431260351541
+    second: cork_75
+  - first:
+      213: 5332779593985412757
+    second: cork_76
+  - first:
+      213: 6822976749809306196
+    second: cork_77
+  - first:
+      213: -8391447435780666399
+    second: cork_78
+  - first:
+      213: -7089212791073225689
+    second: cork_79
+  - first:
+      213: -7308142372266260731
+    second: cork_80
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cork_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1130
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2a2201c7bd43e43bf45dbca8ebfa2b
+      internalID: -8939417560696493950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1130
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cfb9de94497ae459d126d343140f98
+      internalID: -7889769787173252772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_2
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1130
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9468e1e0e4409bf42895fe267ebddac1
+      internalID: -2631940312281212194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_3
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1130
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9542569d617364385ccc3d3fe08c33
+      internalID: 6008600988882359515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_4
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1130
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa742fbc8c12718489451372a0945c51
+      internalID: -3242758194131763559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_5
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1130
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83511703748829042af8c55d75758299
+      internalID: -7700376056111844996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_6
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1130
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff2e9122e04d214aae8a827030c3241
+      internalID: 445496136815771297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_7
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1130
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d685fcc8264b0cd47911b4d35c4a63e6
+      internalID: 2210548968809196878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_8
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1130
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4962678ac9c96da4a939e3903c3e9f96
+      internalID: 3860032895363978770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1000
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612c5d16c16262e4ab95b952031963d7
+      internalID: 5505703528092945684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1000
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc0bfa65d9229540afd0db14b1c7b36
+      internalID: -2597076170902975661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1000
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54458b10685628045a1b6dff158b53f9
+      internalID: -3645890469150278150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_12
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1000
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b9ee45fb2f8514091f3dd459644dfa
+      internalID: -5226537826418621687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_13
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1000
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2e1689f3bb6c145806a836b1013fd8
+      internalID: -6620565501328199218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_14
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1000
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4439b9dbd87d20c41ab56902f40f9a87
+      internalID: -788912018152101636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_15
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1000
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4473666a7945d5044aadc121645ea93f
+      internalID: 5664339745326076183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_16
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1000
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a220f2939021184d9714a64d0d67932
+      internalID: 7471496482690870405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_17
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1000
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84e81c43f59be74bbe71d819d30886c
+      internalID: 3933851577240083655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_18
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 870
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c156063440c85bc4caf686090f4fc78d
+      internalID: -7938483112905084024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 870
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6292f5286175e744185b435ec9e6d854
+      internalID: -6278756562904452062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_20
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 870
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a9d003c2c5bd342b888fd6eb219345
+      internalID: -7881972008982708168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_21
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 870
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f4156a28764314ab91c4e4fcb4d2c5
+      internalID: 6898760540145728529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_22
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 870
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc449a521fd3374d9256831da05b550
+      internalID: -4441051450009068516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_23
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 870
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3f9a2e195bef94fb54917077a68eb8
+      internalID: -2785870023885167649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_24
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 870
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99d8a3603b666341b251eb32081d58c
+      internalID: -8459572947509289356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_25
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 870
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01afc9c5d76d1e540baf4403a6dd32fe
+      internalID: -7329304091647102385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_26
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 870
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8e1c24ea2c75d47a267c7de8e37b16
+      internalID: -6632137487371251127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_27
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 740
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff25dbf84d4ced4a9ce40aa48e069f1
+      internalID: -8455418042018798755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_28
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 740
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10d41587a4aab3489fa1759d1e12464
+      internalID: -1732204774421441333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_29
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 740
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96da62cafbc7ef94bafff0065ad48ff9
+      internalID: 9053585805934852570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_30
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 740
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b7e66a3b4e4534f8eb1672807e8203
+      internalID: -5263737503406129202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_31
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 740
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8187206ed974049b3614a549ca5a04
+      internalID: 4811314055193266596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_32
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 740
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f9d2cdf58cf6d4da551e5262b24bae
+      internalID: 3999107977816064171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_33
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 740
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f7ccd2a707fab44bea362dbbc6f85e
+      internalID: 6943781187260779239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_34
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 740
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687f767ab2b4d964fa6071a801908fba
+      internalID: -7108286278748313277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_35
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 740
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba27458a29dacd4b942e4e5cecf051d
+      internalID: 8561355571050785053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_36
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 610
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436ae8347b2d3d94da588692030cdf1b
+      internalID: -4086943645389372050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_37
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 610
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a5fdb044638f748ad6bae13aedb653
+      internalID: 992543313202183884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_38
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 610
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ade483ab9c58a4ab96f265f2301234
+      internalID: 7663372268826962103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_39
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 610
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344d3b82c1e847f488ffe4e45ba6877a
+      internalID: -3272021346163484577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_40
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 610
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353990d5feee28744bc8d135c380581c
+      internalID: 719170917923274016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_41
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 610
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec24054458424346a28181abb3e4a7c
+      internalID: 422120837808569545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_42
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 610
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42d69a1c2431fd4287a529235828492
+      internalID: -2836174869805542043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_43
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 610
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e02d6cf4b4ab0d49b7495e442d4c4c8
+      internalID: 3905792144030223097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_44
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 610
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fdea4c780865e459126d0d303a8faa
+      internalID: 6690923532192557297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_45
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 480
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcec73c763a9464c9af43ac30a16ff2
+      internalID: -2388515642137269945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_46
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 480
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697e329b0efbb544584d2572bdfeac2b
+      internalID: 951807128829577200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_47
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 480
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37340d71c2bfdd41bdbafac7945f9a8
+      internalID: -8627660602805965931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_48
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 480
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbefc2406678374fa821dd0ccb91827
+      internalID: -1139987262251995446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_49
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 480
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c45091aa8907c340bc04fc5c8c4049a
+      internalID: -5879898732521147399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_50
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 480
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9b58fc898808e49bbd82946e18743b
+      internalID: -2650423847318221737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_51
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 480
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2e32683ac10af46a9930587ff83218
+      internalID: 3538380654405044373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_52
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 480
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f790d19e3de5a43a183daf3afcc973
+      internalID: 5753284337885455768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_53
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 480
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15bf2d4dd518b64fa06a321d6a5a5cc
+      internalID: -3803274027645930331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_54
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 350
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed68024ce247c84a8bf51347d349728
+      internalID: -7365524211573255472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_55
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 350
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e844926f04250849a92a6f6082a04fe
+      internalID: 5917387962217580918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_56
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 350
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a967b289febc20c44af02a4e779cd148
+      internalID: -9150790650766312206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_57
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 350
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24e6cc53e4c1c04c9c59f8ed2d02925
+      internalID: 695876407112710811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_58
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 350
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f1167f58ba91c4896a0ae72a82c468
+      internalID: 4452629117482678009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_59
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 350
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64069bf4cdc285e4cbd23a097a779392
+      internalID: -3231048543115239265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_60
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 350
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b729c4564a2d348974da3d15a82d7e
+      internalID: -8464143012905045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_61
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 350
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d244ff77b23a017459cd2ebafaff66af
+      internalID: 4839074375308273459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_62
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 350
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e825be93fcc33174caf85d094b4761cf
+      internalID: 7700033581040265266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_63
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 220
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6413e6cf970ac4facad3dd807a2ef9
+      internalID: -2248194713703604400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_64
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 220
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b31d432adc9814bb4871f8524ccbc9
+      internalID: 7737544159957108211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_65
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 220
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54cbea9a5320824a8065e79162d9518
+      internalID: -5030789838867929033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_66
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 220
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4f9ae04d9ebf5438ba8ddefe9840aa
+      internalID: 4505232460835687819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_67
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 220
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232c5f1fc50a4ae40828553b8c5e6e19
+      internalID: -7009100338579953476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_68
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 220
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ba728c09960c24a97e90fc315769c0
+      internalID: -5177620768618190409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_69
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 220
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a9fdcf2bcc2964da35376f435ce52a
+      internalID: -3989966039429232872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_70
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 220
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0e447d2d83a294caf4d123d4c4271f
+      internalID: -9024623810191092570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_71
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 220
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90119d92a29843b4e80919d77ba89d8d
+      internalID: 4075123905394088617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_72
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 90
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ebac1b0ca92684da1ffb147810bc14
+      internalID: -7016479024144842782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_73
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 90
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550684aad805ddc4786c158d15e18951
+      internalID: 3421515467289651538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_74
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 90
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c9530df095ceb44b7dfbb0e9631ce1
+      internalID: -9074951004347068708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_75
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 90
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b1bc15d5abe394fa5d3a6b251a41ec
+      internalID: 483827431260351541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_76
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 90
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242ace814d23f9044ac3fe5c7ee7b61d
+      internalID: 5332779593985412757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_77
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 90
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5ed3f5e8ed3044d86755a240697b8a
+      internalID: 6822976749809306196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_78
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 90
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e303b8fb303c4254c9c38ed5be7301d2
+      internalID: -8391447435780666399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_79
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 90
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9bb8a5ac8374841af02ee69b53f416
+      internalID: -7089212791073225689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cork_80
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 90
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca9bff359e12b246afb3a0f1af1e066
+      internalID: -7308142372266260731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6e9e194788fd4e041a9526fd1d66ad40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
