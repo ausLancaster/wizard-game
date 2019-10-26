@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class spawnLevel : MonoBehaviour
 {
@@ -20,9 +21,11 @@ public class spawnLevel : MonoBehaviour
 
     private spawnBlobsOnPlane[] planes;
     private GameObject bossRoom;
-    private int currentBlobCount;//For keeping track of blobs so when they all die we can open the boos room
+    public int currentBlobCount;//For keeping track of blobs so when they all die we can open the boos room
     public float mountainDecended = 50;// this is to not let the secret mountain descend forever
     private GameObject secretMountain;
+
+	public Text blobCountDisplay;
 
     // Start is called before the first frame update
     void Start()
@@ -104,6 +107,8 @@ public class spawnLevel : MonoBehaviour
         } else {
             boss.GetComponent<EnemyFollowPlayer>().objectToFollow = bossRoom.transform;
         }
+
+        blobCountDisplay.text = currentBlobCount.ToString() + " blobs left";
     }
 
     public void BlobKilled()
