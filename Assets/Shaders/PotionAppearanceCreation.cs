@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PotionAppearanceCreation : MonoBehaviour
 {
     public InGameController GC;
+    public HealthManager HealthManager;
 	private int sum = 0;
     private int keyPress = 0;
     private float resetTime = 1.0f;
@@ -132,7 +133,8 @@ public class PotionAppearanceCreation : MonoBehaviour
             {
                 // eyebrows (13) and flower (3)
                 //InventoryPotions.AddToPotionInventory(health);
-                CreatePotionAndAdd(health,"health");
+                // Add to health inventory
+                HealthManager.healthPotionCount++;
             }
             else
             {

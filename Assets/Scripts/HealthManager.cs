@@ -21,17 +21,42 @@ public class HealthManager : MonoBehaviour
     public float flashLength = 0.1f;
     private float flashCounter;
 
+    public int healthPotionCount;
+    public GameObject healthPotion;
+
     // Start is called before the first frame update
     void Start()
     {
         this.ResetHealthToStarting();
         healthbar.value = (float) currentHealth / maxHealth;
+        healthPotionCount = 0;
+        healthPotion = GameObject.Find("HealthPotion");
+        healthPotion.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
         healthbar.value = (float) currentHealth / maxHealth;
+        // Show health potion inventory if available
+        if (healthPotionCount>0)
+        {
+            healthPotion.SetActive(true);
+            healthPotion.GetComponentInChildren<Text>().text = healthPotionCount.ToString();
+        } else if (healthPotionCount<=0)
+        {
+            healthPotion.SetActive(false);
+        }
+
+        // Use health potions if available
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            if (healthPotionCount>0)
+            {
+                healthPotionCount--;
+                HealPlayer(5);
+            }
+        }
 
         // Player only flashes when invincible
         if (invincibilityCounter > 0)
