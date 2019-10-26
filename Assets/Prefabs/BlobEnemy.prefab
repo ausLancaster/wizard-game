@@ -844,7 +844,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6d543af510fc487caaaf1e273fb7081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToFollow: {fileID: 0}
+  objectToFollow: {fileID: 5016643314609682030, guid: a3e44f97ae2254d458899a60b15ffac9,
+    type: 3}
   speed: 1
 --- !u!54 &1677246479770453829
 Rigidbody:

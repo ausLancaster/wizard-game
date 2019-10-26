@@ -16,8 +16,9 @@ public class spawnLevel : MonoBehaviour
     public int level;
     public GameObject blobObject;
     public GameObject player;
-    GameObject boss;
+    public GameObject boss;
     public int incrementBlobOnEachLevel = 2;
+    public GameObject bossHealthBar;
 
     private spawnBlobsOnPlane[] planes;
     private GameObject bossRoom;
@@ -80,7 +81,7 @@ public class spawnLevel : MonoBehaviour
         foliage.transform.parent = transform;
 
         //Spawning the boss
-        boss = Instantiate(blobObject);
+        boss = Instantiate(boss);
         boss.transform.position = bossRoom.transform.position;
         boss.transform.parent = bossRoom.transform;
         boss.GetComponent<BossBehaviour>().enabled = true;
@@ -99,6 +100,7 @@ public class spawnLevel : MonoBehaviour
             mountainDecended -= Time.deltaTime;
             level = 1000;
             blobCountDisplay.text = "Defeat the boss!";
+            bossHealthBar.SetActive(true);
         }
         else
         {
