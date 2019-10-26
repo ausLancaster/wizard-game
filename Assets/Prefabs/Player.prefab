@@ -605,6 +605,7 @@ MonoBehaviour:
   spinSpeedMin: 4
   spinSpeedMax: 10
   maxAimTime: 3
+  GC: {fileID: 0}
 --- !u!114 &8296172669070570555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -675,6 +676,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93e4c0bee34084a0eb4ad922d18c0091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GC: {fileID: 0}
+  time: 1
+  leafUsed: 0
+  flowerUsed: 0
+  eyeUsed: 0
+  catUsed: 0
+  eggUsed: 0
+  eyebrowUsed: 0
 --- !u!114 &423200964858897401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,6 +720,8 @@ MonoBehaviour:
   invincibilityLength: 3
   playerBodyRenderer: {fileID: 2340956615515514762}
   flashLength: 0.1
+  healthPotionCount: 0
+  healthPotion: {fileID: 0}
 --- !u!114 &1472240894
 MonoBehaviour:
   m_ObjectHideFlags: 0

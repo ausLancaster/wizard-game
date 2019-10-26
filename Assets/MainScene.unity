@@ -531,27 +531,27 @@ PrefabInstance:
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: leafCount
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: flowerCount
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: eyeCount
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: caterpillarCount
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: eggCount
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 423200964858897401, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
@@ -613,6 +613,14 @@ PrefabInstance:
     - target: {fileID: 1472240902, guid: a3e44f97ae2254d458899a60b15ffac9, type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472240902, guid: a3e44f97ae2254d458899a60b15ffac9, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472240902, guid: a3e44f97ae2254d458899a60b15ffac9, type: 3}
+      propertyPath: m_Mass
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3e44f97ae2254d458899a60b15ffac9, type: 3}
@@ -3675,6 +3683,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 1311290861401530, guid: 312b31977ed9b2d48a14849ebb8c7fb3, type: 3}
   stopSpawning: 0
+  spawnTime: 50
+  spawnDelay: 50
+  level: {fileID: 0}
 --- !u!1 &960471007
 GameObject:
   m_ObjectHideFlags: 0
@@ -4886,7 +4897,7 @@ PrefabInstance:
     - target: {fileID: 6393324717231240590, guid: 92fec5b6e54c049959b57023b8e48e49,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.69
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 6393324717231240590, guid: 92fec5b6e54c049959b57023b8e48e49,
         type: 3}
@@ -5516,6 +5527,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 8933201177581931154, guid: eadb301f5d20a499ebfbead87ba8b20e, type: 3}
   stopSpawning: 0
+  spawnTime: 30
+  spawnDelay: 10
+  level: {fileID: 0}
 --- !u!1 &1295380789
 GameObject:
   m_ObjectHideFlags: 0
@@ -6310,7 +6324,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 0.77728397
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8860130131830888064, guid: 312b31977ed9b2d48a14849ebb8c7fb3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 312b31977ed9b2d48a14849ebb8c7fb3, type: 3}
 --- !u!1 &1394192386
 GameObject:
@@ -6788,6 +6803,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 1894000342005962819, guid: 50e5e0fab058c42d0b21477b45d5f919, type: 3}
   stopSpawning: 0
+  spawnTime: 15
+  spawnDelay: 3
+  level: {fileID: 0}
 --- !u!1 &1542349529
 GameObject:
   m_ObjectHideFlags: 0
@@ -10049,6 +10067,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 6927643368266508583, guid: 6133d46231af649c8807a34c57eb974b, type: 3}
   stopSpawning: 0
+  spawnTime: 15
+  spawnDelay: 3
+  level: {fileID: 0}
 --- !u!1 &2103581248
 GameObject:
   m_ObjectHideFlags: 0
@@ -10623,7 +10644,7 @@ PrefabInstance:
     - target: {fileID: 3036495502592693565, guid: e269f912914a842b08cac1c55037c230,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3036495502592693565, guid: e269f912914a842b08cac1c55037c230,
         type: 3}
