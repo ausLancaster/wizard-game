@@ -803,6 +803,7 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 0}
   slider: {fileID: 1839662976}
+  blobEye: {fileID: 6460485846405115601, guid: e269f912914a842b08cac1c55037c230, type: 3}
 --- !u!114 &8556333516774600771
 MonoBehaviour:
   m_ObjectHideFlags: 0

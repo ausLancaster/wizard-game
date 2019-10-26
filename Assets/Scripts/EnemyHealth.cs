@@ -11,6 +11,7 @@ public class EnemyHealth : MonoBehaviour
     public int currentHealth;
     public GameObject healthBar;
     public Slider slider;
+    public GameObject blobEye;
 
     private bool isDead;
     private bool isDamaged;
@@ -48,6 +49,7 @@ public class EnemyHealth : MonoBehaviour
             spawnLevel levelComp = GetComponentInParent<spawnLevel>();
             levelComp.BlobKilled();
             Destroy(this.gameObject);
+            Instantiate(blobEye, this.transform.position, this.transform.rotation).name = blobEye.name;
         }
 
     }
