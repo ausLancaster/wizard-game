@@ -41,7 +41,8 @@ public class PotionCollision : MonoBehaviour
             } else
             {
                 enemyHealth.DamageTaken(25);
-            }          
+            }
+            GC.damageIncreased = false;
         }
     }
 }

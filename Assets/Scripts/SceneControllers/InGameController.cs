@@ -89,7 +89,6 @@ public class InGameController : MonoBehaviour
                 poweredUpPanel.SetActive(false);
                 queueTracker = 0;
                 poweredUp = false;
-                damageIncreased = false;
             }
             else
             {
@@ -109,13 +108,17 @@ public class InGameController : MonoBehaviour
 
 
         // There are potions available to be powered up by caterpillar/egg
-        if (!poweredUp && numPotions > 0)
+        if (!poweredUp)
         {
-            catAnimation.enabled = true;
-            eggAnimation.enabled = true;
-            queueTracker = 0;
-            poweredUpPanel.SetActive(false);
-            disableDelay = 0.5f;
+            if (numPotions>0)
+            {
+                catAnimation.enabled = true;
+                eggAnimation.enabled = true;
+                damageIncreased = false;
+                queueTracker = 0;
+                poweredUpPanel.SetActive(false);
+                disableDelay = 0.5f;
+            }
         }
     }
 
