@@ -8,6 +8,7 @@ public class InGameController : MonoBehaviour
 {
     public HealthManager healthManager;
     public PlayerController player;
+    public HideCursor hideCursor;
     public UI_Manager UI;
     public Canvas pausedCanvas;
     public Canvas inventoryCanvas;
@@ -152,7 +153,7 @@ public class InGameController : MonoBehaviour
     public void TogglePauseMenu()
     {
         ToggleInventory();
-        // not the optimal way but for the sake of readability
+        hideCursor.ToggleCursor();
         if (pausedCanvas.enabled)
         {
             pausedCanvas.enabled = false;

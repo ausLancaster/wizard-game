@@ -10,9 +10,22 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene("CreateName");
     }
 
-    public void OpenInstructions()
+    public void ToggleControls()
     {
-        SceneManager.LoadScene("Instructions");
+        Canvas controlsCanvas = GameObject.Find("ControlsCanvas").GetComponent<Canvas>();
+        if (controlsCanvas.enabled)
+        {
+            controlsCanvas.enabled = false;
+        }
+        else
+        {
+            controlsCanvas.enabled = true;
+        }
+    }
+    
+    public void OpenStory()
+    {
+        SceneManager.LoadScene("Story");
     }
 
     public void QuitGame()
