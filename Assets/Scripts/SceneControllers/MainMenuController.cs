@@ -22,7 +22,20 @@ public class MainMenuController : MonoBehaviour
             controlsCanvas.enabled = true;
         }
     }
-    
+
+    public void ToggleSpellbook()
+    {
+        Canvas spellbookCanvas = GameObject.Find("SpellbookCanvas").GetComponent<Canvas>();
+        if (spellbookCanvas.enabled)
+        {
+            spellbookCanvas.enabled = false;
+        }
+        else
+        {
+            spellbookCanvas.enabled = true;
+        }
+    }
+
     public void OpenStory()
     {
         SceneManager.LoadScene("Story");
