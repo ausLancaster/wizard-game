@@ -56,6 +56,8 @@ public class PlayerController : MonoBehaviour {
             transform.Rotate(0, spinSpeed * Time.deltaTime, 0, Space.World);
         }
 
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
+
     }
 
     public void Die()
