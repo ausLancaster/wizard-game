@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class PotionCollision : MonoBehaviour
 {
+    public InGameController GC;
     public GameObject potion;
     EnemyHealth enemyHealth;
 
     private void Awake()
     {
         enemyHealth = GetComponent<EnemyHealth>();
+        GC = GameObject.Find("InGameController").GetComponent<InGameController>();
     }
 
     // Start is called before the first frame update
@@ -33,7 +35,13 @@ public class PotionCollision : MonoBehaviour
             // https://answers.unity.com/questions/176001/destroy-on-collision.html
             //Destroy(this.gameObject);
             Debug.Log("collision detected");
-            enemyHealth.DamageTaken(25);
+            if (GC.damageIncreased)
+            {
+                enemyHealth.DamageTaken(50);
+            } else
+            {
+                enemyHealth.DamageTaken(25);
+            }          
         }
     }
 }

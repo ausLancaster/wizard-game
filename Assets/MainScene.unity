@@ -3683,6 +3683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 1311290861401530, guid: 312b31977ed9b2d48a14849ebb8c7fb3, type: 3}
   stopSpawning: 0
+  yCoord: 0
   spawnTime: 30
   spawnDelay: 30
   level: {fileID: 0}
@@ -5527,6 +5528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 8933201177581931154, guid: eadb301f5d20a499ebfbead87ba8b20e, type: 3}
   stopSpawning: 0
+  yCoord: 0
   spawnTime: 10
   spawnDelay: 7
   level: {fileID: 0}
@@ -6803,6 +6805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 1894000342005962819, guid: 50e5e0fab058c42d0b21477b45d5f919, type: 3}
   stopSpawning: 0
+  yCoord: 0
   spawnTime: 1
   spawnDelay: 2
   level: {fileID: 0}
@@ -6895,7 +6898,7 @@ PrefabInstance:
     - target: {fileID: 6295732264810142282, guid: 936a27936c7bf58419182d57783435c0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6295732264810142280, guid: 936a27936c7bf58419182d57783435c0,
         type: 3}
@@ -7281,6 +7284,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -290
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295732263727158754, guid: 936a27936c7bf58419182d57783435c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936a27936c7bf58419182d57783435c0, type: 3}
@@ -9484,10 +9492,11 @@ MonoBehaviour:
   poweredUpPanel: {fileID: 1181750240}
   explosionIncPanel: {fileID: 1019321547}
   damageIncPanel: {fileID: 458281202}
-  poweredUp: 0
-  queueTracker: 0
   catAnimation: {fileID: 0}
   eggAnimation: {fileID: 0}
+  poweredUp: 0
+  damageIncreased: 0
+  queueTracker: 0
   disableDelay: 0
 --- !u!4 &1985363777
 Transform:
@@ -10067,6 +10076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 6927643368266508583, guid: 6133d46231af649c8807a34c57eb974b, type: 3}
   stopSpawning: 0
+  yCoord: 0
   spawnTime: 1
   spawnDelay: 2
   level: {fileID: 0}

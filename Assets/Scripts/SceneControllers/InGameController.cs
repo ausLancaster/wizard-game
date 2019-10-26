@@ -23,13 +23,13 @@ public class InGameController : MonoBehaviour
     public GameObject explosionIncPanel;
     public GameObject damageIncPanel;
 
-    public bool poweredUp;
-    public int queueTracker;
     public ItemAnimation catAnimation;
     public ItemAnimation eggAnimation;
+    public bool poweredUp;
+    public bool damageIncreased;
+    public int queueTracker;
     public float disableDelay;
-
-
+    
     void Start()
     {
         /*GameObject pausedMenu = GameObject.Find("PausedCanvas");
@@ -48,6 +48,7 @@ public class InGameController : MonoBehaviour
         damageIncPanel.SetActive(false);
 
         poweredUp = false;
+        damageIncreased = false;
         queueTracker = 0;
         catAnimation = GameObject.Find("Button 4").GetComponent<ItemAnimation>();
         eggAnimation = GameObject.Find("Button 5").GetComponent<ItemAnimation>();
@@ -87,6 +88,7 @@ public class InGameController : MonoBehaviour
                 poweredUpPanel.SetActive(false);
                 queueTracker = 0;
                 poweredUp = false;
+                damageIncreased = false;
             }
             else
             {
@@ -114,8 +116,6 @@ public class InGameController : MonoBehaviour
             poweredUpPanel.SetActive(false);
             disableDelay = 0.5f;
         }
-
-
     }
 
     public void ToggleInventory()
@@ -137,6 +137,7 @@ public class InGameController : MonoBehaviour
     }
     public void DamageIncMessage()
     {
+        damageIncreased = true;
         damageIncPanel.SetActive(true);
         displayTime = 2;
     }
@@ -168,7 +169,8 @@ public class InGameController : MonoBehaviour
 
     public void GameOver()
     {
-
+        SceneManager.LoadScene("GameOver");
+ 
     }
 
 
