@@ -98,6 +98,11 @@ public class spawnLevel : MonoBehaviour
             secretMountain.transform.Translate(new Vector3(0, -Time.deltaTime, 0));
             mountainDecended -= Time.deltaTime;
             level = 1000;
+            blobCountDisplay.text = "Defeat the boss!";
+        }
+        else
+        {
+            blobCountDisplay.text = currentBlobCount.ToString() + " blobs left";
         }
 
         float bossRange = 36 * bossRoom.transform.localScale.x;
@@ -107,8 +112,6 @@ public class spawnLevel : MonoBehaviour
         } else {
             boss.GetComponent<EnemyFollowPlayer>().objectToFollow = bossRoom.transform;
         }
-
-        blobCountDisplay.text = currentBlobCount.ToString() + " blobs left";
     }
 
     public void BlobKilled()

@@ -7,6 +7,7 @@ public class SpawnObjects : MonoBehaviour
     // https://www.youtube.com/watch?v=1h2yStilBWU
     public GameObject item;
     public bool stopSpawning = false;
+    public float yCoord;
     //public float spawnTimeMin;
     //public float spawnTimeMax;
     //public float spawnDelayMin;
@@ -39,7 +40,7 @@ public class SpawnObjects : MonoBehaviour
     {
         float xCoord = Random.Range(level.transform.position.x + level.transform.localScale.x * 5, level.transform.position.x - level.transform.localScale.x * 5);
         float zCoord = Random.Range(level.transform.position.z + level.transform.localScale.z * 5, level.transform.position.z - level.transform.localScale.z * 5);
-        Vector3 position = new Vector3(xCoord, 0, zCoord);
+        Vector3 position = new Vector3(xCoord, yCoord, zCoord);
         Instantiate(item, position, transform.rotation).name = item.name;
 
         if (stopSpawning == true)
