@@ -49,7 +49,7 @@ public class EnemyHealth : MonoBehaviour
             spawnLevel levelComp = GetComponentInParent<spawnLevel>();
             levelComp.BlobKilled();
             Destroy(this.gameObject);
-            Instantiate(blobEye, this.transform.position, this.transform.rotation).name = blobEye.name;
+            Instantiate(blobEye, this.transform.position, this.transform.rotation).name = "Blob eye";
         }
 
     }
