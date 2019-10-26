@@ -21,8 +21,16 @@ public class HealthManager : MonoBehaviour
     public float flashLength = 0.1f;
     private float flashCounter;
 
-    public int healthPotionCount;
+    // For healing player animation
+    public Camera mainCamera;
+    public Camera healingCamera;
     public GameObject healthPotion;
+    public GameObject healthBottle;
+    public Animator healAnimation;
+    public GameObject healedText;
+    public int healthPotionCount;
+    public bool isHealing;
+    public float healingDuration;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +39,15 @@ public class HealthManager : MonoBehaviour
         healthbar.value = (float) currentHealth / maxHealth;
         healthPotionCount = 0;
         healthPotion = GameObject.Find("HealthPotion");
+
+        mainCamera.enabled = true;
+        healingCamera.enabled = false;
         healthPotion.SetActive(false);
+        healthBottle.SetActive(false);
+        healAnimation = healthBottle.GetComponent<Animator>();
+        isHealing = false;
+        healingDuration = 2.0f;
+        healedText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -49,14 +65,38 @@ public class HealthManager : MonoBehaviour
         }
 
         // Use health potions if available
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.H) && healthPotionCount>0)
         {
-            if (healthPotionCount>0)
-            {
-                healthPotionCount--;
-                HealPlayer(5);
-            }
+            isHealing = true;
+            healthBottle.SetActive(false);
+            healthPotionCount--;
+
         }
+
+        // Play animation and messages when healing
+        if (isHealing)
+        {
+            if (healingDuration >= 0)
+            {
+                healingDuration -= Time.deltaTime;
+                mainCamera.enabled = false;
+                healingCamera.enabled = true;
+                healedText.SetActive(true);
+                healthBottle.SetActive(true);
+                healAnimation.Play("Movement");
+            }
+            else if (healingDuration < 0)
+            {
+                healthBottle.SetActive(false);
+                mainCamera.enabled = true;
+                healingCamera.enabled = false;
+                healedText.SetActive(false);
+                healingDuration = 2.0f;
+                isHealing = false;
+            }
+
+        }
+
 
         // Player only flashes when invincible
         if (invincibilityCounter > 0)
