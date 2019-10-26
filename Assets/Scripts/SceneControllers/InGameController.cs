@@ -175,6 +175,11 @@ public class InGameController : MonoBehaviour
         }
     }
 
+    public void GameWon()
+    {
+        SceneManager.LoadScene("Victory");
+    }
+
     public void GameOver()
     {
         SceneManager.LoadScene("GameOver");

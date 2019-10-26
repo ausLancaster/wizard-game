@@ -11,12 +11,14 @@ public class BossBehaviour : MonoBehaviour
     public int remainingWaves = 3;
     public int minionCountOnEachWave = 2;
     public GameObject minion;
+    public InGameController GC;
     // Start is called before the first frame update
     void Start()
     {
         healthComp = gameObject.GetComponent<EnemyHealth>();
         transform.localScale = new Vector3(healthComp.currentHealth * SIZEOVERHEALTH, healthComp.currentHealth * SIZEOVERHEALTH, healthComp.currentHealth * SIZEOVERHEALTH);
         maxHealth = healthComp.currentHealth;
+        GC = GameObject.Find("InGameController").GetComponent<InGameController>();
     }
 
     // Update is called once per frame
@@ -45,8 +47,12 @@ public class BossBehaviour : MonoBehaviour
         transform.localScale = new Vector3(currentSize, currentSize, currentSize);
         // ------  ends here ---------
 
+        if (healthComp.currentHealth <= 0)
+        {
+            GC.GameWon();
+        }
 
-        if(healthComp.currentHealth <= maxHealth * ((remainingWaves - 1) / (float)(remainingWaves)) && healthComp.currentHealth>0) {
+        if (healthComp.currentHealth <= maxHealth * ((remainingWaves - 1) / (float)(remainingWaves)) && healthComp.currentHealth>0) {
             spawnWave();
             maxHealth = maxHealth * ((remainingWaves - 1) / (float)(remainingWaves));
             remainingWaves--;
