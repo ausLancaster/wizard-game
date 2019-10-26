@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DamagePlayer : MonoBehaviour
 {
-    public int damageAmount = 1;
+    public int damageAmount;
     // Start is called before the first frame update
     void Start()
     {
