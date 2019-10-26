@@ -44,7 +44,7 @@ public class spawnLevel : MonoBehaviour
         else
             Map = Instantiate(Map4);
         Map.transform.parent = transform;
-        Map.transform.localPosition = new Vector3(0, 0, 0);
+        Map.transform.localPosition = new Vector3(5, 0, 7);
 
         //Dealing with the planes that does the blob spawning
         planes = Map.GetComponentsInChildren<spawnBlobsOnPlane>();
