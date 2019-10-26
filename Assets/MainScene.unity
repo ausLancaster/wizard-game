@@ -3558,7 +3558,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &943843372
 Transform:
   m_ObjectHideFlags: 0
@@ -3587,8 +3587,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 1311290861401530, guid: 312b31977ed9b2d48a14849ebb8c7fb3, type: 3}
   stopSpawning: 0
-  spawnTime: 50
-  spawnDelay: 50
+  spawnTime: 30
+  spawnDelay: 30
   level: {fileID: 0}
 --- !u!1 &960471007
 GameObject:
@@ -5364,8 +5364,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 8933201177581931154, guid: eadb301f5d20a499ebfbead87ba8b20e, type: 3}
   stopSpawning: 0
-  spawnTime: 30
-  spawnDelay: 10
+  spawnTime: 10
+  spawnDelay: 7
   level: {fileID: 0}
 --- !u!1 &1295380789
 GameObject:
@@ -6490,8 +6490,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 1894000342005962819, guid: 50e5e0fab058c42d0b21477b45d5f919, type: 3}
   stopSpawning: 0
-  spawnTime: 15
-  spawnDelay: 3
+  spawnTime: 1
+  spawnDelay: 2
   level: {fileID: 0}
 --- !u!1 &1542349529
 GameObject:
@@ -9525,8 +9525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 6927643368266508583, guid: 6133d46231af649c8807a34c57eb974b, type: 3}
   stopSpawning: 0
-  spawnTime: 15
-  spawnDelay: 3
+  spawnTime: 1
+  spawnDelay: 2
   level: {fileID: 0}
 --- !u!1 &2103581248
 GameObject:
