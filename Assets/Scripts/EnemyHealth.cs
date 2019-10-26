@@ -33,7 +33,7 @@ public class EnemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //slider.value = HealthPercentage();
+        slider.value = HealthPercentage();
     }
 
     public void DamageTaken(int damageAmount)

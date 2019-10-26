@@ -34,7 +34,7 @@ public class PotionCollision : MonoBehaviour
             //this.gameObject.SetActive(false);
             // https://answers.unity.com/questions/176001/destroy-on-collision.html
             //Destroy(this.gameObject);
-            Debug.Log("collision detected");
+            //Debug.Log("collision detected");
             if (GC.damageIncreased)
             {
                 enemyHealth.DamageTaken(50);

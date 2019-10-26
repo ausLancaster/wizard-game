@@ -334,6 +334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85987d6160f14e85a9ac77ca6ac4ae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GC: {fileID: 0}
   potion: {fileID: 4610955968907242327, guid: 0a536618e59b14897a582437112526d7, type: 3}
 --- !u!135 &8962316898152855102
 SphereCollider:
@@ -397,7 +398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7a9d5bdecd0b10489084f60631847c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 1
+  damageAmount: 15
 --- !u!114 &7152775168581216414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,7 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialHealth: 400
-  currentHealth: 400
+  currentHealth: 0
   healthBar: {fileID: 0}
   slider: {fileID: 7310391690774550266, guid: 106bd3829d02946e084781fd38c70780, type: 3}
   blobEye: {fileID: 6460485846405115601, guid: e269f912914a842b08cac1c55037c230, type: 3}
