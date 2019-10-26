@@ -102,6 +102,10 @@ public class spawnLevel : MonoBehaviour
             blobCountDisplay.text = "Defeat the boss!";
             bossHealthBar.SetActive(true);
         }
+        else if (currentBlobCount <= 0)
+        {
+            blobCountDisplay.text = "Defeat the boss!";
+        }
         else
         {
             blobCountDisplay.text = currentBlobCount.ToString() + " blobs left";
