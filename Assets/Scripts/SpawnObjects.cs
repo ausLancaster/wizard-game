@@ -25,14 +25,6 @@ public class SpawnObjects : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //spawnTime = Random.Range(spawnTimeMin, spawnTimeMax);
-        //spawnDelay = Random.Range(spawnDelayMin, spawnDelayMax);
-        for (int i = 0; i < 50; i++)
-        {
-            spawnItem();
-            Debug.Log("test");
-        }
-
         InvokeRepeating("spawnItem", spawnTime, spawnDelay);
         
     }
