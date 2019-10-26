@@ -79,8 +79,6 @@ public class ThrowPotion : MonoBehaviour
             target.gameObject.SetActive(false);
             aimAmount = -1;
             cooldownTimer = cooldownAmount;
-
-
         }
         target.localPosition = new Vector3(0, targetY, Mathf.Lerp(throwDistanceMin, throwDistanceMax, aimAmount));
         target.position = new Vector3(target.position.x, targetY, target.position.z);

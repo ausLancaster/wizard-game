@@ -28,6 +28,7 @@ public class InGameController : MonoBehaviour
     public ItemAnimation eggAnimation;
     public bool poweredUp;
     public bool damageIncreased;
+    public bool explosionIncreased;
     public int queueTracker;
     public float disableDelay;
     
@@ -50,6 +51,7 @@ public class InGameController : MonoBehaviour
 
         poweredUp = false;
         damageIncreased = false;
+        explosionIncreased = false;
         queueTracker = 0;
         catAnimation = GameObject.Find("Button 4").GetComponent<ItemAnimation>();
         eggAnimation = GameObject.Find("Button 5").GetComponent<ItemAnimation>();
@@ -115,6 +117,7 @@ public class InGameController : MonoBehaviour
                 catAnimation.enabled = true;
                 eggAnimation.enabled = true;
                 damageIncreased = false;
+                explosionIncreased = false;
                 queueTracker = 0;
                 poweredUpPanel.SetActive(false);
                 disableDelay = 0.5f;
@@ -136,6 +139,7 @@ public class InGameController : MonoBehaviour
 
     public void ExplosionIncMessage()
     {
+        explosionIncreased = true;
         explosionIncPanel.SetActive(true);
         displayTime = 2;
     }
