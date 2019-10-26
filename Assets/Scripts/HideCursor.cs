@@ -15,4 +15,16 @@ public class HideCursor : MonoBehaviour
     {
         
     }
+
+    public void ToggleCursor()
+    {
+        if (Cursor.visible)
+        {
+            Cursor.visible = false;
+        }
+        else
+        {
+            Cursor.visible = true;
+        }
+    }
 }

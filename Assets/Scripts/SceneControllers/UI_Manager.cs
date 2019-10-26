@@ -7,7 +7,7 @@ public class UI_Manager : MonoBehaviour
     public InGameController inGameController;
     public Canvas controlsCanvas;
     public Canvas exitCanvas;
-
+    
     // Use this for initialization
     void Start()
     {

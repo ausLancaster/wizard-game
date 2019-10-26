@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class InstructionsController : MonoBehaviour
+public class StoryController : MonoBehaviour
 {
 
     public void OnBackButtonPressed()
