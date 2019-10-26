@@ -29,8 +29,7 @@ public class InGameController : MonoBehaviour
     public bool damageIncreased;
     public int queueTracker;
     public float disableDelay;
-
-
+    
     void Start()
     {
         /*GameObject pausedMenu = GameObject.Find("PausedCanvas");
@@ -117,8 +116,6 @@ public class InGameController : MonoBehaviour
             poweredUpPanel.SetActive(false);
             disableDelay = 0.5f;
         }
-
-
     }
 
     public void ToggleInventory()
@@ -172,7 +169,8 @@ public class InGameController : MonoBehaviour
 
     public void GameOver()
     {
-
+        SceneManager.LoadScene("GameOver");
+ 
     }
 
 
