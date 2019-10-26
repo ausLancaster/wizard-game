@@ -27,9 +27,10 @@ public class ThrowPotion : MonoBehaviour
     [SerializeField]
     float spinSpeedMax = 6;
     [SerializeField]
-    float maxAimTime = 3;
+    float maxAimTime = 1;
     Vector3 startingPos = new Vector3(0, 1f, 0);
     float cooldownTimer;
+    bool increasing;
     float aimAmount=-1;
     float targetY;
     
@@ -44,6 +45,8 @@ public class ThrowPotion : MonoBehaviour
 
     void Update()
     {
+        print(increasing);
+        print(aimAmount);
         if (cooldownTimer > 0)
         {
             cooldownTimer -= Time.deltaTime;
@@ -51,11 +54,25 @@ public class ThrowPotion : MonoBehaviour
 
         if (aimAmount >= 0)
         {
-            aimAmount += Time.deltaTime;
-            if (aimAmount > maxAimTime)
+            if (increasing)
             {
-                aimAmount = maxAimTime;
+                aimAmount += Time.deltaTime;
+                if (aimAmount > maxAimTime)
+                {
+                    increasing = false;
+                    aimAmount = maxAimTime;
+                }
             }
+            else
+            {
+                aimAmount -= Time.deltaTime;
+                if (aimAmount <= 0)
+                {
+                    increasing = true;
+                    aimAmount = 0;
+                }
+            }
+
         }
         if (cooldownTimer <= 0)
         {
@@ -66,6 +83,7 @@ public class ThrowPotion : MonoBehaviour
                     print("aim " + target.gameObject);
                     target.gameObject.SetActive(true);
                     aimAmount = 0;
+                    increasing = true;
                 } else if (GC.numPotions == 0) {
                     GC.NoPotionMessage();
                 }
@@ -77,10 +95,10 @@ public class ThrowPotion : MonoBehaviour
             print("throw");
             Throw();
             target.gameObject.SetActive(false);
-            aimAmount = -1;
+            aimAmount = -10;
             cooldownTimer = cooldownAmount;
         }
-        target.localPosition = new Vector3(0, targetY, Mathf.Lerp(throwDistanceMin, throwDistanceMax, aimAmount));
+        target.localPosition = new Vector3(0, targetY, Mathf.Lerp(throwDistanceMin, throwDistanceMax, aimAmount / maxAimTime));
         target.position = new Vector3(target.position.x, targetY, target.position.z);
     }
 
@@ -90,7 +108,7 @@ public class ThrowPotion : MonoBehaviour
         Transform potion = Instantiate(potionPrefab);
         potion.transform.position = transform.position + startingPos;
         Rigidbody potionRB = potion.GetComponent<Rigidbody>();
-        float throwSpeed = Mathf.Lerp(throwSpeedMin, throwSpeedMax, aimAmount);
+        float throwSpeed = Mathf.Lerp(throwSpeedMin, throwSpeedMax, aimAmount / maxAimTime);
         potionRB.velocity = transform.rotation * (throwSpeed * throwDirection);
         print("velocity: " + potionRB.velocity);
         float a = Random.value * 2 * Mathf.PI;

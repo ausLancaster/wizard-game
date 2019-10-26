@@ -604,7 +604,7 @@ MonoBehaviour:
   cooldownAmount: 1
   spinSpeedMin: 4
   spinSpeedMax: 10
-  maxAimTime: 3
+  maxAimTime: 1
   GC: {fileID: 0}
 --- !u!114 &8296172669070570555
 MonoBehaviour:
@@ -720,8 +720,15 @@ MonoBehaviour:
   invincibilityLength: 3
   playerBodyRenderer: {fileID: 2340956615515514762}
   flashLength: 0.1
-  healthPotionCount: 0
+  mainCamera: {fileID: 0}
+  healingCamera: {fileID: 0}
   healthPotion: {fileID: 0}
+  healthBottle: {fileID: 0}
+  healAnimation: {fileID: 0}
+  healedText: {fileID: 0}
+  healthPotionCount: 0
+  isHealing: 0
+  healingDuration: 0
 --- !u!114 &1472240894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1002,11 +1009,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5016643314609682030}
     m_Modifications:
-    - target: {fileID: 8739372451503372440, guid: 9e1ac2e03bed042afad8ce9668ad0307,
-        type: 3}
-      propertyPath: m_Name
-      value: Target
-      objectReference: {fileID: 0}
     - target: {fileID: 4398620942677703116, guid: 9e1ac2e03bed042afad8ce9668ad0307,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1061,6 +1063,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739372451503372440, guid: 9e1ac2e03bed042afad8ce9668ad0307,
+        type: 3}
+      propertyPath: m_Name
+      value: Target
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e1ac2e03bed042afad8ce9668ad0307, type: 3}
