@@ -9,6 +9,7 @@ TagManager:
   - Item
   - secretMountain
   - bossRoom
+  - boss health
   layers:
   - Default
   - TransparentFX
