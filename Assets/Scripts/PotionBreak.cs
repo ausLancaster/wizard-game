@@ -30,16 +30,18 @@ public class PotionBreak : MonoBehaviour
             if (GC.potionQueue[0] == "fire")
             {
                 effect = Instantiate(fireBreakEffect);
+                effect.transform.position = new Vector3(transform.position.x, 0, transform.position.z);
             }
             else if (GC.potionQueue[0] == "poison")
             {
                 effect = Instantiate(poisonBreakEffect);
+                effect.transform.position = new Vector3(transform.position.x, 0, transform.position.z);
             }
             else if (GC.potionQueue[0] == "acid")
             {
                 effect = Instantiate(acidBreakEffect);
+                effect.transform.position = new Vector3(transform.position.x, 0, transform.position.z);
             }
-            effect.transform.position = new Vector3(transform.position.x, 0, transform.position.z);
             Destroy(gameObject);
             GC.potionQueue.RemoveAt(0);
         }
