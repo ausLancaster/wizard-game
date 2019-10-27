@@ -33,7 +33,6 @@ public class KeyHighlight : MonoBehaviour
             if (Input.GetKeyDown(key) == true)
             {
                 Outline.enabled = true;
-                //Debug.Log("key pressed");
             }
 
             // Otherwise do not show the outline

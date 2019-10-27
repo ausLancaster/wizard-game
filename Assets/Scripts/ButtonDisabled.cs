@@ -7,10 +7,8 @@ public class ButtonDisabled : MonoBehaviour
 {
     // Referenced https://answers.unity.com/questions/346719/is-it-possible-to-disable-a-key.html for how
     // to "disable" a button 
-    //public GameObject player;
     public Text count;
 
-    //private Inventory inventory;
     public bool disabled = false;
     private Image shade;
 
@@ -18,7 +16,6 @@ public class ButtonDisabled : MonoBehaviour
     void Start()
     {
         // Get the image for shading out the button 
-        //inventory = player.GetComponent<Inventory>();
         shade = gameObject.GetComponent<Image>();
 
     }

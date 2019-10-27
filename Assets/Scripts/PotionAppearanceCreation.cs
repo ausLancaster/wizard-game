@@ -36,8 +36,6 @@ public class PotionAppearanceCreation : MonoBehaviour
     public Image potionImage;
     // The player game object 
     public GameObject player;
-    // Item sprites 
-    //public Sprite leaf;
     // Scroll view list of items added to the potions
     public GameObject addedItems;
     public bool reset;

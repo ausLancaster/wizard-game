@@ -18,19 +18,15 @@ public class EnemyHealth : MonoBehaviour
 
 
 
-    //TempMovementScript movement;
 
     // Start is called before the first frame update
     void Start()
     {
-
-        //movement = GetComponent<TempMovementScript>();
         // Make the starting health of the enemy the current health it is at
         currentHealth = initialHealth;
 
         // Initialise the value of the slider/health bar 
         slider.value = HealthPercentage();
-        //Debug.Log(slider.value);
     }
 
     // Update is called once per frame
