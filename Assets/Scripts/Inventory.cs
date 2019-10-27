@@ -20,6 +20,8 @@ public class Inventory : MonoBehaviour
     public Text inventoryCountEgg;
     public Text inventoryCountEyebrow;
 
+    public MusicController MC;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +42,7 @@ public class Inventory : MonoBehaviour
         if (other.gameObject.CompareTag("Item"))
         {
             //Debug.Log("item found");
-
+            MC.PlayItemPickUp();
             if (other.gameObject.name == "Leaf")
             {
                 leafCount++;
@@ -82,7 +84,6 @@ public class Inventory : MonoBehaviour
                 Debug.Log("current eyebrows" + eyebrowCount);
                 inventoryCountEyebrow.text = eyebrowCount.ToString();
             }
-
             Destroy(other.gameObject);
         }
     }
