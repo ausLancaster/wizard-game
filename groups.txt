@@ -21,8 +21,9 @@ Carried out playtesting.
 
 Jessey: 
 Implemented player movement. Implemented player and enemy collisions. 
-Implemented scenes and scene controllers. Implemented pause UI. Implemented 
-potion action and messages. Implemented sound.
+Implemented scenes and scene controllers. Implemented pause UI. 
+Implemented potion action and messages. Implemented egg and caterpillar power ups. 
+Implemented health potion. Implemented sound.
 
 Austin: 
 Modelled and animated player, blob enemy and potions. Implemented potion 
