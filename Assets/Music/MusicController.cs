@@ -5,6 +5,13 @@ using UnityEngine;
 public class MusicController : MonoBehaviour
 {
     public InGameController GC;
+    public spawnLevel currentLevel;
+
+    public AudioSource mainForest;
+    public AudioClip mainForestMusic;
+
+    public AudioSource boss;
+    public AudioClip bossMusic;
 
     public AudioSource chicken;
     public AudioClip chickenSounds;
@@ -28,6 +35,9 @@ public class MusicController : MonoBehaviour
     void Start()
     {
         GC = GameObject.Find("InGameController").GetComponent<InGameController>();
+        mainForestMusic = mainForest.clip;
+        bossMusic = boss.clip;
+        boss.enabled = false;
         chickenSounds = chicken.clip;
         windSounds = wind.clip;
         throwSound = throwAction.clip;
@@ -48,6 +58,18 @@ public class MusicController : MonoBehaviour
             throwAction.PlayOneShot(throwSound);
             explosion.PlayOneShot(explodeSound);
         }
+
+        if (currentLevel.currentBlobCount<=0)
+        {
+            StartCoroutine(PlayBoss());
+        }
+    }
+
+    IEnumerator PlayBoss()
+    {
+        mainForest.Stop();
+        boss.enabled = true;
+        yield return null;
     }
 
     IEnumerator PlayWind()
