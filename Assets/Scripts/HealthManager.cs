@@ -68,6 +68,7 @@ public class HealthManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.H) && healthPotionCount>0)
         {
             isHealing = true;
+            GameObject.Find("Music_Manager").GetComponent<MusicController>().PlayHealAudio();
             healthBottle.SetActive(false);
             healthPotionCount--;
 
