@@ -4,6 +4,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
+    public void Start()
+    {
+        GameObject.Find("Intro_Music_Manager").GetComponent<AudioSource>().enabled = true;
+        GameObject.Find("HideCursor").GetComponent<HideCursor>().CursorOn();
+
+    }
     public void StartGame()
     {
         // ****Need to change this to InGame Scene****

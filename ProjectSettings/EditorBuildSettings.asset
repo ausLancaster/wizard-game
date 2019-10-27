@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/QuitGame.unity
     guid: 06508b88f2d5e2e45b217946beb4c7e3
   - enabled: 1
-    path: Assets/MainScene.unity
+    path: Assets/Scenes/MainScene.unity
     guid: a54fa233506a84cf49f6bf225696736f
   - enabled: 1
     path: Assets/Scenes/Victory.unity

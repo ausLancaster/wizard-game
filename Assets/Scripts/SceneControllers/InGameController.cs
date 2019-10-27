@@ -160,9 +160,9 @@ public class InGameController : MonoBehaviour
     public void TogglePauseMenu()
     {
         ToggleInventory();
-        hideCursor.ToggleCursor();
         if (pausedCanvas.enabled)
         {
+            hideCursor.CursorOff();
             pausedCanvas.enabled = false;
             UI.controlsCanvas.enabled = false;
             UI.exitCanvas.enabled = false;
@@ -171,6 +171,7 @@ public class InGameController : MonoBehaviour
         else
         {
             pausedCanvas.enabled = true;
+            hideCursor.CursorOn();
             Time.timeScale = 0f;
         }
     }

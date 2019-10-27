@@ -20,15 +20,12 @@ public class HideCursor : MonoBehaviour
     }
 
     // When this function is called, toggle the status of the cursor's visibility
-    public void ToggleCursor()
-    { 
-        if (Cursor.visible)
-        {
-            Cursor.visible = false;
-        }
-        else
-        {
-            Cursor.visible = true;
-        }
+    public void CursorOn()
+    {
+        Cursor.visible = true;
+    }
+    public void CursorOff()
+    {
+        Cursor.visible = false;
     }
 }

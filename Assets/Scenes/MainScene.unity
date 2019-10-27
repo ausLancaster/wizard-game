@@ -817,33 +817,38 @@ PrefabInstance:
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: leafCount
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: flowerCount
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: eyeCount
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: caterpillarCount
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: eggCount
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: MC
       value: 
       objectReference: {fileID: 30304063}
+    - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: eyebrowCount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 423200964858897401, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: zeroHealthEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
