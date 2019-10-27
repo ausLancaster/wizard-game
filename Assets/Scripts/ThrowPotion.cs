@@ -45,8 +45,6 @@ public class ThrowPotion : MonoBehaviour
 
     void Update()
     {
-        print(increasing);
-        print(aimAmount);
         if (cooldownTimer > 0)
         {
             cooldownTimer -= Time.deltaTime;

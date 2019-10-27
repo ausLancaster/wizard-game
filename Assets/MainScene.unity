@@ -516,11 +516,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8342332660910326909, guid: a3e44f97ae2254d458899a60b15ffac9,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 5016643314609682030, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -574,6 +569,26 @@ PrefabInstance:
     - target: {fileID: 5016643314609682030, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342332660910326909, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342332660910326909, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296172669070570552, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: GC
+      value: 
+      objectReference: {fileID: 1985363776}
+    - target: {fileID: -461003745139192012, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2882286560055575934, guid: a3e44f97ae2254d458899a60b15ffac9,
@@ -631,6 +646,11 @@ PrefabInstance:
       propertyPath: eggCount
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3914453823879042508, guid: a3e44f97ae2254d458899a60b15ffac9,
+        type: 3}
+      propertyPath: GC
+      value: 
+      objectReference: {fileID: 1985363776}
     - target: {fileID: 423200964858897401, guid: a3e44f97ae2254d458899a60b15ffac9,
         type: 3}
       propertyPath: zeroHealthEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -673,21 +693,6 @@ PrefabInstance:
       propertyPath: eyebrowReadyUI
       value: 
       objectReference: {fileID: 800246509195122319}
-    - target: {fileID: 8296172669070570552, guid: a3e44f97ae2254d458899a60b15ffac9,
-        type: 3}
-      propertyPath: GC
-      value: 
-      objectReference: {fileID: 1985363776}
-    - target: {fileID: 3914453823879042508, guid: a3e44f97ae2254d458899a60b15ffac9,
-        type: 3}
-      propertyPath: GC
-      value: 
-      objectReference: {fileID: 1985363776}
-    - target: {fileID: -461003745139192012, guid: a3e44f97ae2254d458899a60b15ffac9,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1472240902, guid: a3e44f97ae2254d458899a60b15ffac9, type: 3}
       propertyPath: m_Constraints
       value: 112
@@ -9735,6 +9740,7 @@ MonoBehaviour:
   eggAnimation: {fileID: 0}
   poweredUp: 0
   damageIncreased: 0
+  explosionIncreased: 0
   queueTracker: 0
   disableDelay: 0
 --- !u!4 &1985363777
@@ -9832,7 +9838,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1137845685}
   m_HandleRect: {fileID: 1137845684}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -9959,16 +9965,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1170162931764269783, guid: b9f43d4de263a4483b90021a7d1e020c,
-        type: 3}
-      propertyPath: m_Name
-      value: Egg
-      objectReference: {fileID: 0}
-    - target: {fileID: 1170162931764269783, guid: b9f43d4de263a4483b90021a7d1e020c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 123777764315581215, guid: b9f43d4de263a4483b90021a7d1e020c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10022,6 +10018,16 @@ PrefabInstance:
     - target: {fileID: 123777764315581215, guid: b9f43d4de263a4483b90021a7d1e020c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170162931764269783, guid: b9f43d4de263a4483b90021a7d1e020c,
+        type: 3}
+      propertyPath: m_Name
+      value: Egg
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170162931764269783, guid: b9f43d4de263a4483b90021a7d1e020c,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10161,7 +10167,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 2871
+    m_Bits: 6967
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -11075,11 +11081,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1078360539192344738, guid: 0b923feff198d437b91221e6122416ba,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 7300595492291353293, guid: 0b923feff198d437b91221e6122416ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11146,6 +11147,11 @@ PrefabInstance:
     - target: {fileID: 1025473144, guid: 0b923feff198d437b91221e6122416ba, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078360539192344738, guid: 0b923feff198d437b91221e6122416ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 808425067, guid: 0b923feff198d437b91221e6122416ba, type: 3}
