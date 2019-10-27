@@ -100,6 +100,7 @@ public class spawnLevel : MonoBehaviour
             mountainDecended -= Time.deltaTime;
             level = 1000;
             blobCountDisplay.text = "Defeat the boss!";
+
         }
         else if (currentBlobCount <= 0)
         {
