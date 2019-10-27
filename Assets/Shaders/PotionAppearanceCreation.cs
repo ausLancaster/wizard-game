@@ -188,6 +188,7 @@ public class PotionAppearanceCreation : MonoBehaviour
         //normalItems = false;
         GC.potionQueue.Add(potionName);
         GC.numPotions++;
+        //GC.GetComponent<MusicController>().PlayItemPickUp();
     }
 
     private void AddItem(int value, Image item)

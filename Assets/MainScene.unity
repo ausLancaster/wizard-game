@@ -10568,8 +10568,8 @@ MonoBehaviour:
   poweredUpPanel: {fileID: 1181750240}
   explosionIncPanel: {fileID: 1019321547}
   damageIncPanel: {fileID: 458281202}
-  catAnimation: {fileID: 0}
-  eggAnimation: {fileID: 0}
+  catAnimation: {fileID: 927507104}
+  eggAnimation: {fileID: 1857407195}
   poweredUp: 0
   damageIncreased: 0
   explosionIncreased: 0

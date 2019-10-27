@@ -83,6 +83,20 @@ public class InGameController : MonoBehaviour
             queueTracker = 0;
         }
 
+        // There are potions available to be powered up by caterpillar/egg
+        if (!poweredUp)
+        {
+            if (numPotions > 0)
+            {
+                catAnimation.enabled = true;
+                eggAnimation.enabled = true;
+                damageIncreased = false;
+                explosionIncreased = false;
+                queueTracker = 0;
+                poweredUpPanel.SetActive(false);
+                disableDelay = 0.5f;
+            }
+        }
         // Potion with caterpillar/egg added has been thrown
         if (poweredUp && numPotions != 0)
         {
@@ -107,22 +121,6 @@ public class InGameController : MonoBehaviour
                 }
                 // keep track of powered up potion in queue
                 queueTracker = numPotions;
-            }
-        }
-
-
-        // There are potions available to be powered up by caterpillar/egg
-        if (!poweredUp)
-        {
-            if (numPotions>0)
-            {
-                catAnimation.enabled = true;
-                eggAnimation.enabled = true;
-                damageIncreased = false;
-                explosionIncreased = false;
-                queueTracker = 0;
-                poweredUpPanel.SetActive(false);
-                disableDelay = 0.5f;
             }
         }
     }
