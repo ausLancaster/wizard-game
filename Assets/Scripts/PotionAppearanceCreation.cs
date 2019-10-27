@@ -181,6 +181,7 @@ public class PotionAppearanceCreation : MonoBehaviour
         InventoryPotions.AddToPotionInventory(potionType);
         GC.potionQueue.Add(potionName);
         GC.numPotions++;
+        //GC.GetComponent<MusicController>().PlayItemPickUp();
     }
 
     // Funtion for adding items to the list of items that have been added to the inventory 

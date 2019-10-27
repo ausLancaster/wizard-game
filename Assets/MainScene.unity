@@ -10556,6 +10556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthManager: {fileID: 1472240895}
   player: {fileID: 1472240894}
+  MC: {fileID: 30304063}
   hideCursor: {fileID: 274303072}
   UI: {fileID: 6295732263273836110}
   pausedCanvas: {fileID: 6295732263708007557}
@@ -10567,8 +10568,8 @@ MonoBehaviour:
   poweredUpPanel: {fileID: 1181750240}
   explosionIncPanel: {fileID: 1019321547}
   damageIncPanel: {fileID: 458281202}
-  catAnimation: {fileID: 0}
-  eggAnimation: {fileID: 0}
+  catAnimation: {fileID: 927507104}
+  eggAnimation: {fileID: 1857407195}
   poweredUp: 0
   damageIncreased: 0
   explosionIncreased: 0

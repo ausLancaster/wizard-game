@@ -8,6 +8,7 @@ public class InGameController : MonoBehaviour
 {
     public HealthManager healthManager;
     public PlayerController player;
+    public MusicController MC;
     public HideCursor hideCursor;
     public UI_Manager UI;
     public Canvas pausedCanvas;
@@ -37,6 +38,7 @@ public class InGameController : MonoBehaviour
         /*GameObject pausedMenu = GameObject.Find("PausedCanvas");
         pausedCanvas = pausedMenu.GetComponent<Canvas>();*/
         pausedCanvas.enabled = false;
+        GameObject.Find("Intro_Music_Manager").GetComponent<AudioSource>().enabled = false;
 
         GameObject inventory = GameObject.Find("UI");
         inventoryCanvas = inventory.GetComponent<Canvas>();
@@ -81,6 +83,20 @@ public class InGameController : MonoBehaviour
             queueTracker = 0;
         }
 
+        // There are potions available to be powered up by caterpillar/egg
+        if (!poweredUp)
+        {
+            if (numPotions > 0)
+            {
+                catAnimation.enabled = true;
+                eggAnimation.enabled = true;
+                damageIncreased = false;
+                explosionIncreased = false;
+                queueTracker = 0;
+                poweredUpPanel.SetActive(false);
+                disableDelay = 0.5f;
+            }
+        }
         // Potion with caterpillar/egg added has been thrown
         if (poweredUp && numPotions != 0)
         {
@@ -105,22 +121,6 @@ public class InGameController : MonoBehaviour
                 }
                 // keep track of powered up potion in queue
                 queueTracker = numPotions;
-            }
-        }
-
-
-        // There are potions available to be powered up by caterpillar/egg
-        if (!poweredUp)
-        {
-            if (numPotions>0)
-            {
-                catAnimation.enabled = true;
-                eggAnimation.enabled = true;
-                damageIncreased = false;
-                explosionIncreased = false;
-                queueTracker = 0;
-                poweredUpPanel.SetActive(false);
-                disableDelay = 0.5f;
             }
         }
     }
@@ -177,11 +177,13 @@ public class InGameController : MonoBehaviour
 
     public void GameWon()
     {
+        MC.enabled = false;
         SceneManager.LoadScene("Victory");
     }
 
     public void GameOver()
     {
+        MC.enabled = false;
         SceneManager.LoadScene("GameOver");
  
     }
