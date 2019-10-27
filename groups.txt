@@ -1,0 +1,26 @@
+Members:
+Austin Lancaster 
+Jessey Fung 
+Meric Ungor 
+Sarah Kite   skite@student.unimelb.edu.au   912613
+
+Contributions:
+Sarah: 
+Implemented camera behaviour. Implemented user interface. Implemented player 
+inventory mechanics. Implemented enemy health and enemy collisions with potions. 
+Carried out playtesting. 
+
+Jessey: 
+Implemented player movement. Implemented player and enemy collisions. 
+Implemented scenes and scene controllers. Implemented pause UI. Implemented 
+potion action and messages. Implemented sound.
+
+Austin: 
+Modelled and animated player, blob enemy and potions. Implemented potion 
+throwing. Created potion particle effects. Implemented specular, wood and 
+target shaders. Implemented chickens. Implemented eyebrow shaving.
+
+Meric: Implementation of enemy movement, a number of level designs, randomized 
+spawning of foliage, spawning of the enemies for every level, combining these 
+for a randomized level generation to some extent, boss room design and boss 
+behaviour.
