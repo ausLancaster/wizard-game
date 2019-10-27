@@ -154,6 +154,7 @@ public class PotionAppearanceCreation : MonoBehaviour
 
             // Indicate the potion has been powered up and tell the player in the UI
             GC.poweredUp = true;
+            GameObject.Find("Music_Manager").GetComponent<MusicController>().PlayPowerUp();
             GC.DamageIncMessage();
         }
         // Do the same for if an egg has been added
@@ -165,6 +166,7 @@ public class PotionAppearanceCreation : MonoBehaviour
             childOutline.effectDistance = new Vector2(5, 2);
 
             GC.poweredUp = true;
+            GameObject.Find("Music_Manager").GetComponent<MusicController>().PlayPowerUp();
             GC.ExplosionIncMessage();
 
         }

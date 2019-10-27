@@ -31,6 +31,9 @@ public class MusicController : MonoBehaviour
     public AudioSource pickUp;
     public AudioClip pickUpSound;
 
+    public AudioSource powerUp;
+    public AudioClip powerUpSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +46,7 @@ public class MusicController : MonoBehaviour
         throwSound = throwAction.clip;
         explodeSound = explosion.clip;
         pickUpSound = pickUp.clip;
+        powerUpSound = powerUp.clip;
 
         windSoundDelay = 10.0f;
         chickenSoundDelay = 15.0f;
@@ -92,5 +96,10 @@ public class MusicController : MonoBehaviour
     public void PlayItemPickUp()
     {
         pickUp.PlayOneShot(pickUpSound);
+    }
+
+    public void PlayPowerUp()
+    {
+        powerUp.PlayOneShot(powerUpSound);
     }
 }
