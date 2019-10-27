@@ -10556,6 +10556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthManager: {fileID: 1472240895}
   player: {fileID: 1472240894}
+  MC: {fileID: 30304063}
   hideCursor: {fileID: 274303072}
   UI: {fileID: 6295732263273836110}
   pausedCanvas: {fileID: 6295732263708007557}

@@ -8,6 +8,7 @@ public class InGameController : MonoBehaviour
 {
     public HealthManager healthManager;
     public PlayerController player;
+    public MusicController MC;
     public HideCursor hideCursor;
     public UI_Manager UI;
     public Canvas pausedCanvas;
@@ -37,6 +38,7 @@ public class InGameController : MonoBehaviour
         /*GameObject pausedMenu = GameObject.Find("PausedCanvas");
         pausedCanvas = pausedMenu.GetComponent<Canvas>();*/
         pausedCanvas.enabled = false;
+        GameObject.Find("Intro_Music_Manager").GetComponent<AudioSource>().enabled = false;
 
         GameObject inventory = GameObject.Find("UI");
         inventoryCanvas = inventory.GetComponent<Canvas>();
@@ -177,11 +179,13 @@ public class InGameController : MonoBehaviour
 
     public void GameWon()
     {
+        MC.enabled = false;
         SceneManager.LoadScene("Victory");
     }
 
     public void GameOver()
     {
+        MC.enabled = false;
         SceneManager.LoadScene("GameOver");
  
     }
