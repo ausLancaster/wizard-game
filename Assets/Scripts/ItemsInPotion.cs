@@ -21,38 +21,18 @@ public class ItemsInPotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (caterpillar == true)
-        //{
-        //    if (gameObject.transform.childCount > 3)
-        //    {
-        //        foreach (Transform child in transform)
-        //        {
-        //            Destroy(child.gameObject);
-        //        }
-        //    }
-        //}
 
-        //else if (caterpillar == false)      
-        //{
-        //    if (gameObject.transform.childCount > 2)
-        //    {
-        //        foreach (Transform child in transform)
-        //        {
-        //            Destroy(child.gameObject);
-        //        }
-        //    }
-        //} 
     }
 
     public void AddItemToList(Image item, bool caterpillar)
     {
         Instantiate(item, transform);
-        //Debug.Log("why");
     }
 
     public void ClearItemList()
     {
-        // https://answers.unity.com/questions/611850/destroy-all-children-of-object.html
+        // Referenced https://answers.unity.com/questions/611850/destroy-all-children-of-object.html for how
+        // to desroy al children of a game object
         foreach (Transform child in transform)
         {
             Destroy(child.gameObject);

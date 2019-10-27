@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
-    //public GameObject item;
+    // Inistialise the values of the item counts 
     public int leafCount = 0;
     public int flowerCount = 0;
     public int eyeCount = 0;
@@ -13,6 +13,7 @@ public class Inventory : MonoBehaviour
     public int eggCount = 0;
     public int eyebrowCount = 0;
 
+    // Get the text elements for where the item counts are going to be displayed
     public Text inventoryCountLeaf;
     public Text inventoryCountFlower;
     public Text inventoryCountEye;
@@ -25,6 +26,8 @@ public class Inventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Update all the displayed counts at the start of the game so that they all
+        // display the initial amounts 
         updateAllCountDisplays();
         
     }
@@ -32,17 +35,19 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Update the counts each frame so that they are up to date 
         updateAllCountDisplays();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("collision");
 
         if (other.gameObject.CompareTag("Item"))
         {
-            //Debug.Log("item found");
+            // Play the item pickup sound when picking up an item 
             MC.PlayItemPickUp();
+
+            // Check which item it being picked up and increment the count for that item respectively
             if (other.gameObject.name == "Leaf")
             {
                 leafCount++;
@@ -84,10 +89,12 @@ public class Inventory : MonoBehaviour
                 Debug.Log("current eyebrows" + eyebrowCount);
                 inventoryCountEyebrow.text = eyebrowCount.ToString();
             }
+            // Once the item has been picked up, destroy it 
             Destroy(other.gameObject);
         }
     }
 
+    // Function for updating the displayed values of all the inventory items 
     public void updateAllCountDisplays()
     {
         inventoryCountLeaf.text = leafCount.ToString();

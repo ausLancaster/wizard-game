@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    // https://learn.unity.com/tutorial/camera-and-play-area?projectId=5c51479fedbc2a001fd5bb9f#5c7f8529edbc2a002053b78c
+    // Referenced https://learn.unity.com/tutorial/camera-and-play-area?projectId=5c51479fedbc2a001fd5bb9f#5c7f8529edbc2a002053b78c
+    // for how to make the camera follow the player 
     public GameObject player;
     private Vector3 offset;
 

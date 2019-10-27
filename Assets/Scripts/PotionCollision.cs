@@ -10,6 +10,7 @@ public class PotionCollision : MonoBehaviour
 
     private void Awake()
     {
+        // Get the health of the enemy and InGame Controller at start 
         enemyHealth = GetComponent<EnemyHealth>();
         GC = GameObject.Find("InGameController").GetComponent<InGameController>();
     }
@@ -28,13 +29,13 @@ public class PotionCollision : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // https://learn.unity.com/tutorial/collecting-scoring-and-building-the-game?projectId=5c51479fedbc2a001fd5bb9f#5c7f8529edbc2a002053b78b
+        // Referenced https://learn.unity.com/tutorial/collecting-scoring-and-building-the-game?projectId=5c51479fedbc2a001fd5bb9f#5c7f8529edbc2a002053b78b
+        // for how to inflict damage on an enemy when it comes into contact with a potion explosion 
+
+        // If the game object is a potion, deal damage to the enemy 
         if (other.gameObject.CompareTag("Potion"))
         {
-            //this.gameObject.SetActive(false);
-            // https://answers.unity.com/questions/176001/destroy-on-collision.html
-            //Destroy(this.gameObject);
-            //Debug.Log("collision detected");
+            // Increase the damage taken by the enemy if the amount of damage the potion inflicts has been increased
             if (GC.damageIncreased)
             {
                 enemyHealth.DamageTaken(50);
@@ -42,6 +43,7 @@ public class PotionCollision : MonoBehaviour
             {
                 enemyHealth.DamageTaken(25);
             }
+            // Reset the damage increase for the next potion 
             GC.damageIncreased = false;
         }
     }

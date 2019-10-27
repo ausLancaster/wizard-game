@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class UseItem : MonoBehaviour
 {
-    //public GameObject leaf;
     Inventory Inventory;
     public InGameController GC;
     public float time = 1.0f;
@@ -25,6 +24,7 @@ public class UseItem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Set all the number of items used to 0 initially 
         leafUsed = 0;
         flowerUsed = 0;
         eyeUsed = 0;
@@ -36,9 +36,10 @@ public class UseItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        // If ingredients are enabled, use the items 
         if (GC.ingredientsEnabled)
         {
+            // Depending on the key pressed, use that item if the player has more than 0 in their inventory 
             if (Input.GetKeyDown(KeyCode.Alpha1) == true)
             {
                 if (Inventory.leafCount > 0)
@@ -65,6 +66,8 @@ public class UseItem : MonoBehaviour
                 }
             }
 
+            // If the player has yet to power up their potion and actually has a potion in their inventory, apply the
+            // respective power up to the next potion that is going to be thrown 
             if (Input.GetKeyDown(KeyCode.Alpha4) == true && !GC.poweredUp && GC.numPotions!=0)
             {
                 if (Inventory.caterpillarCount > 0)
@@ -90,6 +93,7 @@ public class UseItem : MonoBehaviour
             }
         }
         time -= Time.deltaTime;
+        // Reset the potion that is being mixed after a second 
         if (time <=0)
         {
             UpdateCount(leafUsed, flowerUsed, eyeUsed, catUsed, eggUsed, eyebrowUsed);
@@ -99,6 +103,7 @@ public class UseItem : MonoBehaviour
 
     }
 
+    // Update the count of the items that are in the player's inventory 
     public void UpdateCount(int leaf, int flower, int eye, int cat, int egg, int eyebrow)
     {
         Inventory.leafCount -= leaf;
@@ -109,6 +114,7 @@ public class UseItem : MonoBehaviour
         Inventory.eyebrowCount -= eyebrow;
     }
 
+    // Reset the count of the items that are being used by the player
     public void ResetCount()
     {
         leafUsed = 0;

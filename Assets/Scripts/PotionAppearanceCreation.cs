@@ -58,42 +58,35 @@ public class PotionAppearanceCreation : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   if (GC.ingredientsEnabled)
+    {
+        // If ingredients are enabled, add them to the potion when the key is pressed 
+        if (GC.ingredientsEnabled)
         {
             if (Input.GetKeyDown(KeyCode.Alpha1) && Inventory.leafCount > 0)
             {
                 // leaf added
-                //sum += 2;
-                //keyPress++;
                 AddItem(2, items.leaf);
             }
             if (Input.GetKeyDown(KeyCode.Alpha2) && Inventory.flowerCount > 0)
             {
                 // flower added 
-                //sum += 3;
-                //keyPress++;
                 AddItem(3, items.flower);
-                //items.AddItemToList(items.flower, caterpillarAdded);
             }
             if (Input.GetKeyDown(KeyCode.Alpha3) && Inventory.eyeCount > 0)
             {
                 // eyeball added
-                //sum += 5;
-                //keyPress++;
                 AddItem(5, items.eye);
-                //items.AddItemToList(items.eye, caterpillarAdded);
             }
             if (Input.GetKeyDown(KeyCode.Alpha6) && Inventory.eyebrowCount > 0)
             {
                 // eyebrows added
-                //sum += 13;
-                //keyPress++;
                 AddItem(13, items.eyebrows);
-                //items.AddItemToList(items.eyebrows, caterpillarAdded);
             }
         }
 
 
+        // If reset is true, disbale the ingredients and reset everything, the enable the ingredients and set
+        // reset to false again 
         if (reset)
         {
             GC.ingredientsEnabled = false;
@@ -110,29 +103,30 @@ public class PotionAppearanceCreation : MonoBehaviour
             }
         }
 
+        // If the keys have been pressed twice, check their sum and if their sum corresponds with
+        // one of the potions that are in the spellbook, make that potion and add it to the potion inventory.
+        // Otherwise it is a "failed" potion and do nothing 
         if (keyPress == 2)
         {
             
             if (sum == 5)
             {
-                //potionImage.sprite = fire;
-                CreatePotionAndAdd(fire, "fire");                //InventoryPotions.AddToPotionInventory(fire);
+                // Leaf and flower
+                CreatePotionAndAdd(fire, "fire"); 
             }
             else if (sum == 7)
             {
-                //Debug.Log("test");
-                //InventoryPotions.AddToPotionInventory(poison);
+                // Leaf and eyeball
                 CreatePotionAndAdd(poison,"poison");
             }
             else if (sum == 8)
             {
-                //InventoryPotions.AddToPotionInventory(acid);
+                // Flower and eyeball
                 CreatePotionAndAdd(acid,"acid");
             }
             else if (sum == 16)
             {
-                // eyebrows (13) and flower (3)
-                //InventoryPotions.AddToPotionInventory(health);
+                // Flower and eyebrows 
                 // Add to health inventory
                 HealthManager.healthPotionCount++;
             }
@@ -140,62 +134,61 @@ public class PotionAppearanceCreation : MonoBehaviour
             {
                 potionImage.sprite = failed.sprite;
             }
+            // Reset values
             sum = 0;
             keyPress = 0;
             reset = true;
         }
 
+        // If the caterpillar button is pressed and there are caterpillars in the inventory and the potion has
+        // yet to be powered up
+        // Referenced https://answers.unity.com/questions/29481/how-to-see-if-transform-has-child.html for seeing if
+        // a game object has children
         else if (Input.GetKeyDown(KeyCode.Alpha4) && potions.transform.childCount > 0 && Inventory.caterpillarCount > 0 && !GC.poweredUp && GC.ingredientsEnabled)
         {
-            Debug.Log("why");
+            // Caterpillar added
             special = true;
-            // https://stackoverflow.com/questions/26622675/get-bottom-most-child
+            // Get the outline of the potion in the potion inventory and give it a cool effect 
             childOutline = potions.transform.GetChild(potions.transform.childCount - GC.numPotions).gameObject.GetComponent<Outline>();
+            // Referenced https://docs.unity3d.com/ScriptReference/Color-ctor.html for how to use the colour constructor 
             childOutline.effectColor = new Color(0.13f, 1.0f, 0.0f, 1.0f);
             childOutline.effectDistance = new Vector2(5, 2);
 
-            //potionImage = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Image>();
-            //items.AddItemToList(items.caterpillar, caterpillarAdded);
+            // Indicate the potion has been powered up and tell the player in the UI
             GC.poweredUp = true;
             GC.DamageIncMessage();
-            //sum = 0;
-            //keyPress = 0;
-            //waitForSpecial = false;
         }
+        // Do the same for if an egg has been added
         else if (Input.GetKeyDown(KeyCode.Alpha5) && potions.transform.childCount > 0 && Inventory.eggCount > 0 && !GC.poweredUp && GC.ingredientsEnabled)
         {
-            // egg added
+            // Egg added
             childOutline = potions.transform.GetChild(potions.transform.childCount - GC.numPotions).gameObject.GetComponent<Outline>();
             childOutline.effectColor = new Color(1.0f, 0.0f, 0.0f, 1.0f);
             childOutline.effectDistance = new Vector2(5, 2);
 
-            //potionImage = potions.transform.GetChild(potions.transform.childCount - 1).gameObject.GetComponent<Image>();
-            //items.AddItemToList(items.egg, caterpillarAdded);
             GC.poweredUp = true;
             GC.ExplosionIncMessage();
-            //sum = 0;
-            //keyPress = 0;
 
         }
     }
 
+    // Function for creating the image of the potion and adding it to the inventory 
     private void CreatePotionAndAdd(Image potionType, string potionName)
     {
+        // Referenced https://forum.unity.com/threads/solved-changing-ui-image-with-script.440347/ for how to
+        // change the image of an image 
         potionImage.sprite = potionType.sprite;
         InventoryPotions.AddToPotionInventory(potionType);
-        //waitForSpecial = true;
-        //baseMade = true;
-        //normalItems = false;
         GC.potionQueue.Add(potionName);
         GC.numPotions++;
     }
 
+    // Funtion for adding items to the list of items that have been added to the inventory 
     private void AddItem(int value, Image item)
     {
         items.AddItemToList(item, caterpillarAdded);
         sum += value;
         keyPress++;
-        //normalItems = true;
 
     }
 }

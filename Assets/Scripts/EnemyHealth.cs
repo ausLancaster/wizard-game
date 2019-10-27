@@ -18,21 +18,25 @@ public class EnemyHealth : MonoBehaviour
 
 
 
-    TempMovementScript movement;
+    //TempMovementScript movement;
 
     // Start is called before the first frame update
     void Start()
     {
-        movement = GetComponent<TempMovementScript>();
+
+        //movement = GetComponent<TempMovementScript>();
+        // Make the starting health of the enemy the current health it is at
         currentHealth = initialHealth;
 
+        // Initialise the value of the slider/health bar 
         slider.value = HealthPercentage();
-        Debug.Log(slider.value);
+        //Debug.Log(slider.value);
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Update the value of the slider each frame so that enemy health is kept up to date
         slider.value = HealthPercentage();
     }
 
@@ -44,6 +48,9 @@ public class EnemyHealth : MonoBehaviour
         slider.value = HealthPercentage();
         Debug.Log(HealthPercentage() + currentHealth + initialHealth);
 
+        // If the current health of the enemy is either less than or equal to 0, record that the blob
+        // has been killed and destroy the blob, as well as spawn the blob eye items for the player to
+        // pick up
         if (currentHealth <= 0 && !isDead)
         {
             spawnLevel levelComp = GetComponentInParent<spawnLevel>();
@@ -56,9 +63,10 @@ public class EnemyHealth : MonoBehaviour
 
     private float HealthPercentage()
     {
-        // https://stackoverflow.com/questions/34436880/function-returns-0-when-float-number-is-under-1/34436912
-        // https://www.mvcode.com/lessons/using-sliders-in-unity-aaron
-        // https://www.youtube.com/watch?v=ZYeXmze5gxg
+        // Referenced https://stackoverflow.com/questions/34436880/function-returns-0-when-float-number-is-under-1/34436912 for
+        // why the value needs to be casted 
+        // Referenced https://www.mvcode.com/lessons/using-sliders-in-unity-aaron for how to implement a health bar in Unity
+        // Referenced https://www.youtube.com/watch?v=ZYeXmze5gxg for how to make healthbars that are above an enemy's head
         return (float) currentHealth / initialHealth;
     }
 }

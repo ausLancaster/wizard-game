@@ -5,17 +5,20 @@ using UnityEngine.UI;
 
 public class ButtonDisabled : MonoBehaviour
 {
-    public GameObject player;
+    // Referenced https://answers.unity.com/questions/346719/is-it-possible-to-disable-a-key.html for how
+    // to "disable" a button 
+    //public GameObject player;
     public Text count;
 
-    private Inventory inventory;
+    //private Inventory inventory;
     public bool disabled = false;
     private Image shade;
 
     // Start is called before the first frame update
     void Start()
     {
-        inventory = player.GetComponent<Inventory>();
+        // Get the image for shading out the button 
+        //inventory = player.GetComponent<Inventory>();
         shade = gameObject.GetComponent<Image>();
 
     }
@@ -23,12 +26,14 @@ public class ButtonDisabled : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // If there are 0 items, shade out the button 
         if (count.text == "0")
         {
             disabled = true;
             shade.enabled = true;
         }
 
+        // Otherwise do not shade out the button 
         else
         {
             disabled = false;
